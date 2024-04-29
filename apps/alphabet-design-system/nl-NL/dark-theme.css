@@ -1,0 +1,201 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!./libs/alphabet-design-system-ui/src/lib/scss/themes/_alphabet.dark.theme.scss?ngGlobalStyle ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --ads-color-white: #fff;
+  --ads-color-white_foreground: #000;
+  --ads-color-gray-6: #f0f0f0;
+  --ads-color-gray-6_foreground: #000;
+  --ads-color-gray-12: #e0e0e0;
+  --ads-color-gray-12_foreground: #000;
+  --ads-color-gray-20: #cccccc;
+  --ads-color-gray-20_foreground: #000;
+  --ads-color-gray-50: gray;
+  --ads-color-gray-50_foreground: #fff;
+  --ads-color-gray-70: #4d4d4d;
+  --ads-color-gray-70_foreground: #fff;
+  --ads-color-gray-85: #262626;
+  --ads-color-gray-85_foreground: #fff;
+  --ads-color-black: #000;
+  --ads-color-black_foreground: #fff;
+  --ads-color-error: #d21e36;
+  --ads-color-error_hover: #a5182b;
+  --ads-color-error-background: #fceaea;
+  --ads-color-info: #1e236e;
+  --ads-color-info-background: var(--ads-color-gray-6);
+  --ads-color-success: #01964c;
+  --ads-color-success_hover: #016332;
+  --ads-color-success-background: #eaf6eb;
+  --ads-color-warning: #ef7d00;
+  --ads-color-warning-background: #fff7ef;
+  --ads-color-notification: #ffd900;
+  --ads-color-notification-background: #fffdf0;
+  --ads-color-primary: #68d4e6;
+  --ads-color-primary-40: rgba(104, 212, 230, 0.4);
+  --ads-color-primary-65: rgba(104, 212, 230, 0.65);
+  --ads-color-primary-foreground: #131646;
+  --ads-color-primary_active: #22b7d0;
+  --ads-color-primary_active-foreground: #131646;
+  --ads-color-primary_focus: #2bc3dc;
+  --ads-color-primary_focus-foreground: #131646;
+  --ads-color-primary_hover: #3cc8df;
+  --ads-color-primary_hover-foreground: #131646;
+  --ads-color-secondary: #ff6b6b;
+  --ads-color-secondary-40: rgba(255, 107, 107, 0.4);
+  --ads-color-secondary-65: rgba(255, 107, 107, 0.65);
+  --ads-color-secondary-foreground: #131646;
+  --ads-color-secondary_active: #ff0f0f;
+  --ads-color-secondary_active-foreground: #131646;
+  --ads-color-secondary_focus: #ff2424;
+  --ads-color-secondary_focus-foreground: #131646;
+  --ads-color-secondary_hover: #ff3838;
+  --ads-color-secondary_hover-foreground: #131646;
+  --ads-color-accent: #007ffd;
+  --ads-color-accent-40: rgba(0, 127, 253, 0.4);
+  --ads-color-accent-65: rgba(0, 127, 253, 0.65);
+  --ads-color-accent-foreground: #131646;
+  --ads-color-accent_active: #0072e4;
+  --ads-color-accent_active-foreground: #131646;
+  --ads-color-accent_hover: #0065ca;
+  --ads-color-accent_hover-foreground: #131646;
+  --ads-color-accent_focus: #0059b1;
+  --ads-color-accent_focus-foreground: #131646;
+  --ads-color-disabled: #cccccc;
+  --ads-color-disabled-foreground: gray;
+  --ads-color-app: #0d0f2e;
+  --ads-color-app-text: #f2f2f2;
+  --ads-color-app-navigation: #68d4e6;
+  --ads-color-app-navigation-divider: rgba(255, 107, 107, 0.4);
+  --ads-color-app-navigation-menu-item-foreground: #fff;
+  --ads-color-app-navigation-menu-item-background: #68d4e6;
+  --ads-color-app-navigation-menu-item-foreground_hover: #ff6b6b;
+  --ads-color-app-navigation-menu-item-background_hover: #68d4e6;
+  --ads-color-app-navigation-menu-item-foreground_focus: #68d4e6;
+  --ads-color-app-navigation-menu-item-background_focus: #fff;
+  --ads-color-app-navigation-menu-item-foreground_selected: #ff6b6b;
+  --ads-color-app-navigation-menu-item-background_selected: #68d4e6;
+  --ads-color-app-navigation-menu-item-icon-foreground: #fff;
+  --ads-color-app-navigation-menu-item-icon-background: #68d4e6;
+  --ads-color-app-navigation-menu-item-icon-foreground_hover: #ff6b6b;
+  --ads-color-app-navigation-menu-item-icon-background_hover: #68d4e6;
+  --ads-color-app-navigation-menu-item-icon-foreground_focus: #ff6b6b;
+  --ads-color-app-navigation-menu-item-icon-background_focus: #68d4e6;
+  --ads-color-app-navigation-menu-item-icon-foreground_selected: #68d4e6;
+  --ads-color-app-navigation-menu-item-icon-background_selected: #007ffd;
+  --ads-color-app-navigation-toolbar: #fff;
+  --ads-color-app-navigation-toolbar-divider: rgba(104, 212, 230, 0.65);
+  --ads-color-app-navigation-toolbar-menu-item-foreground: #262626;
+  --ads-color-app-navigation-toolbar-menu-item-background: #fff;
+  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #ff6b6b;
+  --ads-color-app-navigation-toolbar-menu-item-background_hover: #68d4e6;
+  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #fff;
+  --ads-color-app-navigation-toolbar-menu-item-background_focus: #007ffd;
+  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #ff6b6b;
+  --ads-color-app-navigation-toolbar-menu-item-background_selected: #68d4e6;
+  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #fff;
+  --ads-color-app-navigation-toolbar-menu-item-icon-background: #68d4e6;
+  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #ff6b6b;
+  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #68d4e6;
+  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #68d4e6;
+  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #007ffd;
+  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #68d4e6;
+  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #ff6b6b;
+  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #68d4e6 0%, #007ffd 100%);
+  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(255, 107, 107, 0) 60%, #ff6b6b 125%), linear-gradient(170deg, #007ffd 60%, #007ffd 125%);
+  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #007ffd 0%, #ff6b6b 50%, #68d4e6 100%);
+  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, rgba(104, 212, 230, 0.4) 100%);
+  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(104, 212, 230, 0.7) 0, rgba(0, 127, 253, 0.7) 100%);
+  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(0, 127, 253, 0.7) 0, rgba(104, 212, 230, 0.7) 100%);
+  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(255, 107, 107, 0.7) 0, rgba(0, 127, 253, 0.7) 100%);
+  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(0, 127, 253, 0.7) 0, rgba(255, 107, 107, 0.7) 100%);
+  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);
+  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);
+  --ads-color-app-gradient-secondary-to-accent:
+      linear-gradient(160deg, rgba(0, 127, 253, 0.05) 0%, rgba(0, 127, 253, 0) 55%, rgba(0, 127, 253, 0.4) 90%),
+      linear-gradient(220deg, rgba(255, 107, 107, 0.05) 0%, rgba(255, 107, 107, 0) 60%, rgba(255, 107, 107, 0.6) 90%),
+      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));
+  --ads-color-app-gradient-secondary-to-accent-large:
+      linear-gradient(170deg, rgba(0, 127, 253, 0.05) 0%, rgba(0, 127, 253, 0) 65%, rgba(0, 127, 253, 0.5) 90%),
+      linear-gradient(210deg, rgba(255, 107, 107, 0.05) 0%, rgba(255, 107, 107, 0) 70%, rgba(255, 107, 107, 0.6) 90%),
+      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));
+  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;
+  --ads-color-app-gradient-primary-to-accent:
+      linear-gradient(200deg, rgba(0, 127, 253, 0.05) 0%, rgba(0, 127, 253, 0) 55%, rgba(0, 127, 253, 0.7) 90%),
+      linear-gradient(160deg, rgba(104, 212, 230, 0.05) 0%, rgba(104, 212, 230, 0) 60%, rgba(104, 212, 230, 0.4) 90%),
+      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));
+  --ads-color-app-gradient-primary-to-accent-large:
+      linear-gradient(190deg, rgba(0, 127, 253, 0.05) 0%, rgba(0, 127, 253, 0) 65%, rgba(0, 127, 253, 0.6) 90%),
+      linear-gradient(160deg, rgba(104, 212, 230, 0.05) 0%, rgba(104, 212, 230, 0) 70%, rgba(104, 212, 230, 0.5) 90%),
+      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));
+  --ads-color-app-gradient-primary-to-accent-foreground: #68d4e6;
+  --ads-color-app-gradient-primary-inverted:
+      linear-gradient(200deg, rgba(0, 127, 253, 0) 0%, rgba(0, 127, 253, 0) 60%, rgba(0, 127, 253, 0.4) 90%),
+      linear-gradient(160deg, rgba(255, 107, 107, 0) 0%, rgba(255, 107, 107, 0) 65%, rgba(255, 107, 107, 0.45) 90%),
+      linear-gradient(var(--ads-color-white), var(--ads-color-white));
+  --ads-color-app-gradient-primary-inverted-large:
+      linear-gradient(200deg, rgba(0, 127, 253, 0) 0%, rgba(0, 127, 253, 0) 75%, rgba(0, 127, 253, 0.05) 90%),
+      linear-gradient(160deg, rgba(255, 107, 107, 0) 0%, rgba(255, 107, 107, 0) 75%, rgba(255, 107, 107, 0.02) 90%),
+      linear-gradient(var(--ads-color-white), var(--ads-color-white));
+  --ads-color-app-gradient-primary-inverted-foreground: #68d4e6;
+  --ads-ring_active: 0 0 0 2px #0d0f2e, 0 0 0 5px #68d4e6;
+  --ads-ring_focus: 0 0 0 2px #0d0f2e, 0 0 0 4px #68d4e6;
+  --ads-ring_hover: 0 0 0 2px #0d0f2e, 0 0 0 4px #68d4e6;
+  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;
+  --ads-ring_focus-inset: inset 0 0 0 2px #0d0f2e, inset 0 0 0 3px #68d4e6;
+  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #68d4e6, inset 0 0 0 4px #0d0f2e;
+  --ads-ring-focus-with-contextmenu:
+  	0 0 0 1px #0d0f2e, 0 0 0 2px #ebf9fc,
+  	0 0.7px 0.7px rgba(255, 255, 255, 0.05),
+  	0 1.7px 1.7px rgba(255, 255, 255, 0.036),
+  	0 3.1px 3.1px rgba(255, 255, 255, 0.03),
+  	0 5.6px 5.6px rgba(255, 255, 255, 0.025),
+  	0 10.4px 10.4px rgba(255, 255, 255, 0.02),
+  	0 25px 25px rgba(255, 255, 255, 0.014);
+  --ads-shadow-depth-0: 0 0 0 0 rgba(255, 255, 255, 0);
+  --ads-shadow-depth-1:
+  	0 0.4px 0.4px rgba(255, 255, 255, 0.05),
+  	0 1px 1px rgba(255, 255, 255, 0.036),
+  	0 1.9px 1.9px rgba(255, 255, 255, 0.03),
+  	0 3.4px 3.4px rgba(255, 255, 255, 0.025),
+  	0 6.3px 6.3px rgba(255, 255, 255, 0.02),
+  	0 15px 15px rgba(255, 255, 255, 0.014);
+  --ads-shadow-depth-2:
+  	0 0.7px 0.7px rgba(255, 255, 255, 0.05),
+  	0 1.7px 1.7px rgba(255, 255, 255, 0.036),
+  	0 3.1px 3.1px rgba(255, 255, 255, 0.03),
+  	0 5.6px 5.6px rgba(255, 255, 255, 0.025),
+  	0 10.4px 10.4px rgba(255, 255, 255, 0.02),
+  	0 25px 25px rgba(255, 255, 255, 0.014);
+  --ads-shadow-depth-3:
+  	0 0.7px 0.7px rgba(255, 255, 255, 0.017),
+  	0 1.7px 1.7px rgba(255, 255, 255, 0.024),
+  	0 3.1px 3.1px rgba(255, 255, 255, 0.03),
+  	0 5.6px 5.6px rgba(255, 255, 255, 0.036),
+  	0 10.4px 10.4px rgba(255, 255, 255, 0.043),
+  	0 25px 25px rgba(255, 255, 255, 0.06);
+  --ads-shadow-depth-4:
+  	0 1px 1px rgba(255, 255, 255, 0.014),
+  	0 2.3px 2.3px rgba(255, 255, 255, 0.02),
+  	0 4.4px 4.4px rgba(255, 255, 255, 0.025),
+  	0 7.8px 7.8px rgba(255, 255, 255, 0.03),
+  	0 14.6px 14.6px rgba(255, 255, 255, 0.036),
+  	0 35px 35px rgba(255, 255, 255, 0.05);
+  --ads-shadow-depth-5:
+  	0 1.2px 1.2px rgba(255, 255, 255, 0.014),
+  	0 3px 3px rgba(255, 255, 255, 0.02),
+  	0 5.6px 5.6px rgba(255, 255, 255, 0.025),
+  	0 10.1px 10.1px rgba(255, 255, 255, 0.03),
+  	0 18.8px 18.8px rgba(255, 255, 255, 0.036),
+  	0 45px 45px rgba(255, 255, 255, 0.05);
+  --ads-shadow-depth-6:
+  	0 0.9px 0.9px rgba(255, 255, 255, 0.011),
+  	0 1.9px 1.9px rgba(255, 255, 255, 0.016),
+  	0 3.2px 3.2px rgba(255, 255, 255, 0.019),
+  	0 4.8px 4.8px rgba(255, 255, 255, 0.022),
+  	0 6.9px 6.9px rgba(255, 255, 255, 0.025),
+  	0 9.7px 9.7px rgba(255, 255, 255, 0.028),
+  	0 13.8px 13.8px rgba(255, 255, 255, 0.031),
+  	0 20.1px 20.1px rgba(255, 255, 255, 0.034),
+  	0 30.9px 30.9px rgba(255, 255, 255, 0.039),
+  	0 55px 55px rgba(255, 255, 255, 0.05);
+}

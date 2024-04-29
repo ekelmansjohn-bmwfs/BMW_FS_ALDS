@@ -1,0 +1,32 @@
+@import "../../scss/settings/_all";
+
+/* for: Storybook */
+.storybook-color-example {
+	position: relative;
+	display: inline-block;
+	width: $size-32;
+	height: $size-32;
+	border: $size-2 solid var(--ads-color-white);
+	margin: 0 $size-16 $size-16 $size-1;
+	border-radius: 50%;
+	box-shadow: var(--ads-color-gray-20) 0 0 4px, var(--ads-shadow-depth-2);
+
+	&::after {
+		position: absolute;
+		top: $size-36;
+		left: 50%;
+		display: block;
+		width: auto;
+		min-width: $size-32;
+		height: auto;
+		color: var(--ads-color-primary);
+		content: attr(color);
+		font-family: $font-default;
+		font-size: $font-size-small;
+		font-style: normal;
+		font-weight: $font-weight-regular;
+		line-height: 1.2;
+		text-align: center;
+		transform: translateX(-50%);
+	}
+}

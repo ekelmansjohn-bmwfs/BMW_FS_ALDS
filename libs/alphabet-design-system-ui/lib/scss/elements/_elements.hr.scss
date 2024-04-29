@@ -1,0 +1,61 @@
+@import "../../scss/settings/_all";
+
+hr {
+	height: 0;
+	border: none;
+	background-color: transparent;
+	margin: 0;
+    border-top: 1px solid var(--ads-color-gray-6);
+
+    &.has-gray-12-border {
+        border-top-color: var(--ads-color-gray-12);
+    }
+
+    &.has-gray-20-border {
+        border-top-color: var(--ads-color-gray-20);
+    }
+
+    &.has-gray-50-border {
+        border-top-color: var(--ads-color-gray-50);
+    }
+
+    &.has-gradient-border {
+        border-top-color: var(--ads-color-solid-gradient-accent-to-secondary-to-primary);
+    }
+
+    &.has-primary-border {
+        border-top-color: var(--ads-color-primary);
+    }
+
+    &.has-primary-65-border {
+        border-top-color: var(--ads-color-primary-65);
+    }
+
+    &.has-primary-40-border {
+        border-top-color: var(--ads-color-primary-40);
+    }
+
+    &.has-secondary-border {
+        border-top-color: var(--ads-color-secondary);
+    }
+
+    &.has-secondary-65-border {
+        border-top-color: var(--ads-color-secondary-65);
+    }
+
+    &.has-secondary-40-border {
+        border-top-color: var(--ads-color-secondary-40);
+    }
+
+    &.has-accent-border {
+        border-top-color: var(--ads-color-accent);
+    }
+
+    &.has-accent-65-border {
+        border-top-color: var(--ads-color-accent-65);
+    }
+
+    &.has-accent-40-border {
+        border-top-color: var(--ads-color-accent-40);
+    }
+}

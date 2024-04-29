@@ -1,0 +1,26 @@
+@import "../../scss/settings/_all";
+
+.ads-block_2-columns {
+	display: grid;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	gap: $size-0;
+	grid-template-columns: 1fr;
+
+	@include medium {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	article {
+		padding-right: $size-6;
+
+		@include large {
+			padding-right: $size-8;
+		}
+
+		@include extralarge {
+			padding-right: $size-12;
+		}
+	}
+}

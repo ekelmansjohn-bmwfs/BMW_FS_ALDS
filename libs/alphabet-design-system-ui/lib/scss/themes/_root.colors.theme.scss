@@ -1,0 +1,235 @@
+:root {
+	// Defaults
+	--ads-color-white: #{$color-white};
+	--ads-color-white_foreground: #{$color-black};
+	--ads-color-gray-6: #{$color-gray-6};
+	--ads-color-gray-6_foreground: #{$color-black};
+	--ads-color-gray-12: #{$color-gray-12};
+	--ads-color-gray-12_foreground: #{$color-black};
+	--ads-color-gray-20: #{$color-gray-20};
+	--ads-color-gray-20_foreground: #{$color-black};
+	--ads-color-gray-50: #{$color-gray-50};
+	--ads-color-gray-50_foreground: #{$color-white};
+	--ads-color-gray-70: #{$color-gray-70};
+	--ads-color-gray-70_foreground: #{$color-white};
+	--ads-color-gray-85: #{$color-gray-85};
+	--ads-color-gray-85_foreground: #{$color-white};
+	--ads-color-black: #{$color-black};
+	--ads-color-black_foreground: #{$color-white};
+
+	// Functional colors
+	--ads-color-error: #{$color-error};
+	--ads-color-error_hover: #{darken($color-error, 10)};
+	--ads-color-error-background: #fceaea;
+	--ads-color-info: #{$color-info};
+	--ads-color-info-background: var(--ads-color-gray-6);
+	--ads-color-success: #{$color-success};
+	--ads-color-success_hover: #{darken($color-success, 10)};
+	--ads-color-success-background: #eaf6eb;
+	--ads-color-warning: #{$color-warning};
+	--ads-color-warning-background: #fff7ef;
+	--ads-color-notification: #{$color-notification};
+	--ads-color-notification-background: #fffdf0;
+
+	// Primary (Deep blue)
+	--ads-color-primary: #{$color-primary};
+	--ads-color-primary-40: #{$color-primary-40};
+	--ads-color-primary-65: #{$color-primary-65};
+	--ads-color-primary-foreground: #{$color-primary-foreground};
+	--ads-color-primary_active: #{darken($color-primary, 18)};
+	--ads-color-primary_active-foreground: #{$color-primary-foreground};
+	--ads-color-primary_focus: #{darken($color-primary, 14)};
+	--ads-color-primary_focus-foreground: #{$color-primary-foreground};
+	--ads-color-primary_hover: #{darken($color-primary, 10)};
+	--ads-color-primary_hover-foreground: #{$color-primary-foreground};
+
+	// Secondary (Fresh blue)
+	--ads-color-secondary: #{$color-secondary};
+	--ads-color-secondary-40: #{$color-secondary-40};
+	--ads-color-secondary-65: #{$color-secondary-65};
+	--ads-color-secondary-foreground: #{$color-secondary-foreground};
+	--ads-color-secondary_active: #{darken($color-secondary, 18)};
+	--ads-color-secondary_active-foreground: #{$color-secondary-foreground};
+	--ads-color-secondary_focus: #{darken($color-secondary, 14)};
+	--ads-color-secondary_focus-foreground: #{$color-secondary-foreground};
+	--ads-color-secondary_hover: #{darken($color-secondary, 10)};
+	--ads-color-secondary_hover-foreground: #{$color-secondary-foreground};
+
+	// Accent (Warm coral)
+	--ads-color-accent: #{$color-accent};
+	--ads-color-accent-40: #{$color-accent-40};
+	--ads-color-accent-65: #{$color-accent-65};
+	--ads-color-accent-foreground: #{$color-accent-foreground};
+	--ads-color-accent_active: #{darken($color-accent, 5)};
+	--ads-color-accent_active-foreground: #{$color-accent-foreground};
+	--ads-color-accent_hover: #{darken($color-accent, 10)};
+	--ads-color-accent_hover-foreground: #{$color-accent-foreground};
+	--ads-color-accent_focus: #{darken($color-accent, 15)};
+	--ads-color-accent_focus-foreground: #{$color-accent-foreground};
+
+	// Disabled
+	--ads-color-disabled: #{$color-disabled};
+	--ads-color-disabled-foreground: #{$color-disabled-foreground};
+
+	// App
+	--ads-color-app: #{$color-app};
+	--ads-color-app-text: #{$color-app-foreground};
+
+	// App navigation
+	--ads-color-app-navigation: #{$color-app-navigation};
+	--ads-color-app-navigation-divider: #{$color-app-navigation-divider};
+	--ads-color-app-navigation-menu-item-foreground: #{$color-app-navigation-menu-item-foreground};
+	--ads-color-app-navigation-menu-item-background: #{$color-app-navigation-menu-item-background};
+	--ads-color-app-navigation-menu-item-foreground_hover: #{$color-app-navigation-menu-item-foreground_hover};
+	--ads-color-app-navigation-menu-item-background_hover: #{$color-app-navigation-menu-item-background_hover};
+	--ads-color-app-navigation-menu-item-foreground_focus: #{$color-app-navigation-menu-item-foreground_focus};
+	--ads-color-app-navigation-menu-item-background_focus: #{$color-app-navigation-menu-item-background_focus};
+	--ads-color-app-navigation-menu-item-foreground_selected: #{$color-app-navigation-menu-item-foreground_selected};
+	--ads-color-app-navigation-menu-item-background_selected: #{$color-app-navigation-menu-item-background_selected};
+	--ads-color-app-navigation-menu-item-icon-foreground: #{$color-app-navigation-menu-item-icon-foreground};
+	--ads-color-app-navigation-menu-item-icon-background: #{$color-app-navigation-menu-item-icon-background};
+	--ads-color-app-navigation-menu-item-icon-foreground_hover: #{$color-app-navigation-menu-item-icon-foreground_hover};
+	--ads-color-app-navigation-menu-item-icon-background_hover: #{$color-app-navigation-menu-item-icon-background_hover};
+	--ads-color-app-navigation-menu-item-icon-foreground_focus: #{$color-app-navigation-menu-item-icon-foreground_focus};
+	--ads-color-app-navigation-menu-item-icon-background_focus: #{$color-app-navigation-menu-item-icon-background_focus};
+	--ads-color-app-navigation-menu-item-icon-foreground_selected: #{$color-app-navigation-menu-item-icon-foreground_selected};
+	--ads-color-app-navigation-menu-item-icon-background_selected: #{$color-app-navigation-menu-item-icon-background_selected};
+
+    // App navigation-toolbar
+    --ads-color-app-navigation-toolbar: #{$color-app-navigation-toolbar};
+    --ads-color-app-navigation-toolbar-divider: #{$color-app-navigation-toolbar-divider};
+    --ads-color-app-navigation-toolbar-menu-item-foreground: #{$color-app-navigation-toolbar-menu-item-foreground};
+    --ads-color-app-navigation-toolbar-menu-item-background: #{$color-app-navigation-toolbar-menu-item-background};
+    --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #{$color-app-navigation-toolbar-menu-item-foreground_hover};
+    --ads-color-app-navigation-toolbar-menu-item-background_hover: #{$color-app-navigation-toolbar-menu-item-background_hover};
+    --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #{$color-app-navigation-toolbar-menu-item-foreground_focus};
+    --ads-color-app-navigation-toolbar-menu-item-background_focus: #{$color-app-navigation-toolbar-menu-item-background_focus};
+    --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #{$color-app-navigation-toolbar-menu-item-foreground_selected};
+    --ads-color-app-navigation-toolbar-menu-item-background_selected: #{$color-app-navigation-toolbar-menu-item-background_selected};
+    --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #{$color-app-navigation-toolbar-menu-item-icon-foreground};
+    --ads-color-app-navigation-toolbar-menu-item-icon-background: #{$color-app-navigation-toolbar-menu-item-icon-background};
+    --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #{$color-app-navigation-toolbar-menu-item-icon-foreground_hover};
+    --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #{$color-app-navigation-toolbar-menu-item-icon-background_hover};
+    --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #{$color-app-navigation-toolbar-menu-item-icon-foreground_focus};
+    --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #{$color-app-navigation-toolbar-menu-item-icon-background_focus};
+    --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #{$color-app-navigation-toolbar-menu-item-icon-foreground_selected};
+    --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #{$color-app-navigation-toolbar-menu-item-icon-background_selected};
+
+	// Gradients solid
+	--ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #{$color-primary} 0%, #{$color-accent} 100%);
+	--ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, #{rgba($color-secondary, 0)} 60%, #{$color-secondary} 125%), linear-gradient(170deg, #{$color-accent} 60%, #{$color-accent} 125%);
+	--ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #{$color-accent} 0%, #{$color-secondary} 50%, #{$color-primary} 100%);
+	--ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #{$color-gray-12} 0%, #{$color-primary-40} 100%);
+
+	// Gradients on images
+    --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, #{rgba($color-primary, 0.7)} 0, #{rgba($color-accent, 0.7)} 100%);
+    --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, #{rgba($color-accent, 0.7)} 0, #{rgba($color-primary, 0.7)} 100%);
+    --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, #{rgba($color-secondary, 0.7)} 0, #{rgba($color-accent, 0.7)} 100%);
+    --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, #{rgba($color-accent, 0.7)} 0, #{rgba($color-secondary, 0.7)} 100%);
+    --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);
+    --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);
+
+
+    // Gradients for apps
+    --ads-color-app-gradient-secondary-to-accent:
+        linear-gradient(160deg, #{rgba($color-accent, 0.05)} 0%, #{rgba($color-accent, 0)} 55%, #{rgba($color-accent, 0.4)} 90%),
+        linear-gradient(220deg, #{rgba($color-secondary, 0.05)} 0%, #{rgba($color-secondary, 0)} 60%, #{rgba($color-secondary, 0.6)} 90%),
+        linear-gradient(var(--ads-color-primary), var(--ads-color-primary));
+
+    --ads-color-app-gradient-secondary-to-accent-large:
+        linear-gradient(170deg, #{rgba($color-accent, 0.05)} 0%, #{rgba($color-accent, 0)} 65%, #{rgba($color-accent, 0.5)} 90%),
+        linear-gradient(210deg, #{rgba($color-secondary, 0.05)} 0%, #{rgba($color-secondary, 0)} 70%, #{rgba($color-secondary, 0.6)} 90%),
+        linear-gradient(var(--ads-color-primary), var(--ads-color-primary));
+
+    --ads-color-app-gradient-secondary-to-accent-foreground: #{$color-white};
+
+    --ads-color-app-gradient-primary-to-accent:
+        linear-gradient(200deg, #{rgba($color-accent, 0.05)} 0%, #{rgba($color-accent, 0)} 55%, #{rgba($color-accent, 0.7)} 90%),
+        linear-gradient(160deg, #{rgba($color-primary, 0.05)} 0%, #{rgba($color-primary, 0)} 60%, #{rgba($color-primary, 0.4)} 90%),
+        linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));
+
+    --ads-color-app-gradient-primary-to-accent-large:
+        linear-gradient(190deg, #{rgba($color-accent, 0.05)} 0%, #{rgba($color-accent, 0)} 65%, #{rgba($color-accent, 0.6)} 90%),
+        linear-gradient(160deg, #{rgba($color-primary, 0.05)} 0%, #{rgba($color-primary, 0)} 70%, #{rgba($color-primary, 0.5)} 90%),
+        linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));
+
+    --ads-color-app-gradient-primary-to-accent-foreground: #{$color-primary};
+
+    --ads-color-app-gradient-primary-inverted:
+        linear-gradient(200deg, #{rgba($color-accent, 0)} 0%, #{rgba($color-accent, 0)} 60%, #{rgba($color-accent, 0.4)} 90%),
+        linear-gradient(160deg, #{rgba($color-secondary, 0)} 0%, #{rgba($color-secondary, 0)} 65%, #{rgba($color-secondary, 0.45)} 90%),
+        linear-gradient(var(--ads-color-white), var(--ads-color-white));
+
+    --ads-color-app-gradient-primary-inverted-large:
+        linear-gradient(200deg, #{rgba($color-accent, 0)} 0%, #{rgba($color-accent, 0)} 75%, #{rgba($color-accent, 0.05)} 90%),
+        linear-gradient(160deg, #{rgba($color-secondary, 0)} 0%, #{rgba($color-secondary, 0)} 75%, #{rgba($color-secondary, 0.02)} 90%),
+        linear-gradient(var(--ads-color-white), var(--ads-color-white));
+
+    --ads-color-app-gradient-primary-inverted-foreground: #{$color-primary};
+
+	// Rings
+	--ads-ring_active: #{0 0 0 2px $color-app, 0 0 0 5px $color-primary};
+	--ads-ring_focus: #{0 0 0 2px $color-app, 0 0 0 4px $color-primary};
+	--ads-ring_hover: #{0 0 0 2px $color-app, 0 0 0 4px $color-primary};
+	--ads-ring_transparent: #{0 0 0 2px  transparent, 0 0 0 3px transparent};
+	--ads-ring_focus-inset: #{inset 0 0 0 2px $color-app, inset 0 0 0 3px $color-primary};
+	--ads-ring_focus-inset-inverted: #{inset 0 0 0 2px $color-primary, inset 0 0 0 4px $color-app};
+	--ads-ring-focus-with-contextmenu:
+		#{0 0 0 1px $color-app,
+		0 0 0 2px lighten($color-primary, 30)},
+		0 0.7px 0.7px #{rgba($color-shadow, 0.05)},
+		0 1.7px 1.7px #{rgba($color-shadow, 0.036)},
+		0 3.1px 3.1px #{rgba($color-shadow, 0.03)},
+		0 5.6px 5.6px #{rgba($color-shadow, 0.025)},
+		0 10.4px 10.4px #{rgba($color-shadow, 0.02)},
+		0 25px 25px #{rgba($color-shadow, 0.014)};
+
+	// Shadows as seen on https://materializecss.com/shadow.html
+	--ads-shadow-depth-0: 0 0 0 0 #{rgba($color-shadow, 0)};
+	--ads-shadow-depth-1:
+		0 0.4px 0.4px #{rgba($color-shadow, 0.05)},
+		0 1px 1px #{rgba($color-shadow, 0.036)},
+		0 1.9px 1.9px #{rgba($color-shadow, 0.03)},
+		0 3.4px 3.4px #{rgba($color-shadow, 0.025)},
+		0 6.3px 6.3px #{rgba($color-shadow, 0.02)},
+		0 15px 15px #{rgba($color-shadow, 0.014)};
+	--ads-shadow-depth-2:
+		0 0.7px 0.7px #{rgba($color-shadow, 0.05)},
+		0 1.7px 1.7px #{rgba($color-shadow, 0.036)},
+		0 3.1px 3.1px #{rgba($color-shadow, 0.03)},
+		0 5.6px 5.6px #{rgba($color-shadow, 0.025)},
+		0 10.4px 10.4px #{rgba($color-shadow, 0.02)},
+		0 25px 25px #{rgba($color-shadow, 0.014)};
+	--ads-shadow-depth-3:
+		0 0.7px 0.7px #{rgba($color-shadow, 0.017)},
+		0 1.7px 1.7px #{rgba($color-shadow, 0.024)},
+		0 3.1px 3.1px #{rgba($color-shadow, 0.03)},
+		0 5.6px 5.6px #{rgba($color-shadow, 0.036)},
+		0 10.4px 10.4px #{rgba($color-shadow, 0.043)},
+		0 25px 25px #{rgba($color-shadow, 0.06)};
+	--ads-shadow-depth-4:
+		0 1px 1px #{rgba($color-shadow, 0.014)},
+		0 2.3px 2.3px #{rgba($color-shadow, 0.02)},
+		0 4.4px 4.4px #{rgba($color-shadow, 0.025)},
+		0 7.8px 7.8px #{rgba($color-shadow, 0.03)},
+		0 14.6px 14.6px #{rgba($color-shadow, 0.036)},
+		0 35px 35px #{rgba($color-shadow, 0.05)};
+	--ads-shadow-depth-5:
+		0 1.2px 1.2px #{rgba($color-shadow, 0.014)},
+		0 3px 3px #{rgba($color-shadow, 0.02)},
+		0 5.6px 5.6px #{rgba($color-shadow, 0.025)},
+		0 10.1px 10.1px #{rgba($color-shadow, 0.03)},
+		0 18.8px 18.8px #{rgba($color-shadow, 0.036)},
+		0 45px 45px #{rgba($color-shadow, 0.05)};
+	--ads-shadow-depth-6:
+		0 0.9px 0.9px #{rgba($color-shadow, 0.011)},
+		0 1.9px 1.9px #{rgba($color-shadow, 0.016)},
+		0 3.2px 3.2px #{rgba($color-shadow, 0.019)},
+		0 4.8px 4.8px #{rgba($color-shadow, 0.022)},
+		0 6.9px 6.9px #{rgba($color-shadow, 0.025)},
+		0 9.7px 9.7px #{rgba($color-shadow, 0.028)},
+		0 13.8px 13.8px #{rgba($color-shadow, 0.031)},
+		0 20.1px 20.1px #{rgba($color-shadow, 0.034)},
+		0 30.9px 30.9px #{rgba($color-shadow, 0.039)},
+		0 55px 55px #{rgba($color-shadow, 0.05)};
+}

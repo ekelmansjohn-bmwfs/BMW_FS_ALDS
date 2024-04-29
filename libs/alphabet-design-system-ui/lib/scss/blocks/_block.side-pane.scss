@@ -1,0 +1,65 @@
+@import "../../scss/settings/_all";
+
+.ads-block-side-pane {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+
+	@include large {
+		flex-direction: row;
+	}
+
+	.ads-block-side-pane_left {
+		width: $size-full;
+		height: auto;
+		flex: none;
+		flex-direction: row;
+		margin: $size-0 $size-0 $size-0 $size-0;
+
+		@include large {
+			width: $size-100;
+			height: 100%;
+			margin: $size-0 $size-8 $size-0 $size-0;
+		}
+	}
+
+	.ads-block-side-pane_right {
+		width: 100%;
+		height: auto;
+		flex: 1;
+		margin: $size-0;
+
+		@include large {
+			width: auto;
+			height: 100%;
+		}
+	}
+
+	&.display-pane-right {
+		.ads-block-side-pane_left {
+			width: 100%;
+
+			@include large {
+				width: auto;
+				flex: 1;
+			}
+		}
+
+		.ads-block-side-pane_right {
+			width: $size-full;
+			flex: none;
+
+			@include large {
+				width: $size-80;
+			}
+		}
+	}
+
+	&.storybook {
+		.ads-block-side-pane_left,
+		.ads-block-side-pane_right {
+			border: 1px solid var(--ads-color-gray-20);
+		}
+	}
+}

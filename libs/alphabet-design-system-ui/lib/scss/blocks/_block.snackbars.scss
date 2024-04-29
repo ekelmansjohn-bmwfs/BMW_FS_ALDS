@@ -1,0 +1,15 @@
+@import "../../scss/settings/_all";
+
+.ads-block-snackbars {
+	position: fixed;
+	z-index: 150;
+	top: $size-24;
+	right: $size-4;
+	width: calc(100vw - 4rem);
+
+	@include large {
+		right: $size-4;
+		width: 24rem;
+		max-width: calc(100vw - 4rem);
+	}
+}

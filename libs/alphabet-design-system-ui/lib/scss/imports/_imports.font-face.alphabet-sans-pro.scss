@@ -1,0 +1,19 @@
+// Add custom fonts
+
+@font-face {
+	font-family: 'Alphabet sans pro light';
+	src: url('../../assets/fonts/alphabet-sans-pro/AlphabetSansPro-Light.woff2') format('woff2'),url('../../assets/fonts/alphabet-sans-pro/AlphabetSansPro-Light.woff') format('woff');
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Alphabet sans pro';
+	src: url('../../assets/fonts/alphabet-sans-pro/AlphabetSansPro-Medium.woff2') format('woff2'),url('../../assets/fonts/alphabet-sans-pro/AlphabetSansPro-Medium.woff') format('woff');
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}

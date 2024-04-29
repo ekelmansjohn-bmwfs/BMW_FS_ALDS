@@ -1,0 +1,132 @@
+@import "../../scss/settings/_all";
+
+p {
+	margin-bottom: $size-4;
+	color: var(--ads-color-app-text);
+	font-family: $font-default;
+	font-size: $font-size-regular;
+	font-style: normal;
+	font-weight: $font-weight-light;
+	line-height: 1.5;
+	margin-block-end: $size-4;
+	margin-block-start: 0;
+
+	&.text-size-large {
+		margin-bottom: $size-8;
+		font-size: $font-size-large;
+		line-height: 1.5;
+
+		@include medium {
+			margin-bottom: $size-12;
+		}
+	}
+
+	&.text-size-extra-large {
+		margin-bottom: $size-8;
+		font-size: $font-size-extra-large;
+		line-height: 1.5;
+
+		@include medium {
+			margin-bottom: $size-12;
+		}
+	}
+
+	&.text-size-small {
+		font-size: $font-size-small;
+	}
+
+	&.text-size-extra-small {
+		font-size: $font-size-extra-small;
+	}
+
+	@include medium {
+		margin-bottom: $size-8;
+	}
+
+	@include large {
+		margin-bottom: $size-8;
+	}
+}
+
+span {
+	color: inherit;
+	font-family: $font-default;
+	font-size: inherit;
+	font-style: normal;
+	font-weight: $font-weight-regular;
+	line-height: 1.3;
+	margin-block-end: 0;
+	margin-block-start: 0;
+
+	&.text-size-large {
+		font-size: $font-size-large;
+		line-height: 1.5;
+	}
+
+	&.text-size-small {
+		font-size: $font-size-small;
+	}
+
+	&.text-size-extra-small {
+		font-size: $font-size-extra-small;
+	}
+
+	&.is-hidden {
+		display: none;
+	}
+}
+
+article {
+	h3,
+	h4,
+	h5 {
+		margin-bottom: $size-4;
+	}
+
+	p {
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	margin-bottom: $size-4;
+
+	@include medium {
+		margin-bottom: $size-8;
+	}
+
+	@include large {
+		margin-bottom: $size-12;
+	}
+}
+
+strong {
+	font-family: $font-default-bold;
+	font-weight: $font-weight-bold;
+}
+
+blockquote,
+dl,
+dd,
+dt,
+hr,
+figure,
+p,
+pre {
+	+ blockquote,
+	+ dl,
+	+ dd,
+	+ dt,
+	+ h1,
+	+ h2,
+	+ h3,
+	+ h4,
+	+ h5,
+	+ h6,
+	+ hr,
+	+ figure,
+	+ p,
+	+ pre {
+		margin-top: $size-2;
+	}
+}

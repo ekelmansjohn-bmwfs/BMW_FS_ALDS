@@ -1,0 +1,54 @@
+.block {
+	display: block;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-centered {
+	display: flex;
+    align-items: center;
+}
+
+.ads-display-block-as-2-columns {
+    display: grid;
+    gap: $size-4 $size-8;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+
+    p {
+        padding-right: $size-8;
+        margin: 0;
+    }
+
+    @include medium {
+        gap: $size-8 $size-16;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.ads-display-block-as-3-columns {
+    display: grid;
+    gap: $size-4 $size-8;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+
+    p {
+        padding-right: $size-8;
+        margin-bottom: 0;
+    }
+
+    @include medium {
+        gap: $size-8 $size-16;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

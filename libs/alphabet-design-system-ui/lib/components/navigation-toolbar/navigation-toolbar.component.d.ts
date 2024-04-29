@@ -1,0 +1,37 @@
+import { AfterViewInit, ChangeDetectorRef, EventEmitter, OnChanges, SimpleChanges } from '@angular/core';
+import { Router } from '@angular/router';
+import { IADSNavigation, IADSNavigationItem } from '../../types';
+import * as i0 from "@angular/core";
+export declare class ADSNavigationToolbarComponent implements OnChanges, AfterViewInit {
+    private readonly document;
+    private readonly router;
+    private readonly cdr;
+    readonly clickEmitter: EventEmitter<Event>;
+    labelToggle: string;
+    labelClose: string;
+    navigation: IADSNavigation;
+    expandMainMenu: boolean;
+    expandSubMenu: boolean;
+    routerUrl: string;
+    userPath: Array<IADSNavigationItem>;
+    routerPath: Array<IADSNavigationItem>;
+    constructor(document: Document, router: Router, cdr: ChangeDetectorRef);
+    toggleMenu(): void;
+    openSubMenu(): void;
+    closeMenu(): void;
+    focusCheck(target: Element, event?: KeyboardEvent | undefined): void;
+    menuItemSelect(item: IADSNavigationItem, event: Event): void;
+    moveOneLevelUp(event: Event): void;
+    menuItemFocus(item: IADSNavigationItem): void;
+    menuItemInUserPath(item: IADSNavigationItem): boolean;
+    menuItemInRouterPath(item: IADSNavigationItem): boolean;
+    menuItemHasChildren(item: IADSNavigationItem): boolean;
+    menuItemHasVisibleSubmenu(item: IADSNavigationItem): boolean;
+    checkRouterChange(url: string): void;
+    clickEvent(): void;
+    ngAfterViewInit(): void;
+    trackByIndex(index: number): number;
+    ngOnChanges(changes: SimpleChanges): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<ADSNavigationToolbarComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<ADSNavigationToolbarComponent, "ads-navigation-toolbar", never, { "labelToggle": "labelToggle"; "labelClose": "labelClose"; "navigation": "navigation"; }, { "clickEmitter": "clickEmitter"; }, never, never, false, never>;
+}

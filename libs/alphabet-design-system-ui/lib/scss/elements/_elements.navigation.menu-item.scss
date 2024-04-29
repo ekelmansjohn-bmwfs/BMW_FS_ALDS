@@ -1,0 +1,332 @@
+@import "../../scss/settings/_all";
+
+.ads-menu-item {
+	position: relative;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: $size-8 $size-6 $size-8 $size-6;
+	border: none;
+	margin: 0;
+	background-color: transparent;
+	color: var(--ads-color-app-navigation-menu-item-foreground);
+	outline: 0;
+	outline-offset: 0;
+	text-decoration: none;
+
+	@include large {
+		padding: $size-2 $size-6 $size-2 $size-6;
+		margin: 0;
+	}
+
+	.ads-icon {
+		flex: none;
+		background-color: var(--ads-color-app-navigation-menu-item-icon-background);
+		transition:
+			transform 0.15s $ease-out-quad,
+			opacity 0.15s $ease-out-quad,
+			background-color 0.15s $ease-out-quad;
+
+		svg > path {
+			fill: var(--ads-color-app-navigation-menu-item-icon-foreground) !important;
+		}
+
+		&.size-extra-small {
+			display: none;
+			background-color: transparent;
+			opacity: 0;
+			transition: opacity 0.15s 0.15s $ease-out-quad, transform 0.15s $ease-out-quad;
+			visibility: hidden;
+
+			svg > path {
+				fill: var(--ads-color-app-navigation-menu-item-foreground) !important;
+			}
+
+			@include large {
+				display: inline-flex;
+			}
+		}
+	}
+
+	span {
+		display: inline-block;
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+		flex: 1 1 auto;
+		padding: 0;
+		border: none;
+		border-width: 0;
+		margin: -1px;
+		clip: rect(0, 0, 0, 0);
+		color: inherit;
+		font-family: $font-default;
+		font-size: $font-size-menu;
+		font-style: normal;
+		font-weight: $font-weight-regular;
+		line-height: 1;
+		opacity: 0;
+		text-align: left;
+		transition: color 0.15s $ease-out-quad, opacity 0.15s 0.15s $ease-out-quad;
+		visibility: hidden;
+		white-space: nowrap;
+
+		@include medium {
+			overflow: unset;
+			width: auto;
+			height: auto;
+			margin: 0 0 0 $size-4;
+			clip: unset;
+		}
+	}
+
+    .ads-menu-item_initials {
+        position: relative;
+        display: inline-flex;
+        width: $size-7;
+        height: 0;
+        color: var(--ads-color-app-navigation-menu-item-foreground);
+        font-family: $font-default;
+        font-size: $font-size-extra-small;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 $size-0_5;
+        padding: 0;
+        transition: color 0.15s $ease-in-out-quad;
+
+        &::after {
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            display: block;
+            width: $size-7;
+            height: $size-7;
+            border: 1px solid var(--ads-color-app-navigation-menu-item-foreground);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            content: "";
+            transition: border-color 0.15s $ease-in-out-quad;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .ads-menu-item_notifications {
+        position: absolute;
+        z-index: 2;
+        top: $size-4;
+        left: $size-9;
+        display: block;
+        height: auto;
+        padding: $size-1 $size-1_5 $size-1 $size-1_5;
+        border-radius: $size-3;
+        box-shadow: var(--ads-shadow-depth-2);
+        background-color: var(--ads-color-accent);
+        color: var(--ads-color-app-navigation-menu-item-foreground);
+        font-family: $font-default-bold;
+        font-size: $font-size-tiny;
+        font-style: normal;
+        font-weight: $font-weight-bold;
+        line-height: 1;
+        text-align: center;
+        transform: translate(50%, -50%);
+
+        @include large {
+            top: $size-1_5;
+        }
+    }
+
+	&::before {
+		position: absolute;
+		top: 0;
+		right: auto;
+		bottom: auto;
+		left: $size-4;
+		display: block;
+		width: calc(100% - #{$size-8});
+		height: 0;
+		background-color: transparent;
+		content: "";
+		transition: width 0.15s $ease-out-quad, height 0.15s $ease-out-quad;
+
+		@include large {
+			left: 0;
+			width: 0;
+			height: 100%;
+		}
+	}
+
+	&::after {
+		position: absolute;
+		z-index: -1;
+		top: -$size-2;
+		right: auto;
+		right: auto;
+		bottom: auto;
+		left: $size-4;
+		display: block;
+		width: $size-12;
+		height: calc(100% + #{$size-4});
+		border: 2px solid var(--ads-color-app-navigation-menu-item-background);
+		border-radius: $size-2;
+		content: "";
+		transition: border-color 0.15s $ease-in-out-quad, width 0.15s $ease-in-out-quad;
+	}
+
+	&.is-selected {
+		color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+		&::before {
+			height: 2px;
+			background-color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+			@include large {
+				width: 2px;
+				height: 100%;
+			}
+		}
+
+		&::after {
+			background-color: transparent;
+		}
+
+		ads-icon {
+			.ads-icon:not(.size-extra-small) {
+				background-color: var(--ads-color-app-navigation-menu-item-icon-background_selected);
+
+				svg > path {
+					fill: var(--ads-color-app-navigation-menu-item-icon-foreground_selected) !important;
+				}
+			}
+		}
+
+        .ads-menu-item_initials {
+            color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+            &::after {
+                border-color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+            }
+        }
+	}
+
+	&.is-expanded {
+		span {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.ads-icon {
+			&.size-extra-small {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+
+		&::after {
+			right: $size-4;
+			width: auto;
+		}
+	}
+
+    &:hover:not(:disabled) {
+		cursor: pointer;
+	}
+
+    &.state-hover,
+	&:hover:not(:disabled, .is-selected, :focus) {
+		color: var(--ads-color-app-navigation-menu-item-foreground_hover);
+
+		&::after {
+			border-color: var(--ads-color-app-navigation-menu-item-background_hover);
+		}
+
+		.ads-icon:not(.size-extra-small) {
+			background-color: var(--ads-color-app-navigation-menu-item-icon-background_hover);
+
+			svg > path {
+				fill: var(--ads-color-app-navigation-menu-item-icon-foreground_hover) !important;
+			}
+		}
+
+        .ads-menu-item_initials {
+            color: var(--ads-color-app-navigation-menu-item-foreground_hover);
+
+            &::after {
+                border-color: var(--ads-color-app-navigation-menu-item-foreground_hover);
+            }
+        }
+	}
+
+    &.state-focus,
+	&:focus:not(:disabled) {
+		color: var(--ads-color-app-navigation-menu-item-foreground_focus);
+
+		&::after {
+			border-color: var(--ads-color-app-navigation-menu-item-background_focus);
+		}
+
+		.ads-icon:not(.size-extra-small) {
+			background-color: var(--ads-color-app-navigation-menu-item-icon-background_focus);
+
+			svg > path {
+				fill: var(--ads-color-app-navigation-menu-item-icon-foreground_focus) !important;
+			}
+		}
+
+        .ads-menu-item_initials {
+            color: var(--ads-color-app-navigation-menu-item-foreground_focus);
+
+            &::after {
+                border-color: var(--ads-color-app-navigation-menu-item-foreground_focus);
+            }
+        }
+
+		&.is-selected {
+			color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+			.ads-icon:not(.size-extra-small) {
+				background-color: var(--ads-color-app-navigation-menu-item-icon-background_selected);
+
+				svg > path {
+					fill: var(--ads-color-app-navigation-menu-item-icon-foreground_selected) !important;
+				}
+			}
+
+            .ads-menu-item_initials {
+                color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+                &::after {
+                    border-color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+                }
+            }
+		}
+	}
+
+	// reset for chromium browsers
+	&:focus:not(:disabled, :focus-visible) {
+		color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+		&::after {
+			border-color: var(--ads-color-app-navigation-menu-item-background_selected);
+		}
+
+		.ads-icon:not(.size-extra-small) {
+			background-color: var(--ads-color-app-navigation-menu-item-icon-background_selected);
+
+			svg > path {
+				fill: var(--ads-color-app-navigation-menu-item-icon-foreground_selected) !important;
+			}
+		}
+
+        .ads-menu-item_initials {
+            color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+
+            &::after {
+                border-color: var(--ads-color-app-navigation-menu-item-foreground_selected);
+            }
+        }
+	}
+}

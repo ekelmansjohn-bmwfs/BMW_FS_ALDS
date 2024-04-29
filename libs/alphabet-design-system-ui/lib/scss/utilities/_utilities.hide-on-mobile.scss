@@ -1,0 +1,53 @@
+@import "../../scss/settings/_all";
+
+.hide-on-mobile {
+	@media (max-width: 768px) {
+		display: inline-block;
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		border: none;
+		border-width: 0;
+		margin: -1px;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+	}
+}
+
+.hide-on-tablet {
+	@media (max-width: 1200px) {
+		display: inline-block;
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		border: none;
+		border-width: 0;
+		margin: -1px;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+	}
+}
+
+.display-mobile-only {
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+
+.screen-reader-only {
+	position: absolute;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	border-width: 0;
+	margin: -1px;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+}
+
+.is-hidden {
+	display: none;
+}

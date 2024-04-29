@@ -1,0 +1,145 @@
+@import "../../scss/settings/_all";
+
+.bg-color-white {
+	background-color: var(--ads-color-white);
+}
+
+.bg-color-black {
+	background-color: var(--ads-color-black);
+}
+
+.bg-color-primary {
+	background-color: var(--ads-color-primary);
+}
+
+.bg-color-primary-active {
+	background-color: var(--ads-color-primary_active);
+}
+
+.bg-color-primary-hover {
+	background-color: var(--ads-color-primary_hover);
+}
+
+.bg-color-primary-focus {
+	background-color: var(--ads-color-primary_focus);
+}
+
+.bg-color-accent {
+	background-color: var(--ads-color-accent);
+}
+
+.bg-color-accent-active {
+	background-color: var(--ads-color-accent_hover);
+}
+
+.bg-color-accent-hover {
+	background-color: var(--ads-color-accent_hover);
+}
+
+.bg-color-accent-focus {
+	background-color: var(--ads-color-accent_focus);
+}
+
+.bg-color-gray {
+	background-color: var(--ads-color-gray-20);
+}
+
+.bg-color-gray-background {
+	background-color: var(--ads-color-gray-6);
+}
+
+.bg-color-gray-dark {
+	background-color: var(--ads-color-gray-70);
+}
+
+.bg-color-disabled {
+	background-color: var(--ads-color-disabled);
+}
+
+.bg-color-disabled-font {
+	background-color: var(--ads-color-disabled-foreground);
+}
+
+.bg-color-secondary {
+	background-color: var(--ads-color-secondary);
+}
+
+.bg-color-secondary-active {
+	background-color: var(--ads-color-secondary_active);
+}
+
+.bg-color-secondary-hover {
+	background-color: var(--ads-color-secondary_hover);
+}
+
+.bg-color-secondary-focus {
+	background-color: var(--ads-color-secondary_focus);
+}
+
+.bg-color-error {
+	background-color: var(--ads-color-error);
+}
+
+.bg-color-error-background {
+	background-color: var(--ads-color-error-background);
+}
+
+.bg-color-info {
+	background-color: var(--ads-color-info);
+}
+
+.bg-color-info-background {
+	background-color: var(--ads-color-info-background);
+}
+
+.bg-color-success {
+	background-color: var(--ads-color-success);
+}
+
+.bg-color-success-background {
+	background-color: var(--ads-color-success-background);
+}
+
+.bg-color-warning {
+	background-color: var(--ads-color-warning);
+}
+
+.bg-color-warning-background {
+	background-color: var(--ads-color-warning-background);
+}
+
+.bg-color-notification {
+	background-color: var(--ads-color-notification);
+}
+
+.bg-color-notification-background {
+	background-color: var(--ads-color-notification-background);
+}
+
+@mixin image-gradient($gradient) {
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: $gradient;
+        mask-image: var(--ads-color-image-gradient-mask);
+        z-index: 2;
+    }
+}
+
+@mixin image-gradient-darken-bottom() {
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: var(--ads-color-image-gradient-darken-bottom);
+        z-index: 1;
+        transition: opacity 0.15s $ease-in-quad;
+    }
+}

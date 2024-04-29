@@ -1,0 +1,41 @@
+@import "../../scss/settings/_all";
+
+.is-licence-plate {
+	position: relative;
+	display: inline-block !important;
+	width: 6rem;
+	padding: $size-1 $size-1 $size-1 $size-3;
+	border: 1px solid var(--ads-color-gray-20);
+	background-color: transparent;
+	border-radius: $size-1;
+	color: var(--ads-color-app-text);
+	font-family: $font-default;
+	font-size: 0.675rem !important;
+	letter-spacing: 0.09rem;
+	line-height: 1 !important;
+	text-align: center;
+	text-transform: uppercase;
+
+	&::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 10px;
+		height: 100%;
+		border-right: 1px solid var(--ads-color-gray-20);
+		content: "";
+		opacity: 0.5;
+	}
+
+	&::after {
+		position: absolute;
+		top: 50%;
+		left: 3px;
+		width: 3px;
+		height: 3px;
+		background-color: var(--ads-color-gray-20);
+		border-radius: 50%;
+		content: "";
+		transform: translateY(-50%);
+	}
+}

@@ -1,0 +1,43 @@
+@import "../../scss/settings/_all";
+
+html,
+body {
+	min-width: 300px;
+	min-height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	min-height: 100%;
+	box-sizing: border-box;
+	background-color: var(--ads-color-app);
+	color: var(--ads-color-app-text);
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 1;
+
+	@include medium {
+		font-size: 14px;
+	}
+
+	@include large {
+		font-size: 16px;
+	}
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	hyphens: auto;
+	overflow-x: hidden;
+	word-break: normal;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
