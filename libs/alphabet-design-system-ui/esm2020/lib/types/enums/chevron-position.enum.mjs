@@ -1,6 +1,0 @@
-export var ADSChevronPosition;
-(function (ADSChevronPosition) {
-    ADSChevronPosition["LEFT"] = "LEFT";
-    ADSChevronPosition["RIGHT"] = "RIGHT";
-})(ADSChevronPosition || (ADSChevronPosition = {}));
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2hldnJvbi1wb3NpdGlvbi5lbnVtLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vLi4vbGlicy9hbHBoYWJldC1kZXNpZ24tc3lzdGVtLXVpL3NyYy9saWIvdHlwZXMvZW51bXMvY2hldnJvbi1wb3NpdGlvbi5lbnVtLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sQ0FBTixJQUFZLGtCQUdYO0FBSEQsV0FBWSxrQkFBa0I7SUFDMUIsbUNBQWEsQ0FBQTtJQUNiLHFDQUFlLENBQUE7QUFDbkIsQ0FBQyxFQUhXLGtCQUFrQixLQUFsQixrQkFBa0IsUUFHN0IiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZW51bSBBRFNDaGV2cm9uUG9zaXRpb24ge1xyXG4gICAgTEVGVCA9ICdMRUZUJyxcclxuICAgIFJJR0hUID0gJ1JJR0hUJyxcclxufVxyXG4iXX0=
