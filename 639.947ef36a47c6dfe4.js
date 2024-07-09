@@ -36,19 +36,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let ADSAppFeatureContributeModule = /*#__PURE__*/(() => {
-  class ADSAppFeatureContributeModule {}
-  ADSAppFeatureContributeModule.ɵfac = function ADSAppFeatureContributeModule_Factory(t) {
-    return new (t || ADSAppFeatureContributeModule)();
-  };
-  ADSAppFeatureContributeModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-    type: ADSAppFeatureContributeModule
-  });
-  ADSAppFeatureContributeModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterModule.forChild([{
-      path: '',
-      component: _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureContributeContributeComponent
-    }])]
-  });
+  class ADSAppFeatureContributeModule {
+    static #_ = this.ɵfac = function ADSAppFeatureContributeModule_Factory(t) {
+      return new (t || ADSAppFeatureContributeModule)();
+    };
+    static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+      type: ADSAppFeatureContributeModule
+    });
+    static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterModule.forChild([{
+        path: '',
+        component: _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureContributeContributeComponent
+      }])]
+    });
+  }
   return ADSAppFeatureContributeModule;
 })();
 (function () {
@@ -73,24 +74,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94650);
 
 let ADSAppFeatureContributeContributeComponent = /*#__PURE__*/(() => {
-  class ADSAppFeatureContributeContributeComponent {}
-  ADSAppFeatureContributeContributeComponent.ɵfac = function ADSAppFeatureContributeContributeComponent_Factory(t) {
-    return new (t || ADSAppFeatureContributeContributeComponent)();
-  };
-  ADSAppFeatureContributeContributeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-    type: ADSAppFeatureContributeContributeComponent,
-    selectors: [["ads-app-feature-contribute-contribute"]],
-    decls: 2,
-    vars: 0,
-    template: function ADSAppFeatureContributeContributeComponent_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "contribute works!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    },
-    changeDetection: 0
-  });
+  class ADSAppFeatureContributeContributeComponent {
+    static #_ = this.ɵfac = function ADSAppFeatureContributeContributeComponent_Factory(t) {
+      return new (t || ADSAppFeatureContributeContributeComponent)();
+    };
+    static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: ADSAppFeatureContributeContributeComponent,
+      selectors: [["ads-app-feature-contribute-contribute"]],
+      decls: 2,
+      vars: 0,
+      template: function ADSAppFeatureContributeContributeComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "contribute works!");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      changeDetection: 0
+    });
+  }
   return ADSAppFeatureContributeContributeComponent;
 })();
 

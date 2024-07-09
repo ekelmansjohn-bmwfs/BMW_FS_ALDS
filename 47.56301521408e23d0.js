@@ -54,16 +54,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let ADSAppFeatureSharedAppComponentsModule = /*#__PURE__*/(() => {
-  class ADSAppFeatureSharedAppComponentsModule {}
-  ADSAppFeatureSharedAppComponentsModule.ɵfac = function ADSAppFeatureSharedAppComponentsModule_Factory(t) {
-    return new (t || ADSAppFeatureSharedAppComponentsModule)();
-  };
-  ADSAppFeatureSharedAppComponentsModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineNgModule"]({
-    type: ADSAppFeatureSharedAppComponentsModule
-  });
-  ADSAppFeatureSharedAppComponentsModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineInjector"]({
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_11__.RouterModule, _ads_ui__WEBPACK_IMPORTED_MODULE_0__.ADSUiModule, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.ReactiveFormsModule]
-  });
+  class ADSAppFeatureSharedAppComponentsModule {
+    static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsModule_Factory(t) {
+      return new (t || ADSAppFeatureSharedAppComponentsModule)();
+    };
+    static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineNgModule"]({
+      type: ADSAppFeatureSharedAppComponentsModule
+    });
+    static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineInjector"]({
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_11__.RouterModule, _ads_ui__WEBPACK_IMPORTED_MODULE_0__.ADSUiModule, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.ReactiveFormsModule]
+    });
+  }
   return ADSAppFeatureSharedAppComponentsModule;
 })();
 (function () {
@@ -87,51 +88,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsDoAndDontComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsDoAndDontComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_icon_icon_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/icon/icon.component */ 49299);
-var _class;
 
 
 
 
 const _c0 = [[["", "do-and-dont-do-description", ""]], [["", "do-and-dont-do-example", ""]], [["", "do-and-dont-dont-description", ""]], [["", "do-and-dont-dont-example", ""]]];
 const _c1 = ["[do-and-dont-do-description]", "[do-and-dont-do-example]", "[do-and-dont-dont-description]", "[do-and-dont-dont-example]"];
-let ADSAppFeatureSharedAppComponentsDoAndDontComponent = (_class = class ADSAppFeatureSharedAppComponentsDoAndDontComponent {}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsDoAndDontComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-do-and-dont"]],
-  ngContentSelectors: _c1,
-  decls: 15,
-  vars: 0,
-  consts: [[1, "ads-do-and-dont"], [1, "ads-do-and-dont_do"], ["type", "av_custom_checkmark_circle", "color", "success", "css", "mr-1 mb-1", "size", "small"], [1, "ads-do-and-dont_dont"], ["type", "av_custom_close_circle", "color", "error", "css", "mr-1 mb-1", "size", "small"]],
-  template: function ADSAppFeatureSharedAppComponentsDoAndDontComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojectionDef"](_c0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "p")(3, "span");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "ads-icon", 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " Do ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](7, 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 3)(9, "p")(10, "span");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "ads-icon", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, " Don't ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](13, 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](14, 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    }
-  },
-  dependencies: [_alphabet_design_system_ui_src_lib_components_icon_icon_component__WEBPACK_IMPORTED_MODULE_0__.ADSIconComponent],
-  styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}\n\n.ads-do-and-dont[_ngcontent-%COMP%] {\n  display: grid;\n  margin-bottom: 3rem;\n  gap: 1rem;\n  grid-auto-flow: row;\n  grid-template-columns: 1fr;\n}\n@media (min-width: 1200px) {\n  .ads-do-and-dont[_ngcontent-%COMP%] {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%], .ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%] {\n  padding: 2rem;\n  border-radius: 0.25rem;\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%]   p[_ngcontent-%COMP%], .ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  margin-bottom: 2rem;\n  line-height: 1.2;\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]   span[_ngcontent-%COMP%], .ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: block;\n  margin-bottom: 0.5rem;\n  color: var(--ads-color-primary);\n  font-family: \"Alphabet slab pro\", sans-serif;\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%] {\n  border: 1px solid var(--ads-color-success);\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%] {\n  color: var(--ads-color-success);\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%] {\n  border: 1px solid var(--ads-color-error);\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%] {\n  color: var(--ads-color-error);\n}"],
-  changeDetection: 0
-}), _class);
+let ADSAppFeatureSharedAppComponentsDoAndDontComponent = class ADSAppFeatureSharedAppComponentsDoAndDontComponent {
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsDoAndDontComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsDoAndDontComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsDoAndDontComponent,
+    selectors: [["ads-app-feature-shared-app-components-do-and-dont"]],
+    ngContentSelectors: _c1,
+    decls: 15,
+    vars: 0,
+    consts: [[1, "ads-do-and-dont"], [1, "ads-do-and-dont_do"], ["type", "av_custom_checkmark_circle", "color", "success", "css", "mr-1 mb-1", "size", "small"], [1, "ads-do-and-dont_dont"], ["type", "av_custom_close_circle", "color", "error", "css", "mr-1 mb-1", "size", "small"]],
+    template: function ADSAppFeatureSharedAppComponentsDoAndDontComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojectionDef"](_c0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "p")(3, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "ads-icon", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " Do ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](7, 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 3)(9, "p")(10, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "ads-icon", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, " Don't ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](13, 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵprojection"](14, 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+      }
+    },
+    dependencies: [_alphabet_design_system_ui_src_lib_components_icon_icon_component__WEBPACK_IMPORTED_MODULE_0__.ADSIconComponent],
+    styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}\n\n.ads-do-and-dont[_ngcontent-%COMP%] {\n  display: grid;\n  margin-bottom: 3rem;\n  gap: 1rem;\n  grid-auto-flow: row;\n  grid-template-columns: 1fr;\n}\n@media (min-width: 1200px) {\n  .ads-do-and-dont[_ngcontent-%COMP%] {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%], .ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%] {\n  padding: 2rem;\n  border-radius: 0.25rem;\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%]   p[_ngcontent-%COMP%], .ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  margin-bottom: 2rem;\n  line-height: 1.2;\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]   span[_ngcontent-%COMP%], .ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: block;\n  margin-bottom: 0.5rem;\n  color: var(--ads-color-primary);\n  font-family: \"Alphabet slab pro\", sans-serif;\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%] {\n  border: 1px solid var(--ads-color-success);\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_do[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%] {\n  color: var(--ads-color-success);\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%] {\n  border: 1px solid var(--ads-color-error);\n}\n.ads-do-and-dont[_ngcontent-%COMP%]   .ads-do-and-dont_dont[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%] {\n  color: var(--ads-color-error);\n}"],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsDoAndDontComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__.UntilDestroy)()], ADSAppFeatureSharedAppComponentsDoAndDontComponent);
 
 
@@ -148,44 +151,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsFooterComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsFooterComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_blocks_block_footer_block_footer_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/blocks/block-footer/block-footer.component */ 77477);
-var _class;
 
 
 
 
-let ADSAppFeatureSharedAppComponentsFooterComponent = (_class = class ADSAppFeatureSharedAppComponentsFooterComponent {
+let ADSAppFeatureSharedAppComponentsFooterComponent = class ADSAppFeatureSharedAppComponentsFooterComponent {
   constructor() {
     this.year = new Date().getFullYear();
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsFooterComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-footer"]],
-  decls: 6,
-  vars: 0,
-  consts: [[1, "text-size-small", "hide-on-tablet"], [1, "footer_divider", "hide-on-tablet"]],
-  template: function ADSAppFeatureSharedAppComponentsFooterComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ads-block-footer");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "span", 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Alphabet Design System.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "span", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "|");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    }
-  },
-  dependencies: [_alphabet_design_system_ui_src_lib_blocks_block_footer_block_footer_component__WEBPACK_IMPORTED_MODULE_0__.ADSBlockFooterComponent],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsFooterComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsFooterComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsFooterComponent,
+    selectors: [["ads-app-feature-shared-app-components-footer"]],
+    decls: 6,
+    vars: 0,
+    consts: [[1, "text-size-small", "hide-on-tablet"], [1, "footer_divider", "hide-on-tablet"]],
+    template: function ADSAppFeatureSharedAppComponentsFooterComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ads-block-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "span", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Alphabet Design System.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "span", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "|");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      }
+    },
+    dependencies: [_alphabet_design_system_ui_src_lib_blocks_block_footer_block_footer_component__WEBPACK_IMPORTED_MODULE_0__.ADSBlockFooterComponent],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsFooterComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__.UntilDestroy)()], ADSAppFeatureSharedAppComponentsFooterComponent);
 
 
@@ -202,7 +206,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsHeaderComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsHeaderComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _al_shared_storage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @al/shared/storage */ 60871);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 36895);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
@@ -210,7 +214,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_button_button_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/button/button.component */ 79919);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_context_menu_context_menu_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/context-menu/context-menu.component */ 56240);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/header/header.component */ 79749);
-var _class;
 
 /* eslint-disable functional/immutable-data */
 
@@ -240,7 +243,7 @@ function ADSAppFeatureSharedAppComponentsHeaderComponent_li_5_Template(rf, ctx) 
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("label", theme_r1["name"]);
   }
 }
-let ADSAppFeatureSharedAppComponentsHeaderComponent = (_class = class ADSAppFeatureSharedAppComponentsHeaderComponent {
+let ADSAppFeatureSharedAppComponentsHeaderComponent = class ADSAppFeatureSharedAppComponentsHeaderComponent {
   constructor(document, cookies) {
     this.document = document;
     this.cookies = cookies;
@@ -275,35 +278,37 @@ let ADSAppFeatureSharedAppComponentsHeaderComponent = (_class = class ADSAppFeat
   trackByIndex(index) {
     return index;
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsHeaderComponent_Factory(t) {
-  return new (t || _class)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_5__.DOCUMENT), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_al_shared_storage__WEBPACK_IMPORTED_MODULE_0__.CookiesService));
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-header"]],
-  inputs: {
-    css: "css"
-  },
-  decls: 6,
-  vars: 3,
-  consts: [["label", "Alphabet Design System homepage", "link", "/"], ["header-place-content-right", ""], ["icon", "av_custom_color_fill", "label", "Select a theme", "type", "button", "size", "small", "color", "ghost", 3, "iconOnly"], ["role", "list-item", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["role", "list-item"], ["color", "ghost", 3, "label", "clickEmitter"]],
-  template: function ADSAppFeatureSharedAppComponentsHeaderComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "ads-header", 0)(1, "div", 1)(2, "ads-context-menu");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](3, "ads-button", 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "ul");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](5, ADSAppFeatureSharedAppComponentsHeaderComponent_li_5_Template, 2, 1, "li", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
-    }
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("iconOnly", true);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx.themes)("ngForTrackBy", ctx.trackByIndex);
-    }
-  },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _alphabet_design_system_ui_src_lib_components_button_button_component__WEBPACK_IMPORTED_MODULE_1__.ADSButtonComponent, _alphabet_design_system_ui_src_lib_components_context_menu_context_menu_component__WEBPACK_IMPORTED_MODULE_2__.ADSContextMenuComponent, _alphabet_design_system_ui_src_lib_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__.ADSHeaderComponent],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsHeaderComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsHeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_5__.DOCUMENT), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_al_shared_storage__WEBPACK_IMPORTED_MODULE_0__.CookiesService));
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsHeaderComponent,
+    selectors: [["ads-app-feature-shared-app-components-header"]],
+    inputs: {
+      css: "css"
+    },
+    decls: 6,
+    vars: 3,
+    consts: [["label", "Alphabet Design System homepage", "link", "/"], ["header-place-content-right", ""], ["icon", "av_custom_color_fill", "label", "Select a theme", "type", "button", "size", "small", "color", "ghost", 3, "iconOnly"], ["role", "list-item", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["role", "list-item"], ["color", "ghost", 3, "label", "clickEmitter"]],
+    template: function ADSAppFeatureSharedAppComponentsHeaderComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "ads-header", 0)(1, "div", 1)(2, "ads-context-menu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](3, "ads-button", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](5, ADSAppFeatureSharedAppComponentsHeaderComponent_li_5_Template, 2, 1, "li", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
+      }
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("iconOnly", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx.themes)("ngForTrackBy", ctx.trackByIndex);
+      }
+    },
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _alphabet_design_system_ui_src_lib_components_button_button_component__WEBPACK_IMPORTED_MODULE_1__.ADSButtonComponent, _alphabet_design_system_ui_src_lib_components_context_menu_context_menu_component__WEBPACK_IMPORTED_MODULE_2__.ADSContextMenuComponent, _alphabet_design_system_ui_src_lib_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__.ADSHeaderComponent],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsHeaderComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_6__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_7__.UntilDestroy)(), (0,tslib__WEBPACK_IMPORTED_MODULE_6__.__metadata)("design:paramtypes", [Document, _al_shared_storage__WEBPACK_IMPORTED_MODULE_0__.CookiesService])], ADSAppFeatureSharedAppComponentsHeaderComponent);
 
 
@@ -320,16 +325,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsNavigationComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsNavigationComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/navigation/navigation.component */ 25078);
-var _class;
 
 
 
 
-let ADSAppFeatureSharedAppComponentsNavigationComponent = (_class = class ADSAppFeatureSharedAppComponentsNavigationComponent {
+let ADSAppFeatureSharedAppComponentsNavigationComponent = class ADSAppFeatureSharedAppComponentsNavigationComponent {
   constructor() {
     this.navigation = [{
       label: 'Home',
@@ -436,6 +440,9 @@ let ADSAppFeatureSharedAppComponentsNavigationComponent = (_class = class ADSApp
           label: 'Range Slider',
           url: '/components/forms/form-range-slider'
         }, {
+          label: 'Icon Selector',
+          url: '/components/forms/form-icon-selector'
+        }, {
           label: 'Typeahead',
           url: '/components/forms/form-typeahead'
         }, {
@@ -519,25 +526,27 @@ let ADSAppFeatureSharedAppComponentsNavigationComponent = (_class = class ADSApp
       url: '/information'
     }];
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsNavigationComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-navigation"]],
-  decls: 1,
-  vars: 1,
-  consts: [[3, "navigation"]],
-  template: function ADSAppFeatureSharedAppComponentsNavigationComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "ads-navigation", 0);
-    }
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("navigation", ctx.navigation);
-    }
-  },
-  dependencies: [_alphabet_design_system_ui_src_lib_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_0__.ADSNavigationComponent],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsNavigationComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsNavigationComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsNavigationComponent,
+    selectors: [["ads-app-feature-shared-app-components-navigation"]],
+    decls: 1,
+    vars: 1,
+    consts: [[3, "navigation"]],
+    template: function ADSAppFeatureSharedAppComponentsNavigationComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "ads-navigation", 0);
+      }
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("navigation", ctx.navigation);
+      }
+    },
+    dependencies: [_alphabet_design_system_ui_src_lib_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_0__.ADSNavigationComponent],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsNavigationComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__.UntilDestroy)()], ADSAppFeatureSharedAppComponentsNavigationComponent);
 
 
@@ -554,7 +563,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsPreviewComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsPreviewComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ads_alphabet_design_system_app_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ads/alphabet-design-system-app/utils */ 88354);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
@@ -568,7 +577,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_markdown_markdown_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/markdown/markdown.component */ 46819);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_blocks_buttons_buttons_block__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/blocks/buttons/buttons.block */ 65699);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ 24006);
-var _class;
 
 /* eslint-disable functional/immutable-data */
 
@@ -1115,7 +1123,7 @@ function ADSAppFeatureSharedAppComponentsPreviewComponent_aside_6_Template(rf, c
   }
 }
 const _c1 = ["*"];
-let ADSAppFeatureSharedAppComponentsPreviewComponent = (_class = class ADSAppFeatureSharedAppComponentsPreviewComponent {
+let ADSAppFeatureSharedAppComponentsPreviewComponent = class ADSAppFeatureSharedAppComponentsPreviewComponent {
   constructor(cdr, element) {
     this.cdr = cdr;
     this.element = element;
@@ -1165,47 +1173,49 @@ let ADSAppFeatureSharedAppComponentsPreviewComponent = (_class = class ADSAppFea
   trackByIndex(index) {
     return index;
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsPreviewComponent_Factory(t) {
-  return new (t || _class)(_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_9__.ChangeDetectorRef), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_9__.ElementRef));
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-preview"]],
-  inputs: {
-    css: "css",
-    decorators: "decorators",
-    label: "label",
-    markdown: "markdown",
-    preview: "preview",
-    variation: "variation"
-  },
-  outputs: {
-    previewEmitter: "previewEmitter"
-  },
-  ngContentSelectors: _c1,
-  decls: 7,
-  vars: 3,
-  consts: [[4, "ngIf"], ["componentPreview", ""], ["menu", ""], ["class", "ads-component-preview-controls", 4, "ngIf"], [3, "ngClass"], [4, "ngTemplateOutlet"], ["language", "html", 3, "code", 4, "ngIf"], ["language", "html", 3, "code"], [1, "component-preview_label", 3, "innerHTML"], [1, "component-preview_menu"], ["align", "right"], ["label", "Toggle grid", "size", "small", "type", "button", "icon", "av_custom_apps_square", 3, "color", "iconOnly", "clickEmitter", 4, "ngIf"], ["label", "Toggle component code", "icon", "av_custom_create", "size", "small", "type", "button", 3, "iconOnly", "color", "clickEmitter", 4, "ngIf"], ["id", "ads-component-preview-toggle", "label", "Toggle component options panel", "size", "small", "type", "button", "icon", "maintenance_and_repair", 3, "color", "iconOnly", "clickEmitter", 4, "ngIf"], ["icon", "av_custom_eye", "label", "Toggle vision filter menu", "type", "button", "size", "small", 3, "color", "iconOnly"], ["role", "list-item"], ["label", "Reset color filter", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Blurred vision", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Deuteranomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Deuteranopia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Protanomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Protanopia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Tritanomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Tritanopia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Achromatomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Achromatopsia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Grayscale", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Toggle grid", "size", "small", "type", "button", "icon", "av_custom_apps_square", 3, "color", "iconOnly", "clickEmitter"], ["label", "Toggle component code", "icon", "av_custom_create", "size", "small", "type", "button", 3, "iconOnly", "color", "clickEmitter"], ["id", "ads-component-preview-toggle", "label", "Toggle component options panel", "size", "small", "type", "button", "icon", "maintenance_and_repair", 3, "color", "iconOnly", "clickEmitter"], [1, "ads-component-preview-controls"], ["id", "ads-component-preview-close", "label", "Close component options panel", "color", "ghost", "type", "button", "icon", "av_custom_close", 3, "disabled", "iconOnly", "clickEmitter"], [1, "ads-component-preview-controls_header"], [1, "ads-component-preview-controls_body"], [4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "ads-input_label", 3, "for"], ["placeholder", "Enter a value...", "autocomplete", "off", 1, "ads-input", 3, "id", "value", "ngModel", "disabled", "ngModelChange"], [3, "label", "disabled", "ngModel", "ngModelChange"], [1, "ads-input_label", "block", "mb-2"], ["size", "small", 3, "label", "color", "clickEmitter", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["size", "small", 3, "label", "color", "clickEmitter"], ["label", "No icon", "size", "small", 3, "color", "clickEmitter"], ["size", "small", 3, "label", "icon", "color", "iconOnly", "clickEmitter", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["size", "small", 3, "label", "icon", "color", "iconOnly", "clickEmitter"], ["href", "/foundation/icons", 1, "ads-anchor", "mt-2"], ["type", "switch", "size", "small", "labelPosition", "left", 3, "id", "label", "checked", "fullWidth", "disabled", "ngModel", "ngModelChange"]],
-  template: function ADSAppFeatureSharedAppComponentsPreviewComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵprojectionDef"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](0, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_container_0_Template, 6, 12, "ng-container", 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](1, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_container_1_Template, 4, 5, "ng-container", 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](2, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_template_2_Template, 1, 0, "ng-template", null, 1, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_template_4_Template, 6, 4, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](6, ADSAppFeatureSharedAppComponentsPreviewComponent_aside_6_Template, 7, 5, "aside", 3);
-    }
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", !ctx.variation);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx.variation);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", !ctx.variation);
-    }
-  },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgTemplateOutlet, _alphabet_design_system_ui_src_lib_components_button_button_component__WEBPACK_IMPORTED_MODULE_2__.ADSButtonComponent, _alphabet_design_system_ui_src_lib_components_context_menu_context_menu_component__WEBPACK_IMPORTED_MODULE_3__.ADSContextMenuComponent, _alphabet_design_system_ui_src_lib_components_form_checkbox_form_checkbox_component__WEBPACK_IMPORTED_MODULE_4__.ADSFormCheckboxComponent, _alphabet_design_system_ui_src_lib_components_form_dropdown_form_dropdown_component__WEBPACK_IMPORTED_MODULE_5__.ADSFormDropdownComponent, _alphabet_design_system_ui_src_lib_components_form_field_form_field_component__WEBPACK_IMPORTED_MODULE_6__.ADSFormFieldComponent, _alphabet_design_system_ui_src_lib_components_markdown_markdown_component__WEBPACK_IMPORTED_MODULE_7__.ADSMarkdownComponent, _alphabet_design_system_ui_src_lib_blocks_buttons_buttons_block__WEBPACK_IMPORTED_MODULE_8__.ADSBlockButtonsComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_11__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_11__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_11__.NgModel],
-  styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}\n\n[_nghost-%COMP%] {\n  position: relative;\n}\n\n.component-preview[_ngcontent-%COMP%] {\n  position: relative;\n  z-index: auto;\n  padding: 4rem 4rem 4rem 4rem;\n  border: 1px solid var(--ads-color-primary);\n  border-radius: 0.25rem;\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_menu[_ngcontent-%COMP%] {\n  position: absolute;\n  top: -2.5rem;\n  right: 0;\n  bottom: auto;\n  left: 0;\n}\n.component-preview.is-variation[_ngcontent-%COMP%] {\n  padding: 2rem 2rem 2rem 2rem;\n  border-color: var(--ads-color-gray-20);\n}\n.component-preview.is-variation[_ngcontent-%COMP%]   .component-preview_menu[_ngcontent-%COMP%] {\n  top: auto;\n  right: 0;\n  bottom: 0;\n}\n.component-preview.has-dark-background[_ngcontent-%COMP%] {\n  background-color: var(--ads-color-primary);\n}\n.component-preview.display-grid[_ngcontent-%COMP%]::before, .component-preview.display-grid[_ngcontent-%COMP%]::after {\n  position: absolute;\n  z-index: 0;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(0deg, var(--ads-color-gray-20) 1px, transparent 1px), linear-gradient(90deg, var(--ads-color-gray-20) 1px, transparent 1px), linear-gradient(0deg, var(--ads-color-gray-6) 1px, transparent 1px), linear-gradient(90deg, var(--ads-color-gray-6) 1px, transparent 1px);\n  background-size: 4rem 4rem, 4rem 4rem, 0.5rem 0.5rem, 0.5rem 0.5rem;\n  border-radius: 0.25rem;\n  content: \"\";\n  pointer-events: none;\n}\n.component-preview.display-grid[_ngcontent-%COMP%]::after {\n  z-index: 1;\n  mix-blend-mode: soft-light;\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-blurred-vision[_ngcontent-%COMP%] {\n  filter: blur(2px);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-deuteranomaly[_ngcontent-%COMP%] {\n  filter: url(#deuteranomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-deuteranopia[_ngcontent-%COMP%] {\n  filter: url(#deuteranopia);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-protanomaly[_ngcontent-%COMP%] {\n  filter: url(#protanomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-protanopia[_ngcontent-%COMP%] {\n  filter: url(#protanomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-tritanomaly[_ngcontent-%COMP%] {\n  filter: url(#tritanomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-tritanopia[_ngcontent-%COMP%] {\n  filter: url(#tritanopia);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-achromatomaly[_ngcontent-%COMP%] {\n  filter: url(#achromatomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-achromatopsia[_ngcontent-%COMP%] {\n  filter: url(#achromatopsia);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-grayscale[_ngcontent-%COMP%] {\n  filter: grayscale(100%);\n}\n\n.component-preview_label[_ngcontent-%COMP%] {\n  display: block;\n  margin: 1rem 0 0.5rem 0;\n  color: var(--ads-color-accent);\n}\n.component-preview_label[_ngcontent-%COMP%]     i {\n  margin-left: 0.75rem;\n  color: var(--ads-color-app-text);\n  font-size: 0.875rem;\n  font-style: normal;\n}\n\n.ads-component-preview-controls[_ngcontent-%COMP%] {\n  position: fixed;\n  z-index: 20;\n  top: 4rem;\n  right: 0;\n  bottom: 0;\n  left: auto;\n  display: block;\n  width: 90%;\n  height: calc(100% - 8rem);\n  padding: 0.5rem 1rem 2rem 1rem;\n  border-left: 1px solid var(--ads-color-primary);\n  background-color: var(--ads-color-white);\n  box-shadow: var(--ads-shadow-depth-2);\n  transform: translateX(0%);\n  transition: transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);\n}\n@media (min-width: 769px) {\n  .ads-component-preview-controls[_ngcontent-%COMP%] {\n    top: 4rem;\n    width: 22.5rem;\n    height: calc(100vh - 4rem);\n  }\n}\n.ads-component-preview-controls[hidden][_ngcontent-%COMP%] {\n  transform: translateX(100%);\n}\n.ads-component-preview-controls[_ngcontent-%COMP%]   .ads-component-preview-controls_header[_ngcontent-%COMP%] {\n  position: relative;\n  padding: 0 0 1rem 0;\n  border-bottom: 1px solid var(--ads-color-gray-20);\n  margin: 1rem 1rem 1rem 1rem;\n  color: var(--ads-color-primary);\n  font-family: \"Alphabet slab pro light\", sans-serif;\n  font-size: 1.25rem;\n  font-style: normal;\n}\n.ads-component-preview-controls[_ngcontent-%COMP%]   .ads-component-preview-controls_body[_ngcontent-%COMP%] {\n  padding: 0 0 1rem 0;\n  margin: 1rem 1rem 2rem 1rem;\n}"],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsPreviewComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsPreviewComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_9__.ChangeDetectorRef), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_9__.ElementRef));
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsPreviewComponent,
+    selectors: [["ads-app-feature-shared-app-components-preview"]],
+    inputs: {
+      css: "css",
+      decorators: "decorators",
+      label: "label",
+      markdown: "markdown",
+      preview: "preview",
+      variation: "variation"
+    },
+    outputs: {
+      previewEmitter: "previewEmitter"
+    },
+    ngContentSelectors: _c1,
+    decls: 7,
+    vars: 3,
+    consts: [[4, "ngIf"], ["componentPreview", ""], ["menu", ""], ["class", "ads-component-preview-controls", 4, "ngIf"], [3, "ngClass"], [4, "ngTemplateOutlet"], ["language", "html", 3, "code", 4, "ngIf"], ["language", "html", 3, "code"], [1, "component-preview_label", 3, "innerHTML"], [1, "component-preview_menu"], ["align", "right"], ["label", "Toggle grid", "size", "small", "type", "button", "icon", "av_custom_apps_square", 3, "color", "iconOnly", "clickEmitter", 4, "ngIf"], ["label", "Toggle component code", "icon", "av_custom_create", "size", "small", "type", "button", 3, "iconOnly", "color", "clickEmitter", 4, "ngIf"], ["id", "ads-component-preview-toggle", "label", "Toggle component options panel", "size", "small", "type", "button", "icon", "maintenance_and_repair", 3, "color", "iconOnly", "clickEmitter", 4, "ngIf"], ["icon", "av_custom_eye", "label", "Toggle vision filter menu", "type", "button", "size", "small", 3, "color", "iconOnly"], ["role", "list-item"], ["label", "Reset color filter", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Blurred vision", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Deuteranomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Deuteranopia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Protanomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Protanopia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Tritanomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Tritanopia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Achromatomaly", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Achromatopsia", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Grayscale", "color", "ghost", "size", "small", 3, "clickEmitter"], ["label", "Toggle grid", "size", "small", "type", "button", "icon", "av_custom_apps_square", 3, "color", "iconOnly", "clickEmitter"], ["label", "Toggle component code", "icon", "av_custom_create", "size", "small", "type", "button", 3, "iconOnly", "color", "clickEmitter"], ["id", "ads-component-preview-toggle", "label", "Toggle component options panel", "size", "small", "type", "button", "icon", "maintenance_and_repair", 3, "color", "iconOnly", "clickEmitter"], [1, "ads-component-preview-controls"], ["id", "ads-component-preview-close", "label", "Close component options panel", "color", "ghost", "type", "button", "icon", "av_custom_close", 3, "disabled", "iconOnly", "clickEmitter"], [1, "ads-component-preview-controls_header"], [1, "ads-component-preview-controls_body"], [4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "ads-input_label", 3, "for"], ["placeholder", "Enter a value...", "autocomplete", "off", 1, "ads-input", 3, "id", "value", "ngModel", "disabled", "ngModelChange"], [3, "label", "disabled", "ngModel", "ngModelChange"], [1, "ads-input_label", "block", "mb-2"], ["size", "small", 3, "label", "color", "clickEmitter", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["size", "small", 3, "label", "color", "clickEmitter"], ["label", "No icon", "size", "small", 3, "color", "clickEmitter"], ["size", "small", 3, "label", "icon", "color", "iconOnly", "clickEmitter", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["size", "small", 3, "label", "icon", "color", "iconOnly", "clickEmitter"], ["href", "/foundation/icons", 1, "ads-anchor", "mt-2"], ["type", "switch", "size", "small", "labelPosition", "left", 3, "id", "label", "checked", "fullWidth", "disabled", "ngModel", "ngModelChange"]],
+    template: function ADSAppFeatureSharedAppComponentsPreviewComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵprojectionDef"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](0, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_container_0_Template, 6, 12, "ng-container", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](1, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_container_1_Template, 4, 5, "ng-container", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](2, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_template_2_Template, 1, 0, "ng-template", null, 1, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, ADSAppFeatureSharedAppComponentsPreviewComponent_ng_template_4_Template, 6, 4, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](6, ADSAppFeatureSharedAppComponentsPreviewComponent_aside_6_Template, 7, 5, "aside", 3);
+      }
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", !ctx.variation);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx.variation);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", !ctx.variation);
+      }
+    },
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgTemplateOutlet, _alphabet_design_system_ui_src_lib_components_button_button_component__WEBPACK_IMPORTED_MODULE_2__.ADSButtonComponent, _alphabet_design_system_ui_src_lib_components_context_menu_context_menu_component__WEBPACK_IMPORTED_MODULE_3__.ADSContextMenuComponent, _alphabet_design_system_ui_src_lib_components_form_checkbox_form_checkbox_component__WEBPACK_IMPORTED_MODULE_4__.ADSFormCheckboxComponent, _alphabet_design_system_ui_src_lib_components_form_dropdown_form_dropdown_component__WEBPACK_IMPORTED_MODULE_5__.ADSFormDropdownComponent, _alphabet_design_system_ui_src_lib_components_form_field_form_field_component__WEBPACK_IMPORTED_MODULE_6__.ADSFormFieldComponent, _alphabet_design_system_ui_src_lib_components_markdown_markdown_component__WEBPACK_IMPORTED_MODULE_7__.ADSMarkdownComponent, _alphabet_design_system_ui_src_lib_blocks_buttons_buttons_block__WEBPACK_IMPORTED_MODULE_8__.ADSBlockButtonsComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_11__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_11__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_11__.NgModel],
+    styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}\n\n[_nghost-%COMP%] {\n  position: relative;\n}\n\n.component-preview[_ngcontent-%COMP%] {\n  position: relative;\n  z-index: auto;\n  padding: 4rem 4rem 4rem 4rem;\n  border: 1px solid var(--ads-color-primary);\n  border-radius: 0.25rem;\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_menu[_ngcontent-%COMP%] {\n  position: absolute;\n  top: -2.5rem;\n  right: 0;\n  bottom: auto;\n  left: 0;\n}\n.component-preview.is-variation[_ngcontent-%COMP%] {\n  padding: 2rem 2rem 2rem 2rem;\n  border-color: var(--ads-color-gray-20);\n}\n.component-preview.is-variation[_ngcontent-%COMP%]   .component-preview_menu[_ngcontent-%COMP%] {\n  top: auto;\n  right: 0;\n  bottom: 0;\n}\n.component-preview.has-dark-background[_ngcontent-%COMP%] {\n  background-color: var(--ads-color-primary);\n}\n.component-preview.display-grid[_ngcontent-%COMP%]::before, .component-preview.display-grid[_ngcontent-%COMP%]::after {\n  position: absolute;\n  z-index: 0;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(0deg, var(--ads-color-gray-20) 1px, transparent 1px), linear-gradient(90deg, var(--ads-color-gray-20) 1px, transparent 1px), linear-gradient(0deg, var(--ads-color-gray-6) 1px, transparent 1px), linear-gradient(90deg, var(--ads-color-gray-6) 1px, transparent 1px);\n  background-size: 4rem 4rem, 4rem 4rem, 0.5rem 0.5rem, 0.5rem 0.5rem;\n  border-radius: 0.25rem;\n  content: \"\";\n  pointer-events: none;\n}\n.component-preview.display-grid[_ngcontent-%COMP%]::after {\n  z-index: 1;\n  mix-blend-mode: soft-light;\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-blurred-vision[_ngcontent-%COMP%] {\n  filter: blur(2px);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-deuteranomaly[_ngcontent-%COMP%] {\n  filter: url(#deuteranomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-deuteranopia[_ngcontent-%COMP%] {\n  filter: url(#deuteranopia);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-protanomaly[_ngcontent-%COMP%] {\n  filter: url(#protanomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-protanopia[_ngcontent-%COMP%] {\n  filter: url(#protanomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-tritanomaly[_ngcontent-%COMP%] {\n  filter: url(#tritanomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-tritanopia[_ngcontent-%COMP%] {\n  filter: url(#tritanopia);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-achromatomaly[_ngcontent-%COMP%] {\n  filter: url(#achromatomaly);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-achromatopsia[_ngcontent-%COMP%] {\n  filter: url(#achromatopsia);\n}\n.component-preview[_ngcontent-%COMP%]   .component-preview_preview.vision-filter-grayscale[_ngcontent-%COMP%] {\n  filter: grayscale(100%);\n}\n\n.component-preview_label[_ngcontent-%COMP%] {\n  display: block;\n  margin: 1rem 0 0.5rem 0;\n  color: var(--ads-color-accent);\n}\n.component-preview_label[_ngcontent-%COMP%]     i {\n  margin-left: 0.75rem;\n  color: var(--ads-color-app-text);\n  font-size: 0.875rem;\n  font-style: normal;\n}\n\n.ads-component-preview-controls[_ngcontent-%COMP%] {\n  position: fixed;\n  z-index: 20;\n  top: 4rem;\n  right: 0;\n  bottom: 0;\n  left: auto;\n  display: block;\n  width: 90%;\n  height: calc(100% - 8rem);\n  padding: 0.5rem 1rem 2rem 1rem;\n  border-left: 1px solid var(--ads-color-primary);\n  background-color: var(--ads-color-white);\n  box-shadow: var(--ads-shadow-depth-2);\n  transform: translateX(0%);\n  transition: transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);\n}\n@media (min-width: 769px) {\n  .ads-component-preview-controls[_ngcontent-%COMP%] {\n    top: 4rem;\n    width: 22.5rem;\n    height: calc(100vh - 4rem);\n  }\n}\n.ads-component-preview-controls[hidden][_ngcontent-%COMP%] {\n  transform: translateX(100%);\n}\n.ads-component-preview-controls[_ngcontent-%COMP%]   .ads-component-preview-controls_header[_ngcontent-%COMP%] {\n  position: relative;\n  padding: 0 0 1rem 0;\n  border-bottom: 1px solid var(--ads-color-gray-20);\n  margin: 1rem 1rem 1rem 1rem;\n  color: var(--ads-color-primary);\n  font-family: \"Alphabet slab pro light\", sans-serif;\n  font-size: 1.25rem;\n  font-style: normal;\n}\n.ads-component-preview-controls[_ngcontent-%COMP%]   .ads-component-preview-controls_body[_ngcontent-%COMP%] {\n  padding: 0 0 1rem 0;\n  margin: 1rem 1rem 2rem 1rem;\n}"],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsPreviewComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_12__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_13__.UntilDestroy)(), (0,tslib__WEBPACK_IMPORTED_MODULE_12__.__metadata)("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_9__.ChangeDetectorRef, _angular_core__WEBPACK_IMPORTED_MODULE_9__.ElementRef])], ADSAppFeatureSharedAppComponentsPreviewComponent);
 
 
@@ -1222,11 +1232,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsTableDecoratorsComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsTableDecoratorsComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 36895);
-var _class;
 
 
 
@@ -1303,7 +1312,7 @@ function ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_tr_16_Template
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", decorator_r1.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
   }
 }
-let ADSAppFeatureSharedAppComponentsTableDecoratorsComponent = (_class = class ADSAppFeatureSharedAppComponentsTableDecoratorsComponent {
+let ADSAppFeatureSharedAppComponentsTableDecoratorsComponent = class ADSAppFeatureSharedAppComponentsTableDecoratorsComponent {
   constructor() {
     this.title = $localize`:@@ADSAppFeatureSharedAppComponentsTableDecoratorsTitle:@Input / @Output decorators`;
   }
@@ -1313,52 +1322,54 @@ let ADSAppFeatureSharedAppComponentsTableDecoratorsComponent = (_class = class A
   trackByIndex(index) {
     return index;
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-table-decorators"]],
-  inputs: {
-    decorators: "decorators",
-    title: "title"
-  },
-  decls: 17,
-  vars: 3,
-  consts: [[1, "block"], [1, "text-color-primary"], [1, "ads-table", "text-size-small", "is-not-reponsive", "mt-1", "mb-12"], [4, "ngFor", "ngForOf", "ngForTrackBy"], [4, "ngIf"], [3, "innerHTML"]],
-  template: function ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0)(1, "strong", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "table", 2)(4, "tbody")(5, "tr")(6, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Property");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Type");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Value(s)");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Default");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Description");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_tr_16_Template, 11, 6, "tr", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    }
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.title);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.orderdDecoratorsByName())("ngForTrackBy", ctx.trackByIndex);
-    }
-  },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf],
-  styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}"],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsTableDecoratorsComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsTableDecoratorsComponent,
+    selectors: [["ads-app-feature-shared-app-components-table-decorators"]],
+    inputs: {
+      decorators: "decorators",
+      title: "title"
+    },
+    decls: 17,
+    vars: 3,
+    consts: [[1, "block"], [1, "text-color-primary"], [1, "ads-table", "text-size-small", "is-not-reponsive", "mt-1", "mb-12"], [4, "ngFor", "ngForOf", "ngForTrackBy"], [4, "ngIf"], [3, "innerHTML"]],
+    template: function ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0)(1, "strong", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "table", 2)(4, "tbody")(5, "tr")(6, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Property");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Type");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Value(s)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Default");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Description");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, ADSAppFeatureSharedAppComponentsTableDecoratorsComponent_tr_16_Template, 11, 6, "tr", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+      }
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.title);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.orderdDecoratorsByName())("ngForTrackBy", ctx.trackByIndex);
+      }
+    },
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf],
+    styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}"],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsTableDecoratorsComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__.UntilDestroy)()], ADSAppFeatureSharedAppComponentsTableDecoratorsComponent);
 
 
@@ -1375,11 +1386,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsTableEventsComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsTableEventsComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 36895);
-var _class;
 
 
 
@@ -1551,44 +1561,46 @@ function ADSAppFeatureSharedAppComponentsTableEventsComponent_tr_10_Template(rf,
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](event_r1.description);
   }
 }
-let ADSAppFeatureSharedAppComponentsTableEventsComponent = (_class = class ADSAppFeatureSharedAppComponentsTableEventsComponent {
+let ADSAppFeatureSharedAppComponentsTableEventsComponent = class ADSAppFeatureSharedAppComponentsTableEventsComponent {
   trackByIndex(index) {
     return index;
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsTableEventsComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-table-events"]],
-  inputs: {
-    events: "events"
-  },
-  decls: 11,
-  vars: 2,
-  consts: [[1, "block"], [1, "text-color-primary"], [1, "ads-table", "text-size-small", "is-not-reponsive", "mt-1", "mb-12"], [4, "ngFor", "ngForOf", "ngForTrackBy"], ["class", "ads-keyboard-key", 4, "ngIf"], ["class", "ads-keyboard-key is-plus", 4, "ngIf"], [1, "ads-keyboard-key"], [1, "ads-keyboard-key", "is-plus"]],
-  template: function ADSAppFeatureSharedAppComponentsTableEventsComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0)(1, "strong", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Events");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "table", 2)(4, "tbody")(5, "tr")(6, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Key / Event");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Actions");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ADSAppFeatureSharedAppComponentsTableEventsComponent_tr_10_Template, 5, 3, "tr", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    }
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.events)("ngForTrackBy", ctx.trackByIndex);
-    }
-  },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf],
-  styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}\n\n.ads-keyboard-key[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0.25rem 0.5rem 0.25rem 0.5rem;\n  margin: 0 0.5rem 0 0;\n  background-color: var(--ads-color-gray-12);\n  border-radius: 0.25rem;\n  color: var(--ads-color-gray-12_foreground);\n  font-size: 0.875rem;\n}\n.ads-keyboard-key.is-plus[_ngcontent-%COMP%] {\n  background-color: transparent;\n  padding: 0;\n}"],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsTableEventsComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsTableEventsComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsTableEventsComponent,
+    selectors: [["ads-app-feature-shared-app-components-table-events"]],
+    inputs: {
+      events: "events"
+    },
+    decls: 11,
+    vars: 2,
+    consts: [[1, "block"], [1, "text-color-primary"], [1, "ads-table", "text-size-small", "is-not-reponsive", "mt-1", "mb-12"], [4, "ngFor", "ngForOf", "ngForTrackBy"], ["class", "ads-keyboard-key", 4, "ngIf"], ["class", "ads-keyboard-key is-plus", 4, "ngIf"], [1, "ads-keyboard-key"], [1, "ads-keyboard-key", "is-plus"]],
+    template: function ADSAppFeatureSharedAppComponentsTableEventsComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0)(1, "strong", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Events");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "table", 2)(4, "tbody")(5, "tr")(6, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Key / Event");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Actions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ADSAppFeatureSharedAppComponentsTableEventsComponent_tr_10_Template, 5, 3, "tr", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+      }
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.events)("ngForTrackBy", ctx.trackByIndex);
+      }
+    },
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf],
+    styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}\n\n.ads-keyboard-key[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0.25rem 0.5rem 0.25rem 0.5rem;\n  margin: 0 0.5rem 0 0;\n  background-color: var(--ads-color-gray-12);\n  border-radius: 0.25rem;\n  color: var(--ads-color-gray-12_foreground);\n  font-size: 0.875rem;\n}\n.ads-keyboard-key.is-plus[_ngcontent-%COMP%] {\n  background-color: transparent;\n  padding: 0;\n}"],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsTableEventsComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_3__.UntilDestroy)()], ADSAppFeatureSharedAppComponentsTableEventsComponent);
 
 
@@ -1605,7 +1617,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppFeatureSharedAppComponentsTemplateComponent": () => (/* binding */ ADSAppFeatureSharedAppComponentsTemplateComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 36895);
@@ -1613,7 +1625,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/tabs/tabs.component */ 3881);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/tab/tab.component */ 62531);
 /* harmony import */ var _alphabet_design_system_ui_src_lib_components_tab_panel_tab_panel_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../alphabet-design-system-ui/src/lib/components/tab-panel/tab-panel.component */ 82474);
-var _class;
 
 
 
@@ -1639,7 +1650,7 @@ function ADSAppFeatureSharedAppComponentsTemplateComponent_ads_tab_panel_29_Temp
 }
 const _c0 = [[["", "component-template-title", ""]], [["", "component-template-intro-text", ""]], [["", "component-template-preview", ""]], [["", "component-template-tab-overview", ""]], [["", "component-template-tab-code", ""]], [["", "component-template-tab-accessibility", ""]], [["", "component-template-tab-variations", ""]]];
 const _c1 = ["[component-template-title]", "[component-template-intro-text]", "[component-template-preview]", "[component-template-tab-overview]", "[component-template-tab-code]", "[component-template-tab-accessibility]", "[component-template-tab-variations]"];
-let ADSAppFeatureSharedAppComponentsTemplateComponent = (_class = class ADSAppFeatureSharedAppComponentsTemplateComponent {
+let ADSAppFeatureSharedAppComponentsTemplateComponent = class ADSAppFeatureSharedAppComponentsTemplateComponent {
   constructor() {
     this.type = 'component';
     this.variations = true;
@@ -1650,101 +1661,103 @@ let ADSAppFeatureSharedAppComponentsTemplateComponent = (_class = class ADSAppFe
   getType() {
     return this.type === 'component' ? 'Components' : 'Blocks';
   }
-}, _class.ɵfac = function ADSAppFeatureSharedAppComponentsTemplateComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-feature-shared-app-components-template"]],
-  inputs: {
-    type: "type",
-    variations: "variations"
-  },
-  ngContentSelectors: _c1,
-  decls: 53,
-  vars: 5,
-  consts: [[1, "ads-block-web_text-center", "is-indented", "ads-fx-appear"], [1, "ads-block-web_text-center-text"], [1, "ads-h3", "text-color-primary", "mb-0", "font-alphabet-heading-bold"], [1, "is-sub-title", "mt-1", "mb-8"], ["color", "primary", "size", "extra-small", "css", "mr-1", 3, "type"], [1, "text-size-extra-large", "text-color-primary"], [1, "ads-block-web_text-center"], ["label", "Overview", 3, "selected"], ["label", "Code"], ["label", "Variations", 4, "ngIf"], ["label", "Accessibility"], [1, "ads-h5", "text-color-accent"], [4, "ngIf"], ["id", "protanopia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.567, 0.433, 0, 0, 0 0.558, 0.442, 0, 0, 0 0, 0.242, 0.758, 0, 0 0, 0, 0, 1, 0"], ["id", "protanomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.817, 0.183, 0, 0, 0 0.333, 0.667, 0, 0, 0 0, 0.125, 0.875, 0, 0 0, 0, 0, 1, 0"], ["id", "deuteranopia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.625, 0.375, 0, 0, 0 0.7, 0.3, 0, 0, 0 0, 0.3, 0.7, 0, 0 0, 0, 0, 1, 0"], ["id", "deuteranomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.8, 0.2, 0, 0, 0 0.258, 0.742, 0, 0, 0 0, 0.142, 0.858, 0, 0 0, 0, 0, 1, 0"], ["id", "tritanopia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.95, 0.05,  0, 0, 0 0,  0.433, 0.567, 0, 0 0,  0.475, 0.525, 0, 0 0,  0, 0, 1, 0"], ["id", "tritanomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.967, 0.033, 0, 0, 0 0, 0.733, 0.267, 0, 0 0, 0.183, 0.817, 0, 0 0, 0, 0, 1, 0"], ["id", "achromatopsia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.299, 0.587, 0.114, 0, 0 0.299, 0.587, 0.114, 0, 0 0.299, 0.587, 0.114, 0, 0 0, 0, 0, 1, 0"], ["id", "achromatomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.618, 0.320, 0.062, 0, 0 0.163, 0.775, 0.062, 0, 0 0.163, 0.320, 0.516, 0, 0 0, 0, 0, 1, 0"], ["label", "Variations"]],
-  template: function ADSAppFeatureSharedAppComponentsTemplateComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojectionDef"](_c0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "h1", 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "h2", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](5, "ads-icon", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](7, "p", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](8, 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "section", 6)(10, "div", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](11, 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "section", 0)(13, "div", 1)(14, "ads-tabs");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](15, "ads-tab", 7)(16, "ads-tab", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](17, ADSAppFeatureSharedAppComponentsTemplateComponent_ads_tab_17_Template, 1, 0, "ads-tab", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](18, "ads-tab", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](19, "ads-tab-panel")(20, "h3", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](21, "Overview");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](22, 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](23, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "ads-tab-panel")(25, "h3", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](26, "Code");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](27, 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](28, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](29, ADSAppFeatureSharedAppComponentsTemplateComponent_ads_tab_panel_29_Template, 5, 0, "ads-tab-panel", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](30, "ads-tab-panel")(31, "h3", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](32, "Accessibility");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](33, 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](34, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnamespaceSVG"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](35, "svg")(36, "defs")(37, "filter", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](38, "feColorMatrix", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](39, "filter", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](40, "feColorMatrix", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](41, "filter", 17);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](42, "feColorMatrix", 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](43, "filter", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](44, "feColorMatrix", 20);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](45, "filter", 21);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](46, "feColorMatrix", 22);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](47, "filter", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](48, "feColorMatrix", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](49, "filter", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](50, "feColorMatrix", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](51, "filter", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](52, "feColorMatrix", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-    }
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("type", ctx.getIcon());
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" Alphabet Design System - ", ctx.getType(), " ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("selected", true);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.variations);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.variations);
-    }
-  },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, _alphabet_design_system_ui_src_lib_components_icon_icon_component__WEBPACK_IMPORTED_MODULE_0__.ADSIconComponent, _alphabet_design_system_ui_src_lib_components_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_1__.ADSTabsComponent, _alphabet_design_system_ui_src_lib_components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__.ADSTabComponent, _alphabet_design_system_ui_src_lib_components_tab_panel_tab_panel_component__WEBPACK_IMPORTED_MODULE_3__.ADSTabPanelComponent],
-  styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}"],
-  changeDetection: 0
-}), _class);
+  static #_ = this.ɵfac = function ADSAppFeatureSharedAppComponentsTemplateComponent_Factory(t) {
+    return new (t || ADSAppFeatureSharedAppComponentsTemplateComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
+    type: ADSAppFeatureSharedAppComponentsTemplateComponent,
+    selectors: [["ads-app-feature-shared-app-components-template"]],
+    inputs: {
+      type: "type",
+      variations: "variations"
+    },
+    ngContentSelectors: _c1,
+    decls: 53,
+    vars: 5,
+    consts: [[1, "ads-block-web_text-center", "is-indented", "ads-fx-appear"], [1, "ads-block-web_text-center-text"], [1, "ads-h3", "text-color-primary", "mb-0", "font-alphabet-heading-bold"], [1, "is-sub-title", "mt-1", "mb-8"], ["color", "primary", "size", "extra-small", "css", "mr-1", 3, "type"], [1, "text-size-extra-large", "text-color-primary"], [1, "ads-block-web_text-center"], ["label", "Overview", 3, "selected"], ["label", "Code"], ["label", "Variations", 4, "ngIf"], ["label", "Accessibility"], [1, "ads-h5", "text-color-accent"], [4, "ngIf"], ["id", "protanopia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.567, 0.433, 0, 0, 0 0.558, 0.442, 0, 0, 0 0, 0.242, 0.758, 0, 0 0, 0, 0, 1, 0"], ["id", "protanomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.817, 0.183, 0, 0, 0 0.333, 0.667, 0, 0, 0 0, 0.125, 0.875, 0, 0 0, 0, 0, 1, 0"], ["id", "deuteranopia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.625, 0.375, 0, 0, 0 0.7, 0.3, 0, 0, 0 0, 0.3, 0.7, 0, 0 0, 0, 0, 1, 0"], ["id", "deuteranomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.8, 0.2, 0, 0, 0 0.258, 0.742, 0, 0, 0 0, 0.142, 0.858, 0, 0 0, 0, 0, 1, 0"], ["id", "tritanopia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.95, 0.05,  0, 0, 0 0,  0.433, 0.567, 0, 0 0,  0.475, 0.525, 0, 0 0,  0, 0, 1, 0"], ["id", "tritanomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.967, 0.033, 0, 0, 0 0, 0.733, 0.267, 0, 0 0, 0.183, 0.817, 0, 0 0, 0, 0, 1, 0"], ["id", "achromatopsia"], ["in", "SourceGraphic", "type", "matrix", "values", "0.299, 0.587, 0.114, 0, 0 0.299, 0.587, 0.114, 0, 0 0.299, 0.587, 0.114, 0, 0 0, 0, 0, 1, 0"], ["id", "achromatomaly"], ["in", "SourceGraphic", "type", "matrix", "values", "0.618, 0.320, 0.062, 0, 0 0.163, 0.775, 0.062, 0, 0 0.163, 0.320, 0.516, 0, 0 0, 0, 0, 1, 0"], ["label", "Variations"]],
+    template: function ADSAppFeatureSharedAppComponentsTemplateComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojectionDef"](_c0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "h1", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "h2", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](5, "ads-icon", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](7, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](8, 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "section", 6)(10, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](11, 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "section", 0)(13, "div", 1)(14, "ads-tabs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](15, "ads-tab", 7)(16, "ads-tab", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](17, ADSAppFeatureSharedAppComponentsTemplateComponent_ads_tab_17_Template, 1, 0, "ads-tab", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](18, "ads-tab", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](19, "ads-tab-panel")(20, "h3", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](21, "Overview");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](22, 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](23, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "ads-tab-panel")(25, "h3", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](26, "Code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](27, 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](28, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](29, ADSAppFeatureSharedAppComponentsTemplateComponent_ads_tab_panel_29_Template, 5, 0, "ads-tab-panel", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](30, "ads-tab-panel")(31, "h3", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](32, "Accessibility");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojection"](33, 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](34, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnamespaceSVG"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](35, "svg")(36, "defs")(37, "filter", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](38, "feColorMatrix", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](39, "filter", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](40, "feColorMatrix", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](41, "filter", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](42, "feColorMatrix", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](43, "filter", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](44, "feColorMatrix", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](45, "filter", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](46, "feColorMatrix", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](47, "filter", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](48, "feColorMatrix", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](49, "filter", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](50, "feColorMatrix", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](51, "filter", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](52, "feColorMatrix", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
+      }
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("type", ctx.getIcon());
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" Alphabet Design System - ", ctx.getType(), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("selected", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.variations);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.variations);
+      }
+    },
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, _alphabet_design_system_ui_src_lib_components_icon_icon_component__WEBPACK_IMPORTED_MODULE_0__.ADSIconComponent, _alphabet_design_system_ui_src_lib_components_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_1__.ADSTabsComponent, _alphabet_design_system_ui_src_lib_components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__.ADSTabComponent, _alphabet_design_system_ui_src_lib_components_tab_panel_tab_panel_component__WEBPACK_IMPORTED_MODULE_3__.ADSTabPanelComponent],
+    styles: ["[_ngcontent-%COMP%]:root {\n  --ads-color-white: #fff;\n  --ads-color-white_foreground: #000;\n  --ads-color-gray-6: #f0f0f0;\n  --ads-color-gray-6_foreground: #000;\n  --ads-color-gray-12: #e0e0e0;\n  --ads-color-gray-12_foreground: #000;\n  --ads-color-gray-20: #cccccc;\n  --ads-color-gray-20_foreground: #000;\n  --ads-color-gray-50: gray;\n  --ads-color-gray-50_foreground: #fff;\n  --ads-color-gray-70: #4d4d4d;\n  --ads-color-gray-70_foreground: #fff;\n  --ads-color-gray-85: #262626;\n  --ads-color-gray-85_foreground: #fff;\n  --ads-color-black: #000;\n  --ads-color-black_foreground: #fff;\n  --ads-color-error: #d21e36;\n  --ads-color-error_hover: #a5182b;\n  --ads-color-error-background: #fceaea;\n  --ads-color-info: #1e236e;\n  --ads-color-info-background: var(--ads-color-gray-6);\n  --ads-color-success: #01964c;\n  --ads-color-success_hover: #016332;\n  --ads-color-success-background: #eaf6eb;\n  --ads-color-warning: #ef7d00;\n  --ads-color-warning-background: #fff7ef;\n  --ads-color-notification: #ffd900;\n  --ads-color-notification-background: #fffdf0;\n  --ads-color-primary: #1e236e;\n  --ads-color-primary-40: #a5a7c5;\n  --ads-color-primary-65: #6e71a2;\n  --ads-color-primary-foreground: #fff;\n  --ads-color-primary_active: #0a0c26;\n  --ads-color-primary_active-foreground: #fff;\n  --ads-color-primary_focus: #0f1136;\n  --ads-color-primary_focus-foreground: #fff;\n  --ads-color-primary_hover: #131646;\n  --ads-color-primary_hover-foreground: #fff;\n  --ads-color-secondary: #00d7e7;\n  --ads-color-secondary-40: #9aeff5;\n  --ads-color-secondary-65: #5ae5ef;\n  --ads-color-secondary-foreground: #fff;\n  --ads-color-secondary_active: #00828b;\n  --ads-color-secondary_active-foreground: #fff;\n  --ads-color-secondary_focus: #0095a0;\n  --ads-color-secondary_focus-foreground: #fff;\n  --ads-color-secondary_hover: #00a8b4;\n  --ads-color-secondary_hover-foreground: #fff;\n  --ads-color-accent: #ff6d6a;\n  --ads-color-accent-40: #ffc5c3;\n  --ads-color-accent-65: #ffa19f;\n  --ads-color-accent-foreground: #fff;\n  --ads-color-accent_active: #ff5451;\n  --ads-color-accent_active-foreground: #fff;\n  --ads-color-accent_hover: #ff3b37;\n  --ads-color-accent_hover-foreground: #fff;\n  --ads-color-accent_focus: #ff221e;\n  --ads-color-accent_focus-foreground: #fff;\n  --ads-color-disabled: #e0e0e0;\n  --ads-color-disabled-foreground: gray;\n  --ads-color-app: #fff;\n  --ads-color-app-text: #262626;\n  --ads-color-app-navigation: #1e236e;\n  --ads-color-app-navigation-divider: #6e71a2;\n  --ads-color-app-navigation-menu-item-foreground: #fff;\n  --ads-color-app-navigation-menu-item-background: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-foreground_focus: #fff;\n  --ads-color-app-navigation-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-background_selected: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground: #fff;\n  --ads-color-app-navigation-menu-item-icon-background: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_hover: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_hover: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-menu-item-icon-foreground_selected: #00d7e7;\n  --ads-color-app-navigation-menu-item-icon-background_selected: #1e236e;\n  --ads-color-app-navigation-toolbar: #fff;\n  --ads-color-app-navigation-toolbar-divider: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-background_selected: #e0e0e0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_hover: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_hover: #f0f0f0;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_focus: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_focus: #fff;\n  --ads-color-app-navigation-toolbar-menu-item-icon-foreground_selected: #1e236e;\n  --ads-color-app-navigation-toolbar-menu-item-icon-background_selected: #f0f0f0;\n  --ads-color-solid-gradient-primary-to-accent: linear-gradient(90deg, #1e236e 0%, #ff6d6a 100%);\n  --ads-color-solid-gradient-secondary-to-accent: linear-gradient(-170deg, rgba(0, 215, 231, 0) 60%, #00d7e7 125%), linear-gradient(170deg, #ff6d6a 60%, #ff6d6a 125%);\n  --ads-color-solid-gradient-accent-to-secondary-to-primary: linear-gradient(90deg, #ff6d6a 0%, #00d7e7 50%, #1e236e 100%);\n  --ads-color-solid-gradient-gray-to-primary: linear-gradient(90deg, #e0e0e0 0%, #a5a7c5 100%);\n  --ads-color-image-gradient-primary-to-accent: linear-gradient(90deg, rgba(30, 35, 110, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-primary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(30, 35, 110, 0.7) 100%);\n  --ads-color-image-gradient-secondary-to-accent: linear-gradient(90deg, rgba(0, 215, 231, 0.7) 0, rgba(255, 109, 106, 0.7) 100%);\n  --ads-color-image-gradient-accent-to-secondary: linear-gradient(90deg, rgba(255, 109, 106, 0.7) 0, rgba(0, 215, 231, 0.7) 100%);\n  --ads-color-image-gradient-mask: linear-gradient(to bottom, rgba(0,0,0,0) 48%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%);\n  --ads-color-image-gradient-darken-bottom: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 100%);\n  --ads-color-app-gradient-secondary-to-accent:\n      linear-gradient(160deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(220deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 60%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-large:\n      linear-gradient(170deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.5) 90%),\n      linear-gradient(210deg, rgba(0, 215, 231, 0.05) 0%, rgba(0, 215, 231, 0) 70%, rgba(0, 215, 231, 0.6) 90%),\n      linear-gradient(var(--ads-color-primary), var(--ads-color-primary));\n  --ads-color-app-gradient-secondary-to-accent-foreground: #fff;\n  --ads-color-app-gradient-primary-to-accent:\n      linear-gradient(200deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 55%, rgba(255, 109, 106, 0.7) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 60%, rgba(30, 35, 110, 0.4) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-large:\n      linear-gradient(190deg, rgba(255, 109, 106, 0.05) 0%, rgba(255, 109, 106, 0) 65%, rgba(255, 109, 106, 0.6) 90%),\n      linear-gradient(160deg, rgba(30, 35, 110, 0.05) 0%, rgba(30, 35, 110, 0) 70%, rgba(30, 35, 110, 0.5) 90%),\n      linear-gradient(var(--ads-color-secondary), var(--ads-color-secondary-40));\n  --ads-color-app-gradient-primary-to-accent-foreground: #1e236e;\n  --ads-color-app-gradient-primary-inverted:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 60%, rgba(255, 109, 106, 0.4) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 65%, rgba(0, 215, 231, 0.45) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-large:\n      linear-gradient(200deg, rgba(255, 109, 106, 0) 0%, rgba(255, 109, 106, 0) 75%, rgba(255, 109, 106, 0.05) 90%),\n      linear-gradient(160deg, rgba(0, 215, 231, 0) 0%, rgba(0, 215, 231, 0) 75%, rgba(0, 215, 231, 0.02) 90%),\n      linear-gradient(var(--ads-color-white), var(--ads-color-white));\n  --ads-color-app-gradient-primary-inverted-foreground: #1e236e;\n  --ads-ring_active: 0 0 0 2px #fff, 0 0 0 5px #1e236e;\n  --ads-ring_focus: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_hover: 0 0 0 2px #fff, 0 0 0 4px #1e236e;\n  --ads-ring_transparent: 0 0 0 2px transparent, 0 0 0 3px transparent;\n  --ads-ring_focus-inset: inset 0 0 0 2px #fff, inset 0 0 0 3px #1e236e;\n  --ads-ring_focus-inset-inverted: inset 0 0 0 2px #1e236e, inset 0 0 0 4px #fff;\n  --ads-ring-focus-with-contextmenu:\n  \t0 0 0 1px #fff, 0 0 0 2px #555cd1,\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-0: 0 0 0 0 rgba(0, 0, 0, 0);\n  --ads-shadow-depth-1:\n  \t0 0.4px 0.4px rgba(0, 0, 0, 0.05),\n  \t0 1px 1px rgba(0, 0, 0, 0.036),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.03),\n  \t0 3.4px 3.4px rgba(0, 0, 0, 0.025),\n  \t0 6.3px 6.3px rgba(0, 0, 0, 0.02),\n  \t0 15px 15px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-2:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.05),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.036),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.02),\n  \t0 25px 25px rgba(0, 0, 0, 0.014);\n  --ads-shadow-depth-3:\n  \t0 0.7px 0.7px rgba(0, 0, 0, 0.017),\n  \t0 1.7px 1.7px rgba(0, 0, 0, 0.024),\n  \t0 3.1px 3.1px rgba(0, 0, 0, 0.03),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.036),\n  \t0 10.4px 10.4px rgba(0, 0, 0, 0.043),\n  \t0 25px 25px rgba(0, 0, 0, 0.06);\n  --ads-shadow-depth-4:\n  \t0 1px 1px rgba(0, 0, 0, 0.014),\n  \t0 2.3px 2.3px rgba(0, 0, 0, 0.02),\n  \t0 4.4px 4.4px rgba(0, 0, 0, 0.025),\n  \t0 7.8px 7.8px rgba(0, 0, 0, 0.03),\n  \t0 14.6px 14.6px rgba(0, 0, 0, 0.036),\n  \t0 35px 35px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-5:\n  \t0 1.2px 1.2px rgba(0, 0, 0, 0.014),\n  \t0 3px 3px rgba(0, 0, 0, 0.02),\n  \t0 5.6px 5.6px rgba(0, 0, 0, 0.025),\n  \t0 10.1px 10.1px rgba(0, 0, 0, 0.03),\n  \t0 18.8px 18.8px rgba(0, 0, 0, 0.036),\n  \t0 45px 45px rgba(0, 0, 0, 0.05);\n  --ads-shadow-depth-6:\n  \t0 0.9px 0.9px rgba(0, 0, 0, 0.011),\n  \t0 1.9px 1.9px rgba(0, 0, 0, 0.016),\n  \t0 3.2px 3.2px rgba(0, 0, 0, 0.019),\n  \t0 4.8px 4.8px rgba(0, 0, 0, 0.022),\n  \t0 6.9px 6.9px rgba(0, 0, 0, 0.025),\n  \t0 9.7px 9.7px rgba(0, 0, 0, 0.028),\n  \t0 13.8px 13.8px rgba(0, 0, 0, 0.031),\n  \t0 20.1px 20.1px rgba(0, 0, 0, 0.034),\n  \t0 30.9px 30.9px rgba(0, 0, 0, 0.039),\n  \t0 55px 55px rgba(0, 0, 0, 0.05);\n}"],
+    changeDetection: 0
+  });
+};
 ADSAppFeatureSharedAppComponentsTemplateComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_6__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_7__.UntilDestroy)()], ADSAppFeatureSharedAppComponentsTemplateComponent);
 
 
@@ -1777,14 +1790,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADSAppDefaultLayoutComponent": () => (/* binding */ ADSAppDefaultLayoutComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tslib */ 70655);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tslib */ 97582);
 /* harmony import */ var _ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ngneat/until-destroy */ 49933);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 94650);
 /* harmony import */ var _features_feature_shared_app_components_src_lib_component_footer_component_footer_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../features/feature-shared-app-components/src/lib/component-footer/component-footer.component */ 82939);
 /* harmony import */ var _features_feature_shared_app_components_src_lib_component_header_component_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../features/feature-shared-app-components/src/lib/component-header/component-header.component */ 70518);
 /* harmony import */ var _features_feature_shared_app_components_src_lib_component_navigation_component_navigation_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../features/feature-shared-app-components/src/lib/component-navigation/component-navigation.component */ 57874);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 34793);
-var _class;
 
 
 
@@ -1792,27 +1804,30 @@ var _class;
 
 
 
-let ADSAppDefaultLayoutComponent = (_class = class ADSAppDefaultLayoutComponent {}, _class.ɵfac = function ADSAppDefaultLayoutComponent_Factory(t) {
-  return new (t || _class)();
-}, _class.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
-  type: _class,
-  selectors: [["ads-app-default-layout"]],
-  decls: 6,
-  vars: 0,
-  consts: [[1, "ads-app"], [1, "ads-app_body"]],
-  template: function ADSAppDefaultLayoutComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "ads-app-feature-shared-app-components-navigation")(1, "ads-app-feature-shared-app-components-header");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "section", 0)(3, "div", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](4, "router-outlet");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](5, "ads-app-feature-shared-app-components-footer");
-    }
-  },
-  dependencies: [_features_feature_shared_app_components_src_lib_component_footer_component_footer_component__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureSharedAppComponentsFooterComponent, _features_feature_shared_app_components_src_lib_component_header_component_header_component__WEBPACK_IMPORTED_MODULE_1__.ADSAppFeatureSharedAppComponentsHeaderComponent, _features_feature_shared_app_components_src_lib_component_navigation_component_navigation_component__WEBPACK_IMPORTED_MODULE_2__.ADSAppFeatureSharedAppComponentsNavigationComponent, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterOutlet],
-  styles: ["[_nghost-%COMP%] {\n  display: block;\n  width: 100%;\n}"],
-  changeDetection: 0
-}), _class);
+let ADSAppDefaultLayoutComponent = class ADSAppDefaultLayoutComponent {
+  static #_ = this.ɵfac = function ADSAppDefaultLayoutComponent_Factory(t) {
+    return new (t || ADSAppDefaultLayoutComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
+    type: ADSAppDefaultLayoutComponent,
+    selectors: [["ads-app-default-layout"]],
+    decls: 6,
+    vars: 0,
+    consts: [[1, "ads-app"], [1, "ads-app_body"]],
+    template: function ADSAppDefaultLayoutComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "ads-app-feature-shared-app-components-navigation")(1, "ads-app-feature-shared-app-components-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "section", 0)(3, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](4, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](5, "ads-app-feature-shared-app-components-footer");
+      }
+    },
+    dependencies: [_features_feature_shared_app_components_src_lib_component_footer_component_footer_component__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureSharedAppComponentsFooterComponent, _features_feature_shared_app_components_src_lib_component_header_component_header_component__WEBPACK_IMPORTED_MODULE_1__.ADSAppFeatureSharedAppComponentsHeaderComponent, _features_feature_shared_app_components_src_lib_component_navigation_component_navigation_component__WEBPACK_IMPORTED_MODULE_2__.ADSAppFeatureSharedAppComponentsNavigationComponent, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterOutlet],
+    styles: ["[_nghost-%COMP%] {\n  display: block;\n  width: 100%;\n}"],
+    changeDetection: 0
+  });
+};
 ADSAppDefaultLayoutComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([(0,_ngneat_until_destroy__WEBPACK_IMPORTED_MODULE_6__.UntilDestroy)()], ADSAppDefaultLayoutComponent);
 
 
@@ -1843,20 +1858,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let ShellADSAppEntryModule = /*#__PURE__*/(() => {
-  class ShellADSAppEntryModule {}
-  ShellADSAppEntryModule.ɵfac = function ShellADSAppEntryModule_Factory(t) {
-    return new (t || ShellADSAppEntryModule)();
-  };
-  ShellADSAppEntryModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
-    type: ShellADSAppEntryModule
-  });
-  ShellADSAppEntryModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _ads_ui__WEBPACK_IMPORTED_MODULE_1__.ADSUiModule, _ads_alphabet_design_system_app_features_feature_shared_app_components__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureSharedAppComponentsModule, _angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterModule.forChild([{
-      path: '',
-      component: _default_layout_default_layout_component__WEBPACK_IMPORTED_MODULE_2__.ADSAppDefaultLayoutComponent,
-      loadChildren: () => __webpack_require__.e(/*! import() */ 618).then(__webpack_require__.bind(__webpack_require__, /*! @ads/alphabet-design-system-app/shells/shell-alphabet-design-system-app */ 90618)).then(m => m.ShellADSAppModule)
-    }])]
-  });
+  class ShellADSAppEntryModule {
+    static #_ = this.ɵfac = function ShellADSAppEntryModule_Factory(t) {
+      return new (t || ShellADSAppEntryModule)();
+    };
+    static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
+      type: ShellADSAppEntryModule
+    });
+    static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _ads_ui__WEBPACK_IMPORTED_MODULE_1__.ADSUiModule, _ads_alphabet_design_system_app_features_feature_shared_app_components__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureSharedAppComponentsModule, _angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterModule.forChild([{
+        path: '',
+        component: _default_layout_default_layout_component__WEBPACK_IMPORTED_MODULE_2__.ADSAppDefaultLayoutComponent,
+        loadChildren: () => __webpack_require__.e(/*! import() */ 618).then(__webpack_require__.bind(__webpack_require__, /*! @ads/alphabet-design-system-app/shells/shell-alphabet-design-system-app */ 90618)).then(m => m.ShellADSAppModule)
+      }])]
+    });
+  }
   return ShellADSAppEntryModule;
 })();
 (function () {
@@ -2917,31 +2933,27 @@ let CollisionDetectionService = /*#__PURE__*/(() => {
       if (this.dimensions.parent.bottom + this.dimensions.child.height > this.windowRef.innerHeight) {
         placeY = "place-floating-element-at-top" /* Position.Top */;
       }
-
       if (this.dimensions.parent.bottom + this.dimensions.child.height < this.windowRef.innerHeight) {
         placeY = "place-floating-element-at-bottom" /* Position.Bottom */;
       }
-
       if (this.dimensions.parent.left - this.dimensions.child.width > 0) {
         placeX = "place-floating-element-left" /* Position.Left */;
       }
-
       if (this.dimensions.parent.right + this.dimensions.child.width < this.windowRef.innerWidth) {
         placeX = "place-floating-element-right" /* Position.Right */;
       }
-
       parent.classList.add(placeX);
       parent.classList.add(placeY);
     }
+    static #_ = this.ɵfac = function CollisionDetectionService_Factory(t) {
+      return new (t || CollisionDetectionService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_ng_web_apis_common__WEBPACK_IMPORTED_MODULE_1__.WINDOW));
+    };
+    static #_2 = this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
+      token: CollisionDetectionService,
+      factory: CollisionDetectionService.ɵfac,
+      providedIn: 'root'
+    });
   }
-  CollisionDetectionService.ɵfac = function CollisionDetectionService_Factory(t) {
-    return new (t || CollisionDetectionService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_ng_web_apis_common__WEBPACK_IMPORTED_MODULE_1__.WINDOW));
-  };
-  CollisionDetectionService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-    token: CollisionDetectionService,
-    factory: CollisionDetectionService.ɵfac,
-    providedIn: 'root'
-  });
   return CollisionDetectionService;
 })();
 
@@ -3113,7 +3125,6 @@ function parseIsoDurationString(isoDuration) {
       // If it's an odd index, it's a letter
       result[array[index].toLowerCase()] = Number(array[index - 1]); // The previous index is the number
     }
-
     return result;
   }, {});
   return {
@@ -3736,15 +3747,15 @@ let SafeDatePipe = /*#__PURE__*/(() => {
       }
       return this.datePipe.transform(value, format, '', this.i18n.getCurrentLanguage());
     }
+    static #_ = this.ɵfac = function SafeDatePipe_Factory(t) {
+      return new (t || SafeDatePipe)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_2__.DatePipe, 16), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_al_shared_i18n__WEBPACK_IMPORTED_MODULE_0__.I18nService, 16));
+    };
+    static #_2 = this.ɵpipe = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefinePipe"]({
+      name: "safeDate",
+      type: SafeDatePipe,
+      pure: true
+    });
   }
-  SafeDatePipe.ɵfac = function SafeDatePipe_Factory(t) {
-    return new (t || SafeDatePipe)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_2__.DatePipe, 16), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_al_shared_i18n__WEBPACK_IMPORTED_MODULE_0__.I18nService, 16));
-  };
-  SafeDatePipe.ɵpipe = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefinePipe"]({
-    name: "safeDate",
-    type: SafeDatePipe,
-    pure: true
-  });
   return SafeDatePipe;
 })();
 
@@ -3781,15 +3792,15 @@ let SafeNumberPipe = /*#__PURE__*/(() => {
       }
       return this.decimalPipe.transform(value, digits, this.i18n.getCurrentLanguage());
     }
+    static #_ = this.ɵfac = function SafeNumberPipe_Factory(t) {
+      return new (t || SafeNumberPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_2__.DecimalPipe, 16), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_al_shared_i18n__WEBPACK_IMPORTED_MODULE_0__.I18nService, 16));
+    };
+    static #_2 = this.ɵpipe = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefinePipe"]({
+      name: "safeNumber",
+      type: SafeNumberPipe,
+      pure: true
+    });
   }
-  SafeNumberPipe.ɵfac = function SafeNumberPipe_Factory(t) {
-    return new (t || SafeNumberPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_2__.DecimalPipe, 16), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_al_shared_i18n__WEBPACK_IMPORTED_MODULE_0__.I18nService, 16));
-  };
-  SafeNumberPipe.ɵpipe = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefinePipe"]({
-    name: "safeNumber",
-    type: SafeNumberPipe,
-    pure: true
-  });
   return SafeNumberPipe;
 })();
 
@@ -3999,17 +4010,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let UtilsModule = /*#__PURE__*/(() => {
-  class UtilsModule {}
-  UtilsModule.ɵfac = function UtilsModule_Factory(t) {
-    return new (t || UtilsModule)();
-  };
-  UtilsModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({
-    type: UtilsModule
-  });
-  UtilsModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({
-    providers: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.DatePipe, _angular_common__WEBPACK_IMPORTED_MODULE_3__.DecimalPipe, _pipes_safe_date_pipe__WEBPACK_IMPORTED_MODULE_0__.SafeDatePipe],
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.CommonModule]
-  });
+  class UtilsModule {
+    static #_ = this.ɵfac = function UtilsModule_Factory(t) {
+      return new (t || UtilsModule)();
+    };
+    static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({
+      type: UtilsModule
+    });
+    static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({
+      providers: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.DatePipe, _angular_common__WEBPACK_IMPORTED_MODULE_3__.DecimalPipe, _pipes_safe_date_pipe__WEBPACK_IMPORTED_MODULE_0__.SafeDatePipe],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.CommonModule]
+    });
+  }
   return UtilsModule;
 })();
 (function () {
@@ -4133,7 +4145,7 @@ function concatWaitForLatestFrom(observablesFactory) {
   \***********************************************/
 /***/ (function(module) {
 
-/*! @license DOMPurify 2.4.5 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/2.4.5/LICENSE */
+/*! @license DOMPurify 2.5.6 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/2.5.6/LICENSE */
 
 (function (global, factory) {
    true ? module.exports = factory() : 0;
@@ -4215,7 +4227,6 @@ function concatWaitForLatestFrom(observablesFactory) {
   var freeze = Object.freeze,
     seal = Object.seal,
     create = Object.create; // eslint-disable-line import/no-mutable-exports
-
   var _ref = typeof Reflect !== 'undefined' && Reflect,
     apply = _ref.apply,
     construct = _ref.construct;
@@ -4266,10 +4277,11 @@ function concatWaitForLatestFrom(observablesFactory) {
       return construct(func, args);
     };
   }
-  /* Add properties to a lookup table */
 
+  /* Add properties to a lookup table */
   function addToSet(set, array, transformCaseFunc) {
-    transformCaseFunc = transformCaseFunc ? transformCaseFunc : stringToLowerCase;
+    var _transformCaseFunc;
+    transformCaseFunc = (_transformCaseFunc = transformCaseFunc) !== null && _transformCaseFunc !== void 0 ? _transformCaseFunc : stringToLowerCase;
     if (setPrototypeOf) {
       // Make 'in' and truthy checks like Boolean(set.constructor)
       // independent of any properties defined on Object.prototype.
@@ -4293,8 +4305,8 @@ function concatWaitForLatestFrom(observablesFactory) {
     }
     return set;
   }
-  /* Shallow clone an object */
 
+  /* Shallow clone an object */
   function clone(object) {
     var newObject = create(null);
     var property;
@@ -4305,11 +4317,11 @@ function concatWaitForLatestFrom(observablesFactory) {
     }
     return newObject;
   }
+
   /* IE10 doesn't support __lookupGetter__ so lets'
    * simulate it. It also automatically checks
    * if the prop is function or getter and behaves
    * accordingly. */
-
   function lookupGetter(object, prop) {
     while (object !== null) {
       var desc = getOwnPropertyDescriptor(object, prop);
@@ -4329,43 +4341,45 @@ function concatWaitForLatestFrom(observablesFactory) {
     }
     return fallbackValue;
   }
-  var html$1 = freeze(['a', 'abbr', 'acronym', 'address', 'area', 'article', 'aside', 'audio', 'b', 'bdi', 'bdo', 'big', 'blink', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'center', 'cite', 'code', 'col', 'colgroup', 'content', 'data', 'datalist', 'dd', 'decorator', 'del', 'details', 'dfn', 'dialog', 'dir', 'div', 'dl', 'dt', 'element', 'em', 'fieldset', 'figcaption', 'figure', 'font', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'img', 'input', 'ins', 'kbd', 'label', 'legend', 'li', 'main', 'map', 'mark', 'marquee', 'menu', 'menuitem', 'meter', 'nav', 'nobr', 'ol', 'optgroup', 'option', 'output', 'p', 'picture', 'pre', 'progress', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'section', 'select', 'shadow', 'small', 'source', 'spacer', 'span', 'strike', 'strong', 'style', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'template', 'textarea', 'tfoot', 'th', 'thead', 'time', 'tr', 'track', 'tt', 'u', 'ul', 'var', 'video', 'wbr']); // SVG
+  var html$1 = freeze(['a', 'abbr', 'acronym', 'address', 'area', 'article', 'aside', 'audio', 'b', 'bdi', 'bdo', 'big', 'blink', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'center', 'cite', 'code', 'col', 'colgroup', 'content', 'data', 'datalist', 'dd', 'decorator', 'del', 'details', 'dfn', 'dialog', 'dir', 'div', 'dl', 'dt', 'element', 'em', 'fieldset', 'figcaption', 'figure', 'font', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'img', 'input', 'ins', 'kbd', 'label', 'legend', 'li', 'main', 'map', 'mark', 'marquee', 'menu', 'menuitem', 'meter', 'nav', 'nobr', 'ol', 'optgroup', 'option', 'output', 'p', 'picture', 'pre', 'progress', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'section', 'select', 'shadow', 'small', 'source', 'spacer', 'span', 'strike', 'strong', 'style', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'template', 'textarea', 'tfoot', 'th', 'thead', 'time', 'tr', 'track', 'tt', 'u', 'ul', 'var', 'video', 'wbr']);
 
+  // SVG
   var svg$1 = freeze(['svg', 'a', 'altglyph', 'altglyphdef', 'altglyphitem', 'animatecolor', 'animatemotion', 'animatetransform', 'circle', 'clippath', 'defs', 'desc', 'ellipse', 'filter', 'font', 'g', 'glyph', 'glyphref', 'hkern', 'image', 'line', 'lineargradient', 'marker', 'mask', 'metadata', 'mpath', 'path', 'pattern', 'polygon', 'polyline', 'radialgradient', 'rect', 'stop', 'style', 'switch', 'symbol', 'text', 'textpath', 'title', 'tref', 'tspan', 'view', 'vkern']);
-  var svgFilters = freeze(['feBlend', 'feColorMatrix', 'feComponentTransfer', 'feComposite', 'feConvolveMatrix', 'feDiffuseLighting', 'feDisplacementMap', 'feDistantLight', 'feFlood', 'feFuncA', 'feFuncB', 'feFuncG', 'feFuncR', 'feGaussianBlur', 'feImage', 'feMerge', 'feMergeNode', 'feMorphology', 'feOffset', 'fePointLight', 'feSpecularLighting', 'feSpotLight', 'feTile', 'feTurbulence']); // List of SVG elements that are disallowed by default.
+  var svgFilters = freeze(['feBlend', 'feColorMatrix', 'feComponentTransfer', 'feComposite', 'feConvolveMatrix', 'feDiffuseLighting', 'feDisplacementMap', 'feDistantLight', 'feFlood', 'feFuncA', 'feFuncB', 'feFuncG', 'feFuncR', 'feGaussianBlur', 'feImage', 'feMerge', 'feMergeNode', 'feMorphology', 'feOffset', 'fePointLight', 'feSpecularLighting', 'feSpotLight', 'feTile', 'feTurbulence']);
+
+  // List of SVG elements that are disallowed by default.
   // We still need to know them so that we can do namespace
   // checks properly in case one wants to add them to
   // allow-list.
-
   var svgDisallowed = freeze(['animate', 'color-profile', 'cursor', 'discard', 'fedropshadow', 'font-face', 'font-face-format', 'font-face-name', 'font-face-src', 'font-face-uri', 'foreignobject', 'hatch', 'hatchpath', 'mesh', 'meshgradient', 'meshpatch', 'meshrow', 'missing-glyph', 'script', 'set', 'solidcolor', 'unknown', 'use']);
-  var mathMl$1 = freeze(['math', 'menclose', 'merror', 'mfenced', 'mfrac', 'mglyph', 'mi', 'mlabeledtr', 'mmultiscripts', 'mn', 'mo', 'mover', 'mpadded', 'mphantom', 'mroot', 'mrow', 'ms', 'mspace', 'msqrt', 'mstyle', 'msub', 'msup', 'msubsup', 'mtable', 'mtd', 'mtext', 'mtr', 'munder', 'munderover']); // Similarly to SVG, we want to know all MathML elements,
-  // even those that we disallow by default.
+  var mathMl$1 = freeze(['math', 'menclose', 'merror', 'mfenced', 'mfrac', 'mglyph', 'mi', 'mlabeledtr', 'mmultiscripts', 'mn', 'mo', 'mover', 'mpadded', 'mphantom', 'mroot', 'mrow', 'ms', 'mspace', 'msqrt', 'mstyle', 'msub', 'msup', 'msubsup', 'mtable', 'mtd', 'mtext', 'mtr', 'munder', 'munderover']);
 
+  // Similarly to SVG, we want to know all MathML elements,
+  // even those that we disallow by default.
   var mathMlDisallowed = freeze(['maction', 'maligngroup', 'malignmark', 'mlongdiv', 'mscarries', 'mscarry', 'msgroup', 'mstack', 'msline', 'msrow', 'semantics', 'annotation', 'annotation-xml', 'mprescripts', 'none']);
   var text = freeze(['#text']);
   var html = freeze(['accept', 'action', 'align', 'alt', 'autocapitalize', 'autocomplete', 'autopictureinpicture', 'autoplay', 'background', 'bgcolor', 'border', 'capture', 'cellpadding', 'cellspacing', 'checked', 'cite', 'class', 'clear', 'color', 'cols', 'colspan', 'controls', 'controlslist', 'coords', 'crossorigin', 'datetime', 'decoding', 'default', 'dir', 'disabled', 'disablepictureinpicture', 'disableremoteplayback', 'download', 'draggable', 'enctype', 'enterkeyhint', 'face', 'for', 'headers', 'height', 'hidden', 'high', 'href', 'hreflang', 'id', 'inputmode', 'integrity', 'ismap', 'kind', 'label', 'lang', 'list', 'loading', 'loop', 'low', 'max', 'maxlength', 'media', 'method', 'min', 'minlength', 'multiple', 'muted', 'name', 'nonce', 'noshade', 'novalidate', 'nowrap', 'open', 'optimum', 'pattern', 'placeholder', 'playsinline', 'poster', 'preload', 'pubdate', 'radiogroup', 'readonly', 'rel', 'required', 'rev', 'reversed', 'role', 'rows', 'rowspan', 'spellcheck', 'scope', 'selected', 'shape', 'size', 'sizes', 'span', 'srclang', 'start', 'src', 'srcset', 'step', 'style', 'summary', 'tabindex', 'title', 'translate', 'type', 'usemap', 'valign', 'value', 'width', 'xmlns', 'slot']);
   var svg = freeze(['accent-height', 'accumulate', 'additive', 'alignment-baseline', 'ascent', 'attributename', 'attributetype', 'azimuth', 'basefrequency', 'baseline-shift', 'begin', 'bias', 'by', 'class', 'clip', 'clippathunits', 'clip-path', 'clip-rule', 'color', 'color-interpolation', 'color-interpolation-filters', 'color-profile', 'color-rendering', 'cx', 'cy', 'd', 'dx', 'dy', 'diffuseconstant', 'direction', 'display', 'divisor', 'dur', 'edgemode', 'elevation', 'end', 'fill', 'fill-opacity', 'fill-rule', 'filter', 'filterunits', 'flood-color', 'flood-opacity', 'font-family', 'font-size', 'font-size-adjust', 'font-stretch', 'font-style', 'font-variant', 'font-weight', 'fx', 'fy', 'g1', 'g2', 'glyph-name', 'glyphref', 'gradientunits', 'gradienttransform', 'height', 'href', 'id', 'image-rendering', 'in', 'in2', 'k', 'k1', 'k2', 'k3', 'k4', 'kerning', 'keypoints', 'keysplines', 'keytimes', 'lang', 'lengthadjust', 'letter-spacing', 'kernelmatrix', 'kernelunitlength', 'lighting-color', 'local', 'marker-end', 'marker-mid', 'marker-start', 'markerheight', 'markerunits', 'markerwidth', 'maskcontentunits', 'maskunits', 'max', 'mask', 'media', 'method', 'mode', 'min', 'name', 'numoctaves', 'offset', 'operator', 'opacity', 'order', 'orient', 'orientation', 'origin', 'overflow', 'paint-order', 'path', 'pathlength', 'patterncontentunits', 'patterntransform', 'patternunits', 'points', 'preservealpha', 'preserveaspectratio', 'primitiveunits', 'r', 'rx', 'ry', 'radius', 'refx', 'refy', 'repeatcount', 'repeatdur', 'restart', 'result', 'rotate', 'scale', 'seed', 'shape-rendering', 'specularconstant', 'specularexponent', 'spreadmethod', 'startoffset', 'stddeviation', 'stitchtiles', 'stop-color', 'stop-opacity', 'stroke-dasharray', 'stroke-dashoffset', 'stroke-linecap', 'stroke-linejoin', 'stroke-miterlimit', 'stroke-opacity', 'stroke', 'stroke-width', 'style', 'surfacescale', 'systemlanguage', 'tabindex', 'targetx', 'targety', 'transform', 'transform-origin', 'text-anchor', 'text-decoration', 'text-rendering', 'textlength', 'type', 'u1', 'u2', 'unicode', 'values', 'viewbox', 'visibility', 'version', 'vert-adv-y', 'vert-origin-x', 'vert-origin-y', 'width', 'word-spacing', 'wrap', 'writing-mode', 'xchannelselector', 'ychannelselector', 'x', 'x1', 'x2', 'xmlns', 'y', 'y1', 'y2', 'z', 'zoomandpan']);
   var mathMl = freeze(['accent', 'accentunder', 'align', 'bevelled', 'close', 'columnsalign', 'columnlines', 'columnspan', 'denomalign', 'depth', 'dir', 'display', 'displaystyle', 'encoding', 'fence', 'frame', 'height', 'href', 'id', 'largeop', 'length', 'linethickness', 'lspace', 'lquote', 'mathbackground', 'mathcolor', 'mathsize', 'mathvariant', 'maxsize', 'minsize', 'movablelimits', 'notation', 'numalign', 'open', 'rowalign', 'rowlines', 'rowspacing', 'rowspan', 'rspace', 'rquote', 'scriptlevel', 'scriptminsize', 'scriptsizemultiplier', 'selection', 'separator', 'separators', 'stretchy', 'subscriptshift', 'supscriptshift', 'symmetric', 'voffset', 'width', 'xmlns']);
   var xml = freeze(['xlink:href', 'xml:id', 'xlink:title', 'xml:space', 'xmlns:xlink']);
-  var MUSTACHE_EXPR = seal(/\{\{[\w\W]*|[\w\W]*\}\}/gm); // Specify template detection regex for SAFE_FOR_TEMPLATES mode
 
+  // eslint-disable-next-line unicorn/better-regex
+  var MUSTACHE_EXPR = seal(/\{\{[\w\W]*|[\w\W]*\}\}/gm); // Specify template detection regex for SAFE_FOR_TEMPLATES mode
   var ERB_EXPR = seal(/<%[\w\W]*|[\w\W]*%>/gm);
   var TMPLIT_EXPR = seal(/\${[\w\W]*}/gm);
   var DATA_ATTR = seal(/^data-[\-\w.\u00B7-\uFFFF]/); // eslint-disable-line no-useless-escape
-
   var ARIA_ATTR = seal(/^aria-[\-\w]+$/); // eslint-disable-line no-useless-escape
-
   var IS_ALLOWED_URI = seal(/^(?:(?:(?:f|ht)tps?|mailto|tel|callto|cid|xmpp):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i // eslint-disable-line no-useless-escape
   );
-
   var IS_SCRIPT_OR_DATA = seal(/^(?:\w+script|data):/i);
   var ATTR_WHITESPACE = seal(/[\u0000-\u0020\u00A0\u1680\u180E\u2000-\u2029\u205F\u3000]/g // eslint-disable-line no-control-regex
   );
-
   var DOCTYPE_NAME = seal(/^html$/i);
+  var CUSTOM_ELEMENT = seal(/^[a-z][.\w]*(-[.\w]+)+$/i);
   var getGlobal = function getGlobal() {
     return typeof window === 'undefined' ? null : window;
   };
+
   /**
    * Creates a no-op policy for internal use only.
    * Don't export this function outside this module!
@@ -4374,14 +4388,14 @@ function concatWaitForLatestFrom(observablesFactory) {
    * @return {?TrustedTypePolicy} The policy created (or null, if Trusted Types
    * are not supported).
    */
-
   var _createTrustedTypesPolicy = function _createTrustedTypesPolicy(trustedTypes, document) {
     if (_typeof(trustedTypes) !== 'object' || typeof trustedTypes.createPolicy !== 'function') {
       return null;
-    } // Allow the callers to control the unique policy name
+    }
+
+    // Allow the callers to control the unique policy name
     // by adding a data-tt-policy-suffix to the script element with the DOMPurify.
     // Policy creation with duplicate names throws in Trusted Types.
-
     var suffix = null;
     var ATTR_NAME = 'data-tt-policy-suffix';
     if (document.currentScript && document.currentScript.hasAttribute(ATTR_NAME)) {
@@ -4410,17 +4424,17 @@ function concatWaitForLatestFrom(observablesFactory) {
     var DOMPurify = function DOMPurify(root) {
       return createDOMPurify(root);
     };
+
     /**
      * Version label, exposed for easier checks
      * if DOMPurify is up to date or not
      */
+    DOMPurify.version = '2.5.6';
 
-    DOMPurify.version = '2.4.5';
     /**
      * Array of elements that DOMPurify removed during sanitation.
      * Empty if nothing was removed.
      */
-
     DOMPurify.removed = [];
     if (!window || !window.document || window.document.nodeType !== 9) {
       // Not running in a browser, provide a factory function
@@ -4444,13 +4458,14 @@ function concatWaitForLatestFrom(observablesFactory) {
     var cloneNode = lookupGetter(ElementPrototype, 'cloneNode');
     var getNextSibling = lookupGetter(ElementPrototype, 'nextSibling');
     var getChildNodes = lookupGetter(ElementPrototype, 'childNodes');
-    var getParentNode = lookupGetter(ElementPrototype, 'parentNode'); // As per issue #47, the web-components registry is inherited by a
+    var getParentNode = lookupGetter(ElementPrototype, 'parentNode');
+
+    // As per issue #47, the web-components registry is inherited by a
     // new document created via createHTMLDocument. As per the spec
     // (http://w3c.github.io/webcomponents/spec/custom/#creating-and-passing-registries)
     // a new empty registry is used when creating a template contents owner
     // document, so we use that as our parent document to ensure nothing
     // is inherited.
-
     if (typeof HTMLTemplateElement === 'function') {
       var template = document.createElement('template');
       if (template.content && template.content.ownerDocument) {
@@ -4470,39 +4485,40 @@ function concatWaitForLatestFrom(observablesFactory) {
       documentMode = clone(document).documentMode ? document.documentMode : {};
     } catch (_) {}
     var hooks = {};
+
     /**
      * Expose whether this browser supports running the full DOMPurify.
      */
-
-    DOMPurify.isSupported = typeof getParentNode === 'function' && implementation && typeof implementation.createHTMLDocument !== 'undefined' && documentMode !== 9;
+    DOMPurify.isSupported = typeof getParentNode === 'function' && implementation && implementation.createHTMLDocument !== undefined && documentMode !== 9;
     var MUSTACHE_EXPR$1 = MUSTACHE_EXPR,
       ERB_EXPR$1 = ERB_EXPR,
       TMPLIT_EXPR$1 = TMPLIT_EXPR,
       DATA_ATTR$1 = DATA_ATTR,
       ARIA_ATTR$1 = ARIA_ATTR,
       IS_SCRIPT_OR_DATA$1 = IS_SCRIPT_OR_DATA,
-      ATTR_WHITESPACE$1 = ATTR_WHITESPACE;
+      ATTR_WHITESPACE$1 = ATTR_WHITESPACE,
+      CUSTOM_ELEMENT$1 = CUSTOM_ELEMENT;
     var IS_ALLOWED_URI$1 = IS_ALLOWED_URI;
+
     /**
      * We consider the elements and attributes below to be safe. Ideally
      * don't add any new ones but feel free to remove unwanted ones.
      */
 
     /* allowed element names */
-
     var ALLOWED_TAGS = null;
     var DEFAULT_ALLOWED_TAGS = addToSet({}, [].concat(_toConsumableArray(html$1), _toConsumableArray(svg$1), _toConsumableArray(svgFilters), _toConsumableArray(mathMl$1), _toConsumableArray(text)));
-    /* Allowed attribute names */
 
+    /* Allowed attribute names */
     var ALLOWED_ATTR = null;
     var DEFAULT_ALLOWED_ATTR = addToSet({}, [].concat(_toConsumableArray(html), _toConsumableArray(svg), _toConsumableArray(mathMl), _toConsumableArray(xml)));
+
     /*
      * Configure how DOMPUrify should handle custom elements and their attributes as well as customized built-in elements.
      * @property {RegExp|Function|null} tagNameCheck one of [null, regexPattern, predicate]. Default: `null` (disallow any custom elements)
      * @property {RegExp|Function|null} attributeNameCheck one of [null, regexPattern, predicate]. Default: `null` (disallow any attributes not on the allow list)
      * @property {boolean} allowCustomizedBuiltInElements allow custom elements derived from built-ins if they pass CUSTOM_ELEMENT_HANDLING.tagNameCheck. Default: `false`.
      */
-
     var CUSTOM_ELEMENT_HANDLING = Object.seal(Object.create(null, {
       tagNameCheck: {
         writable: true,
@@ -4523,59 +4539,65 @@ function concatWaitForLatestFrom(observablesFactory) {
         value: false
       }
     }));
+
     /* Explicitly forbidden tags (overrides ALLOWED_TAGS/ADD_TAGS) */
-
     var FORBID_TAGS = null;
+
     /* Explicitly forbidden attributes (overrides ALLOWED_ATTR/ADD_ATTR) */
-
     var FORBID_ATTR = null;
+
     /* Decide if ARIA attributes are okay */
-
     var ALLOW_ARIA_ATTR = true;
+
     /* Decide if custom data attributes are okay */
-
     var ALLOW_DATA_ATTR = true;
-    /* Decide if unknown protocols are okay */
 
+    /* Decide if unknown protocols are okay */
     var ALLOW_UNKNOWN_PROTOCOLS = false;
+
     /* Decide if self-closing tags in attributes are allowed.
      * Usually removed due to a mXSS issue in jQuery 3.0 */
-
     var ALLOW_SELF_CLOSE_IN_ATTR = true;
+
     /* Output should be safe for common template engines.
      * This means, DOMPurify removes data attributes, mustaches and ERB
      */
-
     var SAFE_FOR_TEMPLATES = false;
+
+    /* Output should be safe even for XML used within HTML and alike.
+     * This means, DOMPurify removes comments when containing risky content.
+     */
+    var SAFE_FOR_XML = true;
+
     /* Decide if document with <html>... should be returned */
-
     var WHOLE_DOCUMENT = false;
-    /* Track whether config is already set on this instance of DOMPurify. */
 
+    /* Track whether config is already set on this instance of DOMPurify. */
     var SET_CONFIG = false;
+
     /* Decide if all elements (e.g. style, script) must be children of
      * document.body. By default, browsers might move them to document.head */
-
     var FORCE_BODY = false;
+
     /* Decide if a DOM `HTMLBodyElement` should be returned, instead of a html
      * string (or a TrustedHTML object if Trusted Types are supported).
      * If `WHOLE_DOCUMENT` is enabled a `HTMLHtmlElement` will be returned instead
      */
-
     var RETURN_DOM = false;
+
     /* Decide if a DOM `DocumentFragment` should be returned, instead of a html
      * string  (or a TrustedHTML object if Trusted Types are supported) */
-
     var RETURN_DOM_FRAGMENT = false;
+
     /* Try to return a Trusted Type object instead of a string, return a string in
      * case Trusted Types are not supported  */
-
     var RETURN_TRUSTED_TYPE = false;
+
     /* Output should be free from DOM clobbering attacks?
      * This sanitizes markups named with colliding, clobberable built-in DOM APIs.
      */
-
     var SANITIZE_DOM = true;
+
     /* Achieve full DOM Clobbering protection by isolating the namespace of named
      * properties and JS variables, mitigating attacks that abuse the HTML/DOM spec rules.
      *
@@ -4589,85 +4611,84 @@ function concatWaitForLatestFrom(observablesFactory) {
      * Namespace isolation is implemented by prefixing `id` and `name` attributes
      * with a constant string, i.e., `user-content-`
      */
-
     var SANITIZE_NAMED_PROPS = false;
     var SANITIZE_NAMED_PROPS_PREFIX = 'user-content-';
-    /* Keep element content when removing element? */
 
+    /* Keep element content when removing element? */
     var KEEP_CONTENT = true;
+
     /* If a `Node` is passed to sanitize(), then performs sanitization in-place instead
      * of importing it into a new Document and returning a sanitized copy */
-
     var IN_PLACE = false;
+
     /* Allow usage of profiles like html, svg and mathMl */
-
     var USE_PROFILES = {};
-    /* Tags to ignore content of when KEEP_CONTENT is true */
 
+    /* Tags to ignore content of when KEEP_CONTENT is true */
     var FORBID_CONTENTS = null;
     var DEFAULT_FORBID_CONTENTS = addToSet({}, ['annotation-xml', 'audio', 'colgroup', 'desc', 'foreignobject', 'head', 'iframe', 'math', 'mi', 'mn', 'mo', 'ms', 'mtext', 'noembed', 'noframes', 'noscript', 'plaintext', 'script', 'style', 'svg', 'template', 'thead', 'title', 'video', 'xmp']);
-    /* Tags that are safe for data: URIs */
 
+    /* Tags that are safe for data: URIs */
     var DATA_URI_TAGS = null;
     var DEFAULT_DATA_URI_TAGS = addToSet({}, ['audio', 'video', 'img', 'source', 'image', 'track']);
-    /* Attributes safe for values like "javascript:" */
 
+    /* Attributes safe for values like "javascript:" */
     var URI_SAFE_ATTRIBUTES = null;
     var DEFAULT_URI_SAFE_ATTRIBUTES = addToSet({}, ['alt', 'class', 'for', 'id', 'label', 'name', 'pattern', 'placeholder', 'role', 'summary', 'title', 'value', 'style', 'xmlns']);
     var MATHML_NAMESPACE = 'http://www.w3.org/1998/Math/MathML';
     var SVG_NAMESPACE = 'http://www.w3.org/2000/svg';
     var HTML_NAMESPACE = 'http://www.w3.org/1999/xhtml';
     /* Document namespace */
-
     var NAMESPACE = HTML_NAMESPACE;
     var IS_EMPTY_INPUT = false;
-    /* Allowed XHTML+XML namespaces */
 
+    /* Allowed XHTML+XML namespaces */
     var ALLOWED_NAMESPACES = null;
     var DEFAULT_ALLOWED_NAMESPACES = addToSet({}, [MATHML_NAMESPACE, SVG_NAMESPACE, HTML_NAMESPACE], stringToString);
-    /* Parsing of strict XHTML documents */
 
+    /* Parsing of strict XHTML documents */
     var PARSER_MEDIA_TYPE;
     var SUPPORTED_PARSER_MEDIA_TYPES = ['application/xhtml+xml', 'text/html'];
     var DEFAULT_PARSER_MEDIA_TYPE = 'text/html';
     var transformCaseFunc;
+
     /* Keep a reference to config to pass to hooks */
-
     var CONFIG = null;
-    /* Ideally, do not touch anything below this line */
 
+    /* Ideally, do not touch anything below this line */
     /* ______________________________________________ */
 
     var formElement = document.createElement('form');
     var isRegexOrFunction = function isRegexOrFunction(testValue) {
       return testValue instanceof RegExp || testValue instanceof Function;
     };
+
     /**
      * _parseConfig
      *
      * @param  {Object} cfg optional config literal
      */
     // eslint-disable-next-line complexity
-
     var _parseConfig = function _parseConfig(cfg) {
       if (CONFIG && CONFIG === cfg) {
         return;
       }
-      /* Shield configuration object from tampering */
 
+      /* Shield configuration object from tampering */
       if (!cfg || _typeof(cfg) !== 'object') {
         cfg = {};
       }
-      /* Shield configuration object from prototype pollution */
 
+      /* Shield configuration object from prototype pollution */
       cfg = clone(cfg);
       PARSER_MEDIA_TYPE =
       // eslint-disable-next-line unicorn/prefer-includes
-      SUPPORTED_PARSER_MEDIA_TYPES.indexOf(cfg.PARSER_MEDIA_TYPE) === -1 ? PARSER_MEDIA_TYPE = DEFAULT_PARSER_MEDIA_TYPE : PARSER_MEDIA_TYPE = cfg.PARSER_MEDIA_TYPE; // HTML tags and attributes are not case-sensitive, converting to lowercase. Keeping XHTML as is.
+      SUPPORTED_PARSER_MEDIA_TYPES.indexOf(cfg.PARSER_MEDIA_TYPE) === -1 ? PARSER_MEDIA_TYPE = DEFAULT_PARSER_MEDIA_TYPE : PARSER_MEDIA_TYPE = cfg.PARSER_MEDIA_TYPE;
 
+      // HTML tags and attributes are not case-sensitive, converting to lowercase. Keeping XHTML as is.
       transformCaseFunc = PARSER_MEDIA_TYPE === 'application/xhtml+xml' ? stringToString : stringToLowerCase;
-      /* Set configuration parameters */
 
+      /* Set configuration parameters */
       ALLOWED_TAGS = 'ALLOWED_TAGS' in cfg ? addToSet({}, cfg.ALLOWED_TAGS, transformCaseFunc) : DEFAULT_ALLOWED_TAGS;
       ALLOWED_ATTR = 'ALLOWED_ATTR' in cfg ? addToSet({}, cfg.ALLOWED_ATTR, transformCaseFunc) : DEFAULT_ALLOWED_ATTR;
       ALLOWED_NAMESPACES = 'ALLOWED_NAMESPACES' in cfg ? addToSet({}, cfg.ALLOWED_NAMESPACES, stringToString) : DEFAULT_ALLOWED_NAMESPACES;
@@ -4690,33 +4711,20 @@ function concatWaitForLatestFrom(observablesFactory) {
       FORBID_ATTR = 'FORBID_ATTR' in cfg ? addToSet({}, cfg.FORBID_ATTR, transformCaseFunc) : {};
       USE_PROFILES = 'USE_PROFILES' in cfg ? cfg.USE_PROFILES : false;
       ALLOW_ARIA_ATTR = cfg.ALLOW_ARIA_ATTR !== false; // Default true
-
       ALLOW_DATA_ATTR = cfg.ALLOW_DATA_ATTR !== false; // Default true
-
       ALLOW_UNKNOWN_PROTOCOLS = cfg.ALLOW_UNKNOWN_PROTOCOLS || false; // Default false
-
       ALLOW_SELF_CLOSE_IN_ATTR = cfg.ALLOW_SELF_CLOSE_IN_ATTR !== false; // Default true
-
       SAFE_FOR_TEMPLATES = cfg.SAFE_FOR_TEMPLATES || false; // Default false
-
+      SAFE_FOR_XML = cfg.SAFE_FOR_XML !== false; // Default true
       WHOLE_DOCUMENT = cfg.WHOLE_DOCUMENT || false; // Default false
-
       RETURN_DOM = cfg.RETURN_DOM || false; // Default false
-
       RETURN_DOM_FRAGMENT = cfg.RETURN_DOM_FRAGMENT || false; // Default false
-
       RETURN_TRUSTED_TYPE = cfg.RETURN_TRUSTED_TYPE || false; // Default false
-
       FORCE_BODY = cfg.FORCE_BODY || false; // Default false
-
       SANITIZE_DOM = cfg.SANITIZE_DOM !== false; // Default true
-
       SANITIZE_NAMED_PROPS = cfg.SANITIZE_NAMED_PROPS || false; // Default false
-
       KEEP_CONTENT = cfg.KEEP_CONTENT !== false; // Default true
-
       IN_PLACE = cfg.IN_PLACE || false; // Default false
-
       IS_ALLOWED_URI$1 = cfg.ALLOWED_URI_REGEXP || IS_ALLOWED_URI$1;
       NAMESPACE = cfg.NAMESPACE || HTML_NAMESPACE;
       CUSTOM_ELEMENT_HANDLING = cfg.CUSTOM_ELEMENT_HANDLING || {};
@@ -4735,8 +4743,8 @@ function concatWaitForLatestFrom(observablesFactory) {
       if (RETURN_DOM_FRAGMENT) {
         RETURN_DOM = true;
       }
-      /* Parse profile info */
 
+      /* Parse profile info */
       if (USE_PROFILES) {
         ALLOWED_TAGS = addToSet({}, _toConsumableArray(text));
         ALLOWED_ATTR = [];
@@ -4760,8 +4768,8 @@ function concatWaitForLatestFrom(observablesFactory) {
           addToSet(ALLOWED_ATTR, xml);
         }
       }
-      /* Merge configuration parameters */
 
+      /* Merge configuration parameters */
       if (cfg.ADD_TAGS) {
         if (ALLOWED_TAGS === DEFAULT_ALLOWED_TAGS) {
           ALLOWED_TAGS = clone(ALLOWED_TAGS);
@@ -4783,45 +4791,48 @@ function concatWaitForLatestFrom(observablesFactory) {
         }
         addToSet(FORBID_CONTENTS, cfg.FORBID_CONTENTS, transformCaseFunc);
       }
-      /* Add #text in case KEEP_CONTENT is set to true */
 
+      /* Add #text in case KEEP_CONTENT is set to true */
       if (KEEP_CONTENT) {
         ALLOWED_TAGS['#text'] = true;
       }
-      /* Add html, head and body to ALLOWED_TAGS in case WHOLE_DOCUMENT is true */
 
+      /* Add html, head and body to ALLOWED_TAGS in case WHOLE_DOCUMENT is true */
       if (WHOLE_DOCUMENT) {
         addToSet(ALLOWED_TAGS, ['html', 'head', 'body']);
       }
-      /* Add tbody to ALLOWED_TAGS in case tables are permitted, see #286, #365 */
 
+      /* Add tbody to ALLOWED_TAGS in case tables are permitted, see #286, #365 */
       if (ALLOWED_TAGS.table) {
         addToSet(ALLOWED_TAGS, ['tbody']);
         delete FORBID_TAGS.tbody;
-      } // Prevent further manipulation of configuration.
-      // Not available in IE8, Safari 5, etc.
+      }
 
+      // Prevent further manipulation of configuration.
+      // Not available in IE8, Safari 5, etc.
       if (freeze) {
         freeze(cfg);
       }
       CONFIG = cfg;
     };
     var MATHML_TEXT_INTEGRATION_POINTS = addToSet({}, ['mi', 'mo', 'mn', 'ms', 'mtext']);
-    var HTML_INTEGRATION_POINTS = addToSet({}, ['foreignobject', 'desc', 'title', 'annotation-xml']); // Certain elements are allowed in both SVG and HTML
+    var HTML_INTEGRATION_POINTS = addToSet({}, ['foreignobject', 'annotation-xml']);
+
+    // Certain elements are allowed in both SVG and HTML
     // namespace. We need to specify them explicitly
     // so that they don't get erroneously deleted from
     // HTML namespace.
-
     var COMMON_SVG_AND_HTML_ELEMENTS = addToSet({}, ['title', 'style', 'font', 'a', 'script']);
+
     /* Keep track of all possible SVG and MathML tags
      * so that we can perform the namespace checks
      * correctly. */
-
     var ALL_SVG_TAGS = addToSet({}, svg$1);
     addToSet(ALL_SVG_TAGS, svgFilters);
     addToSet(ALL_SVG_TAGS, svgDisallowed);
     var ALL_MATHML_TAGS = addToSet({}, mathMl$1);
     addToSet(ALL_MATHML_TAGS, mathMlDisallowed);
+
     /**
      *
      *
@@ -4830,11 +4841,11 @@ function concatWaitForLatestFrom(observablesFactory) {
      *  namespace that a spec-compliant parser would never
      *  return. Return true otherwise.
      */
-
     var _checkValidNamespace = function _checkValidNamespace(element) {
-      var parent = getParentNode(element); // In JSDOM, if we're inside shadow DOM, then parentNode
-      // can be null. We just simulate parent in this case.
+      var parent = getParentNode(element);
 
+      // In JSDOM, if we're inside shadow DOM, then parentNode
+      // can be null. We just simulate parent in this case.
       if (!parent || !parent.tagName) {
         parent = {
           namespaceURI: NAMESPACE,
@@ -4852,15 +4863,17 @@ function concatWaitForLatestFrom(observablesFactory) {
         // it should be killed.
         if (parent.namespaceURI === HTML_NAMESPACE) {
           return tagName === 'svg';
-        } // The only way to switch from MathML to SVG is via`
+        }
+
+        // The only way to switch from MathML to SVG is via`
         // svg if parent is either <annotation-xml> or MathML
         // text integration points.
-
         if (parent.namespaceURI === MATHML_NAMESPACE) {
           return tagName === 'svg' && (parentTagName === 'annotation-xml' || MATHML_TEXT_INTEGRATION_POINTS[parentTagName]);
-        } // We only allow elements that are defined in SVG
-        // spec. All others are disallowed in SVG namespace.
+        }
 
+        // We only allow elements that are defined in SVG
+        // spec. All others are disallowed in SVG namespace.
         return Boolean(ALL_SVG_TAGS[tagName]);
       }
       if (element.namespaceURI === MATHML_NAMESPACE) {
@@ -4869,14 +4882,16 @@ function concatWaitForLatestFrom(observablesFactory) {
         // it should be killed.
         if (parent.namespaceURI === HTML_NAMESPACE) {
           return tagName === 'math';
-        } // The only way to switch from SVG to MathML is via
-        // <math> and HTML integration points
+        }
 
+        // The only way to switch from SVG to MathML is via
+        // <math> and HTML integration points
         if (parent.namespaceURI === SVG_NAMESPACE) {
           return tagName === 'math' && HTML_INTEGRATION_POINTS[parentTagName];
-        } // We only allow elements that are defined in MathML
-        // spec. All others are disallowed in MathML namespace.
+        }
 
+        // We only allow elements that are defined in MathML
+        // spec. All others are disallowed in MathML namespace.
         return Boolean(ALL_MATHML_TAGS[tagName]);
       }
       if (element.namespaceURI === HTML_NAMESPACE) {
@@ -4888,27 +4903,30 @@ function concatWaitForLatestFrom(observablesFactory) {
         }
         if (parent.namespaceURI === MATHML_NAMESPACE && !MATHML_TEXT_INTEGRATION_POINTS[parentTagName]) {
           return false;
-        } // We disallow tags that are specific for MathML
+        }
+
+        // We disallow tags that are specific for MathML
         // or SVG and should never appear in HTML namespace
-
         return !ALL_MATHML_TAGS[tagName] && (COMMON_SVG_AND_HTML_ELEMENTS[tagName] || !ALL_SVG_TAGS[tagName]);
-      } // For XHTML and XML documents that support custom namespaces
+      }
 
+      // For XHTML and XML documents that support custom namespaces
       if (PARSER_MEDIA_TYPE === 'application/xhtml+xml' && ALLOWED_NAMESPACES[element.namespaceURI]) {
         return true;
-      } // The code should never reach this place (this means
+      }
+
+      // The code should never reach this place (this means
       // that the element somehow got namespace that is not
       // HTML, SVG, MathML or allowed via ALLOWED_NAMESPACES).
       // Return false just in case.
-
       return false;
     };
+
     /**
      * _forceRemove
      *
      * @param  {Node} node a DOM node
      */
-
     var _forceRemove = function _forceRemove(node) {
       arrayPush(DOMPurify.removed, {
         element: node
@@ -4924,13 +4942,13 @@ function concatWaitForLatestFrom(observablesFactory) {
         }
       }
     };
+
     /**
      * _removeAttribute
      *
      * @param  {String} name an Attribute name
      * @param  {Node} node a DOM node
      */
-
     var _removeAttribute = function _removeAttribute(name, node) {
       try {
         arrayPush(DOMPurify.removed, {
@@ -4943,8 +4961,9 @@ function concatWaitForLatestFrom(observablesFactory) {
           from: node
         });
       }
-      node.removeAttribute(name); // We void attribute values for unremovable "is"" attributes
+      node.removeAttribute(name);
 
+      // We void attribute values for unremovable "is"" attributes
       if (name === 'is' && !ALLOWED_ATTR[name]) {
         if (RETURN_DOM || RETURN_DOM_FRAGMENT) {
           try {
@@ -4957,13 +4976,13 @@ function concatWaitForLatestFrom(observablesFactory) {
         }
       }
     };
+
     /**
      * _initDocument
      *
      * @param  {String} dirty a string of dirty markup
      * @return {Document} a DOM, filled with the dirty markup
      */
-
     var _initDocument = function _initDocument(dirty) {
       /* Create a HTML document */
       var doc;
@@ -4984,64 +5003,65 @@ function concatWaitForLatestFrom(observablesFactory) {
        * Use the DOMParser API by default, fallback later if needs be
        * DOMParser not work for svg when has multiple root element.
        */
-
       if (NAMESPACE === HTML_NAMESPACE) {
         try {
           doc = new DOMParser().parseFromString(dirtyPayload, PARSER_MEDIA_TYPE);
         } catch (_) {}
       }
-      /* Use createHTMLDocument in case DOMParser is not available */
 
+      /* Use createHTMLDocument in case DOMParser is not available */
       if (!doc || !doc.documentElement) {
         doc = implementation.createDocument(NAMESPACE, 'template', null);
         try {
           doc.documentElement.innerHTML = IS_EMPTY_INPUT ? emptyHTML : dirtyPayload;
-        } catch (_) {// Syntax error if dirtyPayload is invalid xml
+        } catch (_) {
+          // Syntax error if dirtyPayload is invalid xml
         }
       }
       var body = doc.body || doc.documentElement;
       if (dirty && leadingWhitespace) {
         body.insertBefore(document.createTextNode(leadingWhitespace), body.childNodes[0] || null);
       }
-      /* Work on whole document or just its body */
 
+      /* Work on whole document or just its body */
       if (NAMESPACE === HTML_NAMESPACE) {
         return getElementsByTagName.call(doc, WHOLE_DOCUMENT ? 'html' : 'body')[0];
       }
       return WHOLE_DOCUMENT ? doc.documentElement : body;
     };
+
     /**
      * _createIterator
      *
      * @param  {Document} root document/fragment to create iterator for
      * @return {Iterator} iterator instance
      */
-
     var _createIterator = function _createIterator(root) {
       return createNodeIterator.call(root.ownerDocument || root, root,
       // eslint-disable-next-line no-bitwise
-      NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_COMMENT | NodeFilter.SHOW_TEXT, null, false);
+      NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_COMMENT | NodeFilter.SHOW_TEXT | NodeFilter.SHOW_PROCESSING_INSTRUCTION | NodeFilter.SHOW_CDATA_SECTION, null, false);
     };
+
     /**
      * _isClobbered
      *
      * @param  {Node} elm element to check for clobbering attacks
      * @return {Boolean} true if clobbered, false if safe
      */
-
     var _isClobbered = function _isClobbered(elm) {
       return elm instanceof HTMLFormElement && (typeof elm.nodeName !== 'string' || typeof elm.textContent !== 'string' || typeof elm.removeChild !== 'function' || !(elm.attributes instanceof NamedNodeMap) || typeof elm.removeAttribute !== 'function' || typeof elm.setAttribute !== 'function' || typeof elm.namespaceURI !== 'string' || typeof elm.insertBefore !== 'function' || typeof elm.hasChildNodes !== 'function');
     };
+
     /**
      * _isNode
      *
      * @param  {Node} obj object to check whether it's a DOM node
      * @return {Boolean} true is object is a DOM node
      */
-
     var _isNode = function _isNode(object) {
       return _typeof(Node) === 'object' ? object instanceof Node : object && _typeof(object) === 'object' && typeof object.nodeType === 'number' && typeof object.nodeName === 'string';
     };
+
     /**
      * _executeHook
      * Execute user configurable hooks
@@ -5050,7 +5070,6 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @param  {Node} currentNode node to work on with the hook
      * @param  {Object} data additional hook parameters
      */
-
     var _executeHook = function _executeHook(entryPoint, currentNode, data) {
       if (!hooks[entryPoint]) {
         return;
@@ -5059,6 +5078,7 @@ function concatWaitForLatestFrom(observablesFactory) {
         hook.call(DOMPurify, currentNode, data, CONFIG);
       });
     };
+
     /**
      * _sanitizeElements
      *
@@ -5069,80 +5089,95 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @param   {Node} currentNode to check for permission to exist
      * @return  {Boolean} true if node was killed, false if left alive
      */
-
     var _sanitizeElements = function _sanitizeElements(currentNode) {
       var content;
+
       /* Execute a hook if present */
-
       _executeHook('beforeSanitizeElements', currentNode, null);
-      /* Check if element is clobbered or can clobber */
 
+      /* Check if element is clobbered or can clobber */
       if (_isClobbered(currentNode)) {
         _forceRemove(currentNode);
         return true;
       }
-      /* Check if tagname contains Unicode */
 
+      /* Check if tagname contains Unicode */
       if (regExpTest(/[\u0080-\uFFFF]/, currentNode.nodeName)) {
         _forceRemove(currentNode);
         return true;
       }
+
       /* Now let's check the element's type and name */
-
       var tagName = transformCaseFunc(currentNode.nodeName);
-      /* Execute a hook if present */
 
+      /* Execute a hook if present */
       _executeHook('uponSanitizeElement', currentNode, {
         tagName: tagName,
         allowedTags: ALLOWED_TAGS
       });
-      /* Detect mXSS attempts abusing namespace confusion */
 
+      /* Detect mXSS attempts abusing namespace confusion */
       if (currentNode.hasChildNodes() && !_isNode(currentNode.firstElementChild) && (!_isNode(currentNode.content) || !_isNode(currentNode.content.firstElementChild)) && regExpTest(/<[/\w]/g, currentNode.innerHTML) && regExpTest(/<[/\w]/g, currentNode.textContent)) {
         _forceRemove(currentNode);
         return true;
       }
-      /* Mitigate a problem with templates inside select */
 
+      /* Mitigate a problem with templates inside select */
       if (tagName === 'select' && regExpTest(/<template/i, currentNode.innerHTML)) {
         _forceRemove(currentNode);
         return true;
       }
-      /* Remove element if anything forbids its presence */
 
+      /* Remove any ocurrence of processing instructions */
+      if (currentNode.nodeType === 7) {
+        _forceRemove(currentNode);
+        return true;
+      }
+
+      /* Remove any kind of possibly harmful comments */
+      if (SAFE_FOR_XML && currentNode.nodeType === 8 && regExpTest(/<[/\w]/g, currentNode.data)) {
+        _forceRemove(currentNode);
+        return true;
+      }
+
+      /* Remove element if anything forbids its presence */
       if (!ALLOWED_TAGS[tagName] || FORBID_TAGS[tagName]) {
         /* Check if we have a custom element to handle */
         if (!FORBID_TAGS[tagName] && _basicCustomElementTest(tagName)) {
           if (CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof RegExp && regExpTest(CUSTOM_ELEMENT_HANDLING.tagNameCheck, tagName)) return false;
           if (CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof Function && CUSTOM_ELEMENT_HANDLING.tagNameCheck(tagName)) return false;
         }
-        /* Keep content except for bad-listed elements */
 
+        /* Keep content except for bad-listed elements */
         if (KEEP_CONTENT && !FORBID_CONTENTS[tagName]) {
           var parentNode = getParentNode(currentNode) || currentNode.parentNode;
           var childNodes = getChildNodes(currentNode) || currentNode.childNodes;
           if (childNodes && parentNode) {
             var childCount = childNodes.length;
             for (var i = childCount - 1; i >= 0; --i) {
-              parentNode.insertBefore(cloneNode(childNodes[i], true), getNextSibling(currentNode));
+              var childClone = cloneNode(childNodes[i], true);
+              childClone.__removalCount = (currentNode.__removalCount || 0) + 1;
+              parentNode.insertBefore(childClone, getNextSibling(currentNode));
             }
           }
         }
         _forceRemove(currentNode);
         return true;
       }
-      /* Check whether element has a valid namespace */
 
+      /* Check whether element has a valid namespace */
       if (currentNode instanceof Element && !_checkValidNamespace(currentNode)) {
         _forceRemove(currentNode);
         return true;
       }
-      if ((tagName === 'noscript' || tagName === 'noembed') && regExpTest(/<\/no(script|embed)/i, currentNode.innerHTML)) {
+
+      /* Make sure that older browsers don't get fallback-tag mXSS */
+      if ((tagName === 'noscript' || tagName === 'noembed' || tagName === 'noframes') && regExpTest(/<\/no(script|embed|frames)/i, currentNode.innerHTML)) {
         _forceRemove(currentNode);
         return true;
       }
-      /* Sanitize element content to be template-safe */
 
+      /* Sanitize element content to be template-safe */
       if (SAFE_FOR_TEMPLATES && currentNode.nodeType === 3) {
         /* Get the element's text content */
         content = currentNode.textContent;
@@ -5156,11 +5191,12 @@ function concatWaitForLatestFrom(observablesFactory) {
           currentNode.textContent = content;
         }
       }
-      /* Execute a hook if present */
 
+      /* Execute a hook if present */
       _executeHook('afterSanitizeElements', currentNode, null);
       return false;
     };
+
     /**
      * _isValidAttribute
      *
@@ -5170,17 +5206,16 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @return {Boolean} Returns true if `value` is valid, otherwise false.
      */
     // eslint-disable-next-line complexity
-
     var _isValidAttribute = function _isValidAttribute(lcTag, lcName, value) {
       /* Make sure attribute cannot clobber */
       if (SANITIZE_DOM && (lcName === 'id' || lcName === 'name') && (value in document || value in formElement)) {
         return false;
       }
+
       /* Allow valid data-* attributes: At least one character after "-"
           (https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)
           XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and http://www.w3.org/TR/xml/#d0e804)
           We don't need to check the value; it's always URI safe. */
-
       if (ALLOW_DATA_ATTR && !FORBID_ATTR[lcName] && regExpTest(DATA_ATTR$1, lcName)) ;else if (ALLOW_ARIA_ATTR && regExpTest(ARIA_ATTR$1, lcName)) ;else if (!ALLOWED_ATTR[lcName] || FORBID_ATTR[lcName]) {
         if (
         // First condition does a very basic check if a) it's basically a valid custom element tagname AND
@@ -5193,21 +5228,22 @@ function concatWaitForLatestFrom(observablesFactory) {
           return false;
         }
         /* Check value is safe. First, is attr inert? If so, is safe */
-      } else if (URI_SAFE_ATTRIBUTES[lcName]) ;else if (regExpTest(IS_ALLOWED_URI$1, stringReplace(value, ATTR_WHITESPACE$1, ''))) ;else if ((lcName === 'src' || lcName === 'xlink:href' || lcName === 'href') && lcTag !== 'script' && stringIndexOf(value, 'data:') === 0 && DATA_URI_TAGS[lcTag]) ;else if (ALLOW_UNKNOWN_PROTOCOLS && !regExpTest(IS_SCRIPT_OR_DATA$1, stringReplace(value, ATTR_WHITESPACE$1, ''))) ;else if (!value) ;else {
+      } else if (URI_SAFE_ATTRIBUTES[lcName]) ;else if (regExpTest(IS_ALLOWED_URI$1, stringReplace(value, ATTR_WHITESPACE$1, ''))) ;else if ((lcName === 'src' || lcName === 'xlink:href' || lcName === 'href') && lcTag !== 'script' && stringIndexOf(value, 'data:') === 0 && DATA_URI_TAGS[lcTag]) ;else if (ALLOW_UNKNOWN_PROTOCOLS && !regExpTest(IS_SCRIPT_OR_DATA$1, stringReplace(value, ATTR_WHITESPACE$1, ''))) ;else if (value) {
         return false;
-      }
+      } else ;
       return true;
     };
+
     /**
      * _basicCustomElementCheck
      * checks if at least one dash is included in tagName, and it's not the first char
      * for more sophisticated checking see https://github.com/sindresorhus/validate-element-name
      * @param {string} tagName name of the tag of the node to sanitize
      */
-
     var _basicCustomElementTest = function _basicCustomElementTest(tagName) {
-      return tagName.indexOf('-') > 0;
+      return tagName !== 'annotation-xml' && stringMatch(tagName, CUSTOM_ELEMENT$1);
     };
+
     /**
      * _sanitizeAttributes
      *
@@ -5218,18 +5254,16 @@ function concatWaitForLatestFrom(observablesFactory) {
      *
      * @param  {Node} currentNode to sanitize
      */
-
     var _sanitizeAttributes = function _sanitizeAttributes(currentNode) {
       var attr;
       var value;
       var lcName;
       var l;
       /* Execute a hook if present */
-
       _executeHook('beforeSanitizeAttributes', currentNode, null);
       var attributes = currentNode.attributes;
-      /* Check if we have attributes; if not we might have a text node */
 
+      /* Check if we have attributes; if not we might have a text node */
       if (!attributes) {
         return;
       }
@@ -5240,8 +5274,8 @@ function concatWaitForLatestFrom(observablesFactory) {
         allowedAttributes: ALLOWED_ATTR
       };
       l = attributes.length;
-      /* Go backwards over all attributes; safely remove bad ones */
 
+      /* Go backwards over all attributes; safely remove bad ones */
       while (l--) {
         attr = attributes[l];
         var _attr = attr,
@@ -5249,73 +5283,83 @@ function concatWaitForLatestFrom(observablesFactory) {
           namespaceURI = _attr.namespaceURI;
         value = name === 'value' ? attr.value : stringTrim(attr.value);
         lcName = transformCaseFunc(name);
-        /* Execute a hook if present */
 
+        /* Execute a hook if present */
         hookEvent.attrName = lcName;
         hookEvent.attrValue = value;
         hookEvent.keepAttr = true;
         hookEvent.forceKeepAttr = undefined; // Allows developers to see this is a property they can set
-
         _executeHook('uponSanitizeAttribute', currentNode, hookEvent);
         value = hookEvent.attrValue;
-        /* Did the hooks approve of the attribute? */
 
+        /* Work around a security issue with comments inside attributes */
+        if (SAFE_FOR_XML && regExpTest(/((--!?|])>)|<\/(style|title)/i, value)) {
+          _removeAttribute(name, currentNode);
+          continue;
+        }
+
+        /* Did the hooks approve of the attribute? */
         if (hookEvent.forceKeepAttr) {
           continue;
         }
+
         /* Remove attribute */
-
         _removeAttribute(name, currentNode);
-        /* Did the hooks approve of the attribute? */
 
+        /* Did the hooks approve of the attribute? */
         if (!hookEvent.keepAttr) {
           continue;
         }
-        /* Work around a security issue in jQuery 3.0 */
 
+        /* Work around a security issue in jQuery 3.0 */
         if (!ALLOW_SELF_CLOSE_IN_ATTR && regExpTest(/\/>/i, value)) {
           _removeAttribute(name, currentNode);
           continue;
         }
-        /* Sanitize attribute content to be template-safe */
 
+        /* Sanitize attribute content to be template-safe */
         if (SAFE_FOR_TEMPLATES) {
           value = stringReplace(value, MUSTACHE_EXPR$1, ' ');
           value = stringReplace(value, ERB_EXPR$1, ' ');
           value = stringReplace(value, TMPLIT_EXPR$1, ' ');
         }
-        /* Is `value` valid for this attribute? */
 
+        /* Is `value` valid for this attribute? */
         var lcTag = transformCaseFunc(currentNode.nodeName);
         if (!_isValidAttribute(lcTag, lcName, value)) {
           continue;
         }
+
         /* Full DOM Clobbering protection via namespace isolation,
          * Prefix id and name attributes with `user-content-`
          */
-
         if (SANITIZE_NAMED_PROPS && (lcName === 'id' || lcName === 'name')) {
           // Remove the attribute with this value
-          _removeAttribute(name, currentNode); // Prefix the value and later re-create the attribute with the sanitized value
+          _removeAttribute(name, currentNode);
 
+          // Prefix the value and later re-create the attribute with the sanitized value
           value = SANITIZE_NAMED_PROPS_PREFIX + value;
         }
-        /* Handle attributes that require Trusted Types */
 
+        /* Handle attributes that require Trusted Types */
         if (trustedTypesPolicy && _typeof(trustedTypes) === 'object' && typeof trustedTypes.getAttributeType === 'function') {
           if (namespaceURI) ;else {
             switch (trustedTypes.getAttributeType(lcTag, lcName)) {
               case 'TrustedHTML':
-                value = trustedTypesPolicy.createHTML(value);
-                break;
+                {
+                  value = trustedTypesPolicy.createHTML(value);
+                  break;
+                }
               case 'TrustedScriptURL':
-                value = trustedTypesPolicy.createScriptURL(value);
-                break;
+                {
+                  value = trustedTypesPolicy.createScriptURL(value);
+                  break;
+                }
             }
           }
         }
-        /* Handle invalid data-* attribute set by try-catching it */
 
+        /* Handle invalid data-* attribute set by try-catching it */
         try {
           if (namespaceURI) {
             currentNode.setAttributeNS(namespaceURI, name, value);
@@ -5323,46 +5367,51 @@ function concatWaitForLatestFrom(observablesFactory) {
             /* Fallback to setAttribute() for browser-unrecognized namespaces e.g. "x-schema". */
             currentNode.setAttribute(name, value);
           }
-          arrayPop(DOMPurify.removed);
+          if (_isClobbered(currentNode)) {
+            _forceRemove(currentNode);
+          } else {
+            arrayPop(DOMPurify.removed);
+          }
         } catch (_) {}
       }
-      /* Execute a hook if present */
 
+      /* Execute a hook if present */
       _executeHook('afterSanitizeAttributes', currentNode, null);
     };
+
     /**
      * _sanitizeShadowDOM
      *
      * @param  {DocumentFragment} fragment to iterate over recursively
      */
-
     var _sanitizeShadowDOM = function _sanitizeShadowDOM(fragment) {
       var shadowNode;
       var shadowIterator = _createIterator(fragment);
-      /* Execute a hook if present */
 
+      /* Execute a hook if present */
       _executeHook('beforeSanitizeShadowDOM', fragment, null);
       while (shadowNode = shadowIterator.nextNode()) {
         /* Execute a hook if present */
         _executeHook('uponSanitizeShadowNode', shadowNode, null);
-        /* Sanitize tags and elements */
 
+        /* Sanitize tags and elements */
         if (_sanitizeElements(shadowNode)) {
           continue;
         }
-        /* Deep shadow DOM detected */
 
+        /* Deep shadow DOM detected */
         if (shadowNode.content instanceof DocumentFragment) {
           _sanitizeShadowDOM(shadowNode.content);
         }
-        /* Check attributes, sanitize if necessary */
 
+        /* Check attributes, sanitize if necessary */
         _sanitizeAttributes(shadowNode);
       }
-      /* Execute a hook if present */
 
+      /* Execute a hook if present */
       _executeHook('afterSanitizeShadowDOM', fragment, null);
     };
+
     /**
      * Sanitize
      * Public method providing core sanitation functionality
@@ -5371,7 +5420,6 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @param {Object} configuration object
      */
     // eslint-disable-next-line complexity
-
     DOMPurify.sanitize = function (dirty) {
       var cfg = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
       var body;
@@ -5382,26 +5430,24 @@ function concatWaitForLatestFrom(observablesFactory) {
       /* Make sure we have a string to sanitize.
         DO NOT return early, as this will return the wrong type if
         the user has requested a DOM object rather than a string */
-
       IS_EMPTY_INPUT = !dirty;
       if (IS_EMPTY_INPUT) {
         dirty = '<!-->';
       }
-      /* Stringify, in case dirty is an object */
 
+      /* Stringify, in case dirty is an object */
       if (typeof dirty !== 'string' && !_isNode(dirty)) {
-        // eslint-disable-next-line no-negated-condition
-        if (typeof dirty.toString !== 'function') {
-          throw typeErrorCreate('toString is not a function');
-        } else {
+        if (typeof dirty.toString === 'function') {
           dirty = dirty.toString();
           if (typeof dirty !== 'string') {
             throw typeErrorCreate('dirty is not a string, aborting');
           }
+        } else {
+          throw typeErrorCreate('toString is not a function');
         }
       }
-      /* Check we can run. Otherwise fall back or ignore */
 
+      /* Check we can run. Otherwise fall back or ignore */
       if (!DOMPurify.isSupported) {
         if (_typeof(window.toStaticHTML) === 'object' || typeof window.toStaticHTML === 'function') {
           if (typeof dirty === 'string') {
@@ -5413,16 +5459,16 @@ function concatWaitForLatestFrom(observablesFactory) {
         }
         return dirty;
       }
-      /* Assign config vars */
 
+      /* Assign config vars */
       if (!SET_CONFIG) {
         _parseConfig(cfg);
       }
+
       /* Clean up removed elements */
-
       DOMPurify.removed = [];
-      /* Check if dirty is correctly typed for IN_PLACE */
 
+      /* Check if dirty is correctly typed for IN_PLACE */
       if (typeof dirty === 'string') {
         IN_PLACE = false;
       }
@@ -5455,53 +5501,53 @@ function concatWaitForLatestFrom(observablesFactory) {
         dirty.indexOf('<') === -1) {
           return trustedTypesPolicy && RETURN_TRUSTED_TYPE ? trustedTypesPolicy.createHTML(dirty) : dirty;
         }
+
         /* Initialize the document to work on */
-
         body = _initDocument(dirty);
-        /* Check we have a DOM node from the data */
 
+        /* Check we have a DOM node from the data */
         if (!body) {
           return RETURN_DOM ? null : RETURN_TRUSTED_TYPE ? emptyHTML : '';
         }
       }
-      /* Remove first element node (ours) if FORCE_BODY is set */
 
+      /* Remove first element node (ours) if FORCE_BODY is set */
       if (body && FORCE_BODY) {
         _forceRemove(body.firstChild);
       }
+
       /* Get node iterator */
-
       var nodeIterator = _createIterator(IN_PLACE ? dirty : body);
-      /* Now start iterating over the created document */
 
+      /* Now start iterating over the created document */
       while (currentNode = nodeIterator.nextNode()) {
         /* Fix IE's strange behavior with manipulated textNodes #89 */
         if (currentNode.nodeType === 3 && currentNode === oldNode) {
           continue;
         }
-        /* Sanitize tags and elements */
 
+        /* Sanitize tags and elements */
         if (_sanitizeElements(currentNode)) {
           continue;
         }
-        /* Shadow DOM detected, sanitize it */
 
+        /* Shadow DOM detected, sanitize it */
         if (currentNode.content instanceof DocumentFragment) {
           _sanitizeShadowDOM(currentNode.content);
         }
-        /* Check attributes, sanitize if necessary */
 
+        /* Check attributes, sanitize if necessary */
         _sanitizeAttributes(currentNode);
         oldNode = currentNode;
       }
       oldNode = null;
-      /* If we sanitized `dirty` in-place, return it. */
 
+      /* If we sanitized `dirty` in-place, return it. */
       if (IN_PLACE) {
         return dirty;
       }
-      /* Return sanitized string or DOM */
 
+      /* Return sanitized string or DOM */
       if (RETURN_DOM) {
         if (RETURN_DOM_FRAGMENT) {
           returnNode = createDocumentFragment.call(body.ownerDocument);
@@ -5525,13 +5571,13 @@ function concatWaitForLatestFrom(observablesFactory) {
         return returnNode;
       }
       var serializedHTML = WHOLE_DOCUMENT ? body.outerHTML : body.innerHTML;
-      /* Serialize doctype if allowed */
 
+      /* Serialize doctype if allowed */
       if (WHOLE_DOCUMENT && ALLOWED_TAGS['!doctype'] && body.ownerDocument && body.ownerDocument.doctype && body.ownerDocument.doctype.name && regExpTest(DOCTYPE_NAME, body.ownerDocument.doctype.name)) {
         serializedHTML = '<!DOCTYPE ' + body.ownerDocument.doctype.name + '>\n' + serializedHTML;
       }
-      /* Sanitize final string template-safe */
 
+      /* Sanitize final string template-safe */
       if (SAFE_FOR_TEMPLATES) {
         serializedHTML = stringReplace(serializedHTML, MUSTACHE_EXPR$1, ' ');
         serializedHTML = stringReplace(serializedHTML, ERB_EXPR$1, ' ');
@@ -5539,27 +5585,28 @@ function concatWaitForLatestFrom(observablesFactory) {
       }
       return trustedTypesPolicy && RETURN_TRUSTED_TYPE ? trustedTypesPolicy.createHTML(serializedHTML) : serializedHTML;
     };
+
     /**
      * Public method to set the configuration once
      * setConfig
      *
      * @param {Object} cfg configuration object
      */
-
     DOMPurify.setConfig = function (cfg) {
       _parseConfig(cfg);
       SET_CONFIG = true;
     };
+
     /**
      * Public method to remove the configuration
      * clearConfig
      *
      */
-
     DOMPurify.clearConfig = function () {
       CONFIG = null;
       SET_CONFIG = false;
     };
+
     /**
      * Public method to check if an attribute value is valid.
      * Uses last set config, if any. Otherwise, uses config defaults.
@@ -5570,7 +5617,6 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @param  {string} value Attribute value.
      * @return {Boolean} Returns true if `value` is valid. Otherwise, returns false.
      */
-
     DOMPurify.isValidAttribute = function (tag, attr, value) {
       /* Initialize shared config vars if necessary. */
       if (!CONFIG) {
@@ -5580,6 +5626,7 @@ function concatWaitForLatestFrom(observablesFactory) {
       var lcName = transformCaseFunc(attr);
       return _isValidAttribute(lcTag, lcName, value);
     };
+
     /**
      * AddHook
      * Public method to add DOMPurify hooks
@@ -5587,7 +5634,6 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @param {String} entryPoint entry point for the hook to add
      * @param {Function} hookFunction function to execute
      */
-
     DOMPurify.addHook = function (entryPoint, hookFunction) {
       if (typeof hookFunction !== 'function') {
         return;
@@ -5595,6 +5641,7 @@ function concatWaitForLatestFrom(observablesFactory) {
       hooks[entryPoint] = hooks[entryPoint] || [];
       arrayPush(hooks[entryPoint], hookFunction);
     };
+
     /**
      * RemoveHook
      * Public method to remove a DOMPurify hook at a given entryPoint
@@ -5603,30 +5650,29 @@ function concatWaitForLatestFrom(observablesFactory) {
      * @param {String} entryPoint entry point for the hook to remove
      * @return {Function} removed(popped) hook
      */
-
     DOMPurify.removeHook = function (entryPoint) {
       if (hooks[entryPoint]) {
         return arrayPop(hooks[entryPoint]);
       }
     };
+
     /**
      * RemoveHooks
      * Public method to remove all DOMPurify hooks at a given entryPoint
      *
      * @param  {String} entryPoint entry point for the hooks to remove
      */
-
     DOMPurify.removeHooks = function (entryPoint) {
       if (hooks[entryPoint]) {
         hooks[entryPoint] = [];
       }
     };
+
     /**
      * RemoveAllHooks
      * Public method to remove all DOMPurify hooks
      *
      */
-
     DOMPurify.removeAllHooks = function () {
       hooks = {};
     };
@@ -5668,16 +5714,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /*!
  * @license
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+ * Copyright Saša Jovanić
+ * Licensed under the Mozilla Public License, Version 2.0 or the MIT license,
+ * at your option. This file may not be copied, modified, or distributed
+ * except according to those terms.
+ * SPDX-FileCopyrightText: Saša Jovanić
+ * SPDX-License-Identifier: MIT or MPL/2.0
+ */
 /**
  * Validation, extraction and creation of IBAN, BBAN, BIC/SWIFT numbers plus some other helpful stuff
  * @package Documentation
  * @author Saša Jovanić
  * @module ibantools
- * @version 4.3.0
- * @license MPL-2.0
+ * @version 4.5.1
+ * @license MIT or MPL-2.0
  * @preferred
  */
 
@@ -5852,7 +5902,7 @@ function isSEPACountry(countryCode) {
 function isQRIBAN(iban) {
   if (iban === undefined || iban === null) return false;
   var countryCode = iban.slice(0, 2);
-  var QRIBANCountries = ['LX', 'CH'];
+  var QRIBANCountries = ['LI', 'CH'];
   if (!QRIBANCountries.includes(countryCode)) return false;
   var reg = new RegExp('^3[0-1]{1}[0-9]{3}$', '');
   return reg.test(iban.slice(4, 9));
@@ -5880,7 +5930,7 @@ function composeIBAN(params) {
 /**
  * extractIBAN
  * ```
- * // returns {iban: "NL91ABNA0417164300", bban: "ABNA0417164300", countryCode: "NL", valid: true}
+ * // returns {iban: "NL91ABNA0417164300", bban: "ABNA0417164300", countryCode: "NL", valid: true, accountNumber: '0417164300', bankIdentifier: 'ABNA'}
  * ibantools.extractIBAN("NL91 ABNA 0417 1643 00");
  * ```
  */
@@ -5892,6 +5942,25 @@ function extractIBAN(iban) {
     result.bban = eFormatIBAN.slice(4);
     result.countryCode = eFormatIBAN.slice(0, 2);
     result.valid = true;
+    var spec = countrySpecs[result.countryCode];
+    if (spec.account_indentifier) {
+      var ac = spec.account_indentifier.split('-');
+      var starting = parseInt(ac[0]);
+      var ending = parseInt(ac[1]);
+      result.accountNumber = result.iban.slice(starting, ending + 1);
+    }
+    if (spec.bank_identifier) {
+      var ac = spec.bank_identifier.split('-');
+      var starting = parseInt(ac[0]);
+      var ending = parseInt(ac[1]);
+      result.bankIdentifier = result.bban.slice(starting, ending + 1);
+    }
+    if (spec.branch_indentifier) {
+      var ac = spec.branch_indentifier.split('-');
+      var starting = parseInt(ac[0]);
+      var ending = parseInt(ac[1]);
+      result.branchIdentifier = result.bban.slice(starting, ending + 1);
+    }
   } else {
     result.valid = false;
   }
@@ -5998,7 +6067,7 @@ function replaceCharaterWithCode(str) {
  * @ignore
  */
 function mod9710Iban(iban) {
-  return mod9710(replaceCharaterWithCode(iban.slice(3) + iban.slice(0, 4)));
+  return mod9710(replaceCharaterWithCode(iban.slice(4) + iban.slice(0, 4)));
 }
 /**
  * Returns specifications for all countries, even those who are not
@@ -6104,7 +6173,7 @@ function validateBIC(bic) {
 /**
  * extractBIC
  * ```
- * // returns {bankCode: "ABNA", countryCode: "NL", locationCode: "2A", branchCode: null, testBIC: flase, valid: true}
+ * // returns {bankCode: "ABNA", countryCode: "NL", locationCode: "2A", branchCode: null, testBIC: false, valid: true}
  * ibantools.extractBIC("ABNANL2A");
  * ```
  */
@@ -6300,30 +6369,6 @@ var checkEstonianBBAN = function (bban) {
   return controlDigit === (remainder === 0 ? 0 : 10 - remainder);
 };
 /**
- * Finland (FI) BBAN check
- *
- * @ignore
- */
-var checkFinlandBBAN = function (bban) {
-  var weights = [2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2];
-  var controlDigit = parseInt(bban.charAt(13), 10);
-  var toCheck = bban.substring(0, 13);
-  var sum = 0;
-  for (var index = 0; index < toCheck.length; index++) {
-    if (weights[index] === 1) {
-      sum += parseInt(toCheck.charAt(index), 10) * weights[index];
-    } else {
-      var value = parseInt(toCheck.charAt(index), 10) * weights[index];
-      sum += Math.floor(value / 10) + value % 10;
-    }
-  }
-  var extraSum = sum + controlDigit;
-  var multiDigit = Math.floor(extraSum / 10);
-  var result = multiDigit * 10;
-  var remainder = result - sum;
-  return remainder === controlDigit;
-};
-/**
  * Check French (FR) BBAN
  * Also for Monaco (MC)
  *
@@ -6443,12 +6488,17 @@ var countrySpecs = {
     chars: 24,
     bban_regexp: '^[0-9]{8}[A-Z0-9]{12}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '4-7',
+    bank_identifier: '0-3',
+    account_indentifier: '8-24'
   },
   AE: {
     chars: 23,
     bban_regexp: '^[0-9]{3}[0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-2',
+    account_indentifier: '7-23'
   },
   AF: {},
   AG: {},
@@ -6456,7 +6506,10 @@ var countrySpecs = {
   AL: {
     chars: 28,
     bban_regexp: '^[0-9]{8}[A-Z0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '3-7',
+    bank_identifier: '0-2',
+    account_indentifier: '12-28'
   },
   AM: {},
   AO: {
@@ -6470,26 +6523,30 @@ var countrySpecs = {
     chars: 20,
     bban_regexp: '^[0-9]{16}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-4'
   },
   AU: {},
   AW: {},
   AX: {
     chars: 18,
     bban_regexp: '^[0-9]{14}$',
-    bban_validation_func: checkFinlandBBAN,
     IBANRegistry: true
   },
   AZ: {
     chars: 28,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{20}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '4-28'
   },
   BA: {
     chars: 20,
     bban_regexp: '^[0-9]{16}$',
     bban_validation_func: checkMod9710BBAN,
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '3-5',
+    bank_identifier: '0-2'
   },
   BB: {},
   BD: {},
@@ -6498,7 +6555,9 @@ var countrySpecs = {
     bban_regexp: '^[0-9]{12}$',
     bban_validation_func: checkBelgianBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-2',
+    account_indentifier: '0-16'
   },
   BF: {
     chars: 28,
@@ -6508,16 +6567,23 @@ var countrySpecs = {
     chars: 22,
     bban_regexp: '^[A-Z]{4}[0-9]{6}[A-Z0-9]{8}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '4-7',
+    bank_identifier: '0-3'
   },
   BH: {
     chars: 22,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{14}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-22'
   },
   BI: {
     chars: 27,
-    bban_regexp: '^[0-9]{23}$'
+    bban_regexp: '^[0-9]{23}$',
+    branch_indentifier: '5-9',
+    bank_identifier: '0-4',
+    account_indentifier: '14-27'
   },
   BJ: {
     chars: 28,
@@ -6525,8 +6591,7 @@ var countrySpecs = {
   },
   BL: {
     chars: 27,
-    bban_regexp: '^[0-9]{10}[A-Z0-9]{11}[0-9]{2}$',
-    IBANRegistry: true
+    bban_regexp: '^[0-9]{10}[A-Z0-9]{11}[0-9]{2}$'
   },
   BM: {},
   BN: {},
@@ -6535,7 +6600,10 @@ var countrySpecs = {
   BR: {
     chars: 29,
     bban_regexp: '^[0-9]{23}[A-Z]{1}[A-Z0-9]{1}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '8-12',
+    bank_identifier: '0-7',
+    account_indentifier: '17-29'
   },
   BS: {},
   BT: {},
@@ -6544,7 +6612,8 @@ var countrySpecs = {
   BY: {
     chars: 28,
     bban_regexp: '^[A-Z]{4}[0-9]{4}[A-Z0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3'
   },
   BZ: {},
   CA: {},
@@ -6562,7 +6631,8 @@ var countrySpecs = {
     chars: 21,
     bban_regexp: '^[0-9]{5}[A-Z0-9]{12}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-4'
   },
   CI: {
     chars: 28,
@@ -6579,7 +6649,9 @@ var countrySpecs = {
   CR: {
     chars: 22,
     bban_regexp: '^[0-9]{18}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-22'
   },
   CU: {},
   CV: {
@@ -6592,36 +6664,49 @@ var countrySpecs = {
     chars: 28,
     bban_regexp: '^[0-9]{8}[A-Z0-9]{16}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '3-7',
+    bank_identifier: '0-2',
+    account_indentifier: '12-28'
   },
   CZ: {
     chars: 24,
     bban_regexp: '^[0-9]{20}$',
     bban_validation_func: checkCzechAndSlovakBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3'
   },
   DE: {
     chars: 22,
     bban_regexp: '^[0-9]{18}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-7',
+    account_indentifier: '13-22'
   },
   DJ: {
     chars: 27,
-    bban_regexp: '^[0-9]{23}$'
+    bban_regexp: '^[0-9]{23}$',
+    branch_indentifier: '5-9',
+    bank_identifier: '0-4',
+    account_indentifier: '14-27'
   },
   DK: {
     chars: 18,
     bban_regexp: '^[0-9]{14}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3',
+    account_indentifier: '4-18'
   },
   DM: {},
   DO: {
     chars: 28,
     bban_regexp: '^[A-Z]{4}[0-9]{20}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-28'
   },
   DZ: {
     chars: 26,
@@ -6633,12 +6718,17 @@ var countrySpecs = {
     bban_regexp: '^[0-9]{16}$',
     bban_validation_func: checkEstonianBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-1',
+    account_indentifier: '8-20'
   },
   EG: {
     chars: 29,
     bban_regexp: '^[0-9]{25}',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '4-7',
+    bank_identifier: '0-3',
+    account_indentifier: '17-29'
   },
   EH: {},
   ER: {},
@@ -6647,30 +6737,44 @@ var countrySpecs = {
     bban_validation_func: checkSpainBBAN,
     bban_regexp: '^[0-9]{20}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '4-7',
+    bank_identifier: '0-3',
+    account_indentifier: '14-24'
   },
   ET: {},
   FI: {
     chars: 18,
     bban_regexp: '^[0-9]{14}$',
-    bban_validation_func: checkFinlandBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-2',
+    account_indentifier: '0-0'
   },
   FJ: {},
-  FK: {},
+  FK: {
+    chars: 18,
+    bban_regexp: '^[A-Z]{2}[0-9]{12}$',
+    bank_identifier: '0-1',
+    account_indentifier: '6-18'
+  },
   FM: {},
   FO: {
     chars: 18,
     bban_regexp: '^[0-9]{14}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '4-18'
   },
   FR: {
     chars: 27,
     bban_regexp: '^[0-9]{10}[A-Z0-9]{11}[0-9]{2}$',
     bban_validation_func: checkFrenchBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-4',
+    branch_indentifier: '5-9',
+    account_indentifier: '14-24'
   },
   GA: {
     chars: 27,
@@ -6680,13 +6784,17 @@ var countrySpecs = {
     chars: 22,
     bban_regexp: '^[A-Z]{4}[0-9]{14}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '4-9',
+    bank_identifier: '0-3'
   },
   GD: {},
   GE: {
     chars: 22,
     bban_regexp: '^[A-Z0-9]{2}[0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-1',
+    account_indentifier: '6-22'
   },
   GF: {
     chars: 27,
@@ -6699,12 +6807,16 @@ var countrySpecs = {
     chars: 23,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{15}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-23'
   },
   GL: {
     chars: 18,
     bban_regexp: '^[0-9]{14}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '4-18'
   },
   GM: {},
   GN: {},
@@ -6721,13 +6833,18 @@ var countrySpecs = {
     chars: 27,
     bban_regexp: '^[0-9]{7}[A-Z0-9]{16}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '3-6',
+    bank_identifier: '0-2',
+    account_indentifier: '7-27'
   },
   GS: {},
   GT: {
     chars: 28,
     bban_regexp: '^[A-Z0-9]{24}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-28'
   },
   GU: {},
   GW: {
@@ -6746,7 +6863,8 @@ var countrySpecs = {
     bban_regexp: '^[0-9]{17}$',
     bban_validation_func: checkCroatianBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-6'
   },
   HT: {},
   HU: {
@@ -6754,19 +6872,25 @@ var countrySpecs = {
     bban_regexp: '^[0-9]{24}$',
     bban_validation_func: checkHungarianBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '3-6',
+    bank_identifier: '0-2'
   },
   ID: {},
   IE: {
     chars: 22,
     bban_regexp: '^[A-Z0-9]{4}[0-9]{14}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '4-9',
+    bank_identifier: '0-3'
   },
   IL: {
     chars: 23,
     bban_regexp: '^[0-9]{19}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '3-5',
+    bank_identifier: '0-2'
   },
   IM: {},
   IN: {},
@@ -6774,7 +6898,10 @@ var countrySpecs = {
   IQ: {
     chars: 23,
     bban_regexp: '^[A-Z]{4}[0-9]{15}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '4-6',
+    bank_identifier: '0-3',
+    account_indentifier: '11-23'
   },
   IR: {
     chars: 26,
@@ -6784,20 +6911,27 @@ var countrySpecs = {
     chars: 26,
     bban_regexp: '^[0-9]{22}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '2-3',
+    bank_identifier: '0-1'
   },
   IT: {
     chars: 27,
     bban_regexp: '^[A-Z]{1}[0-9]{10}[A-Z0-9]{12}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '6-10',
+    bank_identifier: '1-5',
+    account_indentifier: '4-27'
   },
   JE: {},
   JM: {},
   JO: {
     chars: 30,
     bban_regexp: '^[A-Z]{4}[0-9]{4}[A-Z0-9]{18}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '4-7',
+    bank_identifier: '4-7'
   },
   JP: {},
   KE: {},
@@ -6814,30 +6948,39 @@ var countrySpecs = {
   KW: {
     chars: 30,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{22}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '20-30'
   },
   KY: {},
   KZ: {
     chars: 20,
     bban_regexp: '^[0-9]{3}[A-Z0-9]{13}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-2',
+    account_indentifier: '0-20'
   },
   LA: {},
   LB: {
     chars: 28,
     bban_regexp: '^[0-9]{4}[A-Z0-9]{20}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '14-28'
   },
   LC: {
     chars: 32,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{24}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-32'
   },
   LI: {
     chars: 21,
     bban_regexp: '^[0-9]{5}[A-Z0-9]{12}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-4'
   },
   LK: {},
   LR: {},
@@ -6846,24 +6989,31 @@ var countrySpecs = {
     chars: 20,
     bban_regexp: '^[0-9]{16}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-4'
   },
   LU: {
     chars: 20,
     bban_regexp: '^[0-9]{3}[A-Z0-9]{13}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-2'
   },
   LV: {
     chars: 21,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{13}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3',
+    account_indentifier: '0-21'
   },
   LY: {
     chars: 25,
     bban_regexp: '^[0-9]{21}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '3-5',
+    bank_identifier: '0-2',
+    account_indentifier: '10-25'
   },
   MA: {
     chars: 28,
@@ -6874,18 +7024,24 @@ var countrySpecs = {
     bban_regexp: '^[0-9]{10}[A-Z0-9]{11}[0-9]{2}$',
     bban_validation_func: checkFrenchBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '5-9',
+    bank_identifier: '0-4'
   },
   MD: {
     chars: 24,
     bban_regexp: '^[A-Z0-9]{2}[A-Z0-9]{18}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-1',
+    account_indentifier: '6-24'
   },
   ME: {
     chars: 22,
     bban_regexp: '^[0-9]{18}$',
     bban_validation_func: checkMod9710BBAN,
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-2',
+    account_indentifier: '4-22'
   },
   MF: {
     chars: 27,
@@ -6901,7 +7057,8 @@ var countrySpecs = {
     chars: 19,
     bban_regexp: '^[0-9]{3}[A-Z0-9]{10}[0-9]{2}$',
     bban_validation_func: checkMod9710BBAN,
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-2'
   },
   ML: {
     chars: 28,
@@ -6910,7 +7067,10 @@ var countrySpecs = {
   MM: {},
   MN: {
     chars: 20,
-    bban_regexp: '^[0-9]{16}$'
+    bban_regexp: '^[0-9]{16}$',
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-20'
   },
   MO: {},
   MP: {},
@@ -6922,19 +7082,28 @@ var countrySpecs = {
   MR: {
     chars: 27,
     bban_regexp: '^[0-9]{23}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '5-9',
+    bank_identifier: '0-4',
+    account_indentifier: '4-27'
   },
   MS: {},
   MT: {
     chars: 31,
     bban_regexp: '^[A-Z]{4}[0-9]{5}[A-Z0-9]{18}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '4-8',
+    bank_identifier: '0-3',
+    account_indentifier: '15-31'
   },
   MU: {
     chars: 30,
     bban_regexp: '^[A-Z]{4}[0-9]{19}[A-Z]{3}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '6-7',
+    bank_identifier: '0-5',
+    account_indentifier: '0-30'
   },
   MV: {},
   MW: {},
@@ -6957,27 +7126,40 @@ var countrySpecs = {
   NF: {},
   NG: {},
   NI: {
-    chars: 32,
-    bban_regexp: '^[A-Z]{4}[0-9]{24}$'
+    chars: 28,
+    bban_regexp: '^[A-Z]{4}[0-9]{20}$',
+    bank_identifier: '0-3',
+    IBANRegistry: true,
+    account_indentifier: '8-28'
   },
   NL: {
     chars: 18,
     bban_regexp: '^[A-Z]{4}[0-9]{10}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-18'
   },
   NO: {
     chars: 15,
     bban_regexp: '^[0-9]{11}$',
     bban_validation_func: checkNorwayBBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3',
+    account_indentifier: '4-15'
   },
   NP: {},
   NR: {},
   NU: {},
   NZ: {},
-  OM: {},
+  OM: {
+    chars: 23,
+    bban_regexp: '^[0-9]{3}[A-Z0-9]{16}$',
+    IBANRegistry: true,
+    SEPA: false,
+    bank_identifier: '0-2'
+  },
   PA: {},
   PE: {},
   PF: {
@@ -6990,14 +7172,17 @@ var countrySpecs = {
   PK: {
     chars: 24,
     bban_regexp: '^[A-Z0-9]{4}[0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3'
   },
   PL: {
     chars: 28,
     bban_validation_func: checkPolandBBAN,
     bban_regexp: '^[0-9]{24}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '0-7',
+    account_indentifier: '2-28'
   },
   PM: {
     chars: 27,
@@ -7009,21 +7194,26 @@ var countrySpecs = {
   PS: {
     chars: 29,
     bban_regexp: '^[A-Z0-9]{4}[0-9]{21}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '17-29'
   },
   PT: {
     chars: 25,
     bban_regexp: '^[0-9]{21}$',
     bban_validation_func: checkMod9710BBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3'
   },
   PW: {},
   PY: {},
   QA: {
     chars: 29,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{21}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-3',
+    account_indentifier: '8-29'
   },
   RE: {
     chars: 27,
@@ -7034,33 +7224,55 @@ var countrySpecs = {
     chars: 24,
     bban_regexp: '^[A-Z]{4}[A-Z0-9]{16}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-3',
+    account_indentifier: '0-24'
   },
   RS: {
     chars: 22,
     bban_regexp: '^[0-9]{18}$',
     bban_validation_func: checkMod9710BBAN,
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-2'
   },
-  RU: {},
+  RU: {
+    chars: 33,
+    bban_regexp: '^[0-9]{14}[A-Z0-9]{15}$',
+    IBANRegistry: true,
+    branch_indentifier: '9-13',
+    bank_identifier: '0-8',
+    account_indentifier: '13-33'
+  },
   RW: {},
   SA: {
     chars: 24,
     bban_regexp: '^[0-9]{2}[A-Z0-9]{18}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    bank_identifier: '0-1',
+    account_indentifier: '12-24'
   },
   SB: {},
   SC: {
     chars: 31,
     bban_regexp: '^[A-Z]{4}[0-9]{20}[A-Z]{3}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '6-7',
+    bank_identifier: '0-5',
+    account_indentifier: '12-28'
   },
-  SD: {},
+  SD: {
+    chars: 18,
+    bban_regexp: '^[0-9]{14}$',
+    IBANRegistry: true,
+    bank_identifier: '0-1',
+    account_indentifier: '6-18'
+  },
   SE: {
     chars: 24,
     bban_regexp: '^[0-9]{20}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    bank_identifier: '0-2'
   },
   SG: {},
   SH: {},
@@ -7069,7 +7281,10 @@ var countrySpecs = {
     bban_regexp: '^[0-9]{15}$',
     bban_validation_func: checkMod9710BBAN,
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '2-4',
+    bank_identifier: '0-1',
+    account_indentifier: '9-16'
   },
   SJ: {},
   SK: {
@@ -7084,24 +7299,33 @@ var countrySpecs = {
     chars: 27,
     bban_regexp: '^[A-Z]{1}[0-9]{10}[A-Z0-9]{12}$',
     IBANRegistry: true,
-    SEPA: true
+    SEPA: true,
+    branch_indentifier: '6-10'
   },
   SN: {
     chars: 28,
     bban_regexp: '^[A-Z]{2}[0-9]{22}$'
   },
-  SO: {},
+  SO: {
+    chars: 23,
+    bban_regexp: '^[0-9]{19}$',
+    IBANRegistry: true,
+    branch_indentifier: '4-6',
+    account_indentifier: '11-23'
+  },
   SR: {},
   SS: {},
   ST: {
     chars: 25,
     bban_regexp: '^[0-9]{21}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '4-7'
   },
   SV: {
     chars: 28,
     bban_regexp: '^[A-Z]{4}[0-9]{20}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    account_indentifier: '8-28'
   },
   SX: {},
   SY: {},
@@ -7126,13 +7350,16 @@ var countrySpecs = {
   TL: {
     chars: 23,
     bban_regexp: '^[0-9]{19}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    account_indentifier: '4-23'
   },
   TM: {},
   TN: {
     chars: 24,
     bban_regexp: '^[0-9]{20}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '2-4',
+    account_indentifier: '4-24'
   },
   TO: {},
   TR: {
@@ -7147,7 +7374,8 @@ var countrySpecs = {
   UA: {
     chars: 29,
     bban_regexp: '^[0-9]{6}[A-Z0-9]{19}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    account_indentifier: '15-29'
   },
   UG: {},
   UM: {},
@@ -7157,14 +7385,17 @@ var countrySpecs = {
   VA: {
     chars: 22,
     bban_regexp: '^[0-9]{18}',
-    IBANRegistry: true
+    IBANRegistry: true,
+    SEPA: true,
+    account_indentifier: '7-22'
   },
   VC: {},
   VE: {},
   VG: {
     chars: 24,
     bban_regexp: '^[A-Z0-9]{4}[0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    account_indentifier: '8-24'
   },
   VI: {},
   VN: {},
@@ -7178,7 +7409,9 @@ var countrySpecs = {
   XK: {
     chars: 20,
     bban_regexp: '^[0-9]{16}$',
-    IBANRegistry: true
+    IBANRegistry: true,
+    branch_indentifier: '2-3',
+    account_indentifier: '4-20'
   },
   YE: {},
   YT: {

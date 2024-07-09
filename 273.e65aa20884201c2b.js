@@ -29,24 +29,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94650);
 
 let ADSAppFeatureAboutAboutComponent = /*#__PURE__*/(() => {
-  class ADSAppFeatureAboutAboutComponent {}
-  ADSAppFeatureAboutAboutComponent.ɵfac = function ADSAppFeatureAboutAboutComponent_Factory(t) {
-    return new (t || ADSAppFeatureAboutAboutComponent)();
-  };
-  ADSAppFeatureAboutAboutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-    type: ADSAppFeatureAboutAboutComponent,
-    selectors: [["ads-app-feature-about-about"]],
-    decls: 2,
-    vars: 0,
-    template: function ADSAppFeatureAboutAboutComponent_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "about works!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    },
-    changeDetection: 0
-  });
+  class ADSAppFeatureAboutAboutComponent {
+    static #_ = this.ɵfac = function ADSAppFeatureAboutAboutComponent_Factory(t) {
+      return new (t || ADSAppFeatureAboutAboutComponent)();
+    };
+    static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: ADSAppFeatureAboutAboutComponent,
+      selectors: [["ads-app-feature-about-about"]],
+      decls: 2,
+      vars: 0,
+      template: function ADSAppFeatureAboutAboutComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "about works!");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      changeDetection: 0
+    });
+  }
   return ADSAppFeatureAboutAboutComponent;
 })();
 
@@ -72,19 +73,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let ADSAppFeatureAboutModule = /*#__PURE__*/(() => {
-  class ADSAppFeatureAboutModule {}
-  ADSAppFeatureAboutModule.ɵfac = function ADSAppFeatureAboutModule_Factory(t) {
-    return new (t || ADSAppFeatureAboutModule)();
-  };
-  ADSAppFeatureAboutModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-    type: ADSAppFeatureAboutModule
-  });
-  ADSAppFeatureAboutModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterModule.forChild([{
-      path: '',
-      component: _about_about_component__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureAboutAboutComponent
-    }])]
-  });
+  class ADSAppFeatureAboutModule {
+    static #_ = this.ɵfac = function ADSAppFeatureAboutModule_Factory(t) {
+      return new (t || ADSAppFeatureAboutModule)();
+    };
+    static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+      type: ADSAppFeatureAboutModule
+    });
+    static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterModule.forChild([{
+        path: '',
+        component: _about_about_component__WEBPACK_IMPORTED_MODULE_0__.ADSAppFeatureAboutAboutComponent
+      }])]
+    });
+  }
   return ADSAppFeatureAboutModule;
 })();
 (function () {
